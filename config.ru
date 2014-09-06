@@ -4,6 +4,11 @@ require 'sinatra/base'
 # The project root directory
 $root = ::File.dirname(__FILE__)
 
+use Rack::Rewrite do
+    # add rack-rewrite rules here
+    # see gem: https://github.com/jtrupiano/rack-rewrite
+end
+
 class SinatraStaticServer < Sinatra::Base
 
   get(/.+/) do

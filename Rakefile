@@ -116,9 +116,11 @@ task :new_post, :title do |t, args|
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
     post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}"
     post.puts "comments: true"
+    post.puts "published: false"
     post.puts "categories: "
     post.puts "---"
   end
+  system "ec -n \"#{filename}\""
 end
 
 # usage rake new_page[my-new-page] or rake new_page[my-new-page.html] or rake new_page (defaults to "new-page.markdown")
@@ -408,5 +410,74 @@ end
 desc "Deploy website via s3cmd with CloudFront cache invalidation"
 task :s3 do
   puts "## Deploying website via s3cmd"
+  Rake::Task["rename_posts"].invoke
   ok_failed system("s3cmd sync --acl-public --reduced-redundancy --cf-invalidate public/* s3://#{s3_bucket}/")
+  Rake::Task["notify"].invoke
+end
+
+desc "Rename files in the posts directory if the filename does not match the post date in the YAML front matter"
+task :rename_posts do
+  Dir.chdir("#{source_dir}/#{posts_dir}") do
+    Dir['*.markdown'].each do |post|
+      post_date = ""
+      File.open( post ) do |f|
+        f.grep( /^date: / ) do |line|
+          post_date = line.gsub(/date: /, "").gsub(/\s.*$/, "")
+          break
+        end
+      end
+      post_title = post.to_s.gsub(/\d{4}-\d{2}-\d{2}/, "")  # Get the post title from the currently processed post
+      new_post_name = post_date + post_title # determing the correct filename
+      is_draft = false
+      File.open( post ) do |f|
+          f.grep( /^published: false/ ) do |line|
+            is_draft = true
+            break
+          end
+      end
+      if !is_draft && post != new_post_name
+          puts "renaming #{post} to #{new_post_name}"
+          FileUtils.mv(post, new_post_name)
+      end
+    end
+  end
+end
+
+desc 'Ping pingomatic'
+task :pingomatic do
+  begin
+    require 'xmlrpc/client'
+    puts '* Pinging ping-o-matic'
+    XMLRPC::Client.new('rpc.pingomatic.com', '/').call('weblogUpdates.extendedPing', 'Ewal.net' , 'http://www.ewal.net', 'http://www.ewal.net/atom.xml')
+  rescue LoadError
+    puts '! Could not ping ping-o-matic, because XMLRPC::Client could not be found.'
+  end
+end
+
+desc 'Notify Google of the new sitemap'
+task :sitemapgoogle do
+  begin
+    require 'net/http'
+    require 'uri'
+    puts '* Pinging Google about our sitemap'
+    Net::HTTP.get('www.google.com', '/webmasters/tools/ping?sitemap=' + URI.escape('http://www.ewal.net/sitemap.xml'))
+  rescue LoadError
+    puts '! Could not ping Google about our sitemap, because Net::HTTP or URI could not be found.'
+  end
+end
+
+desc 'Notify Bing of the new sitemap'
+task :sitemapbing do
+  begin
+    require 'net/http'
+    require 'uri'
+    puts '* Pinging Bing about our sitemap'
+    Net::HTTP.get('www.bing.com', '/webmaster/ping.aspx?siteMap=' + URI.escape('http://www.ewal.net/sitemap.xml'))
+  rescue LoadError
+    puts '! Could not ping Bing about our sitemap, because Net::HTTP or URI could not be found.'
+  end
+end
+
+desc "Notify various services about new content"
+task :notify => [:pingomatic, :sitemapgoogle, :sitemapbing] do
 end
