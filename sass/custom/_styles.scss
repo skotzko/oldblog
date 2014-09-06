@@ -74,8 +74,7 @@ $border-style: 2px solid $secondary-text-color;
 }
 
 .margin-bottom-large {
-  margin-bottom: 32.360px;
-  margin-bottom: 1.618rem;
+  margin-bottom: 18px;
 }
 
 .margin-bottom-larger {
@@ -165,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   color: $accent-color;
-  text-decoration: none;
+  text-decoration: none!important;
   outline: none;
   @include transition(color 0.3s ease 0s);
 
@@ -206,6 +205,14 @@ blockquote {
       text-decoration: underline;
     }
 
+  }
+}
+
+article ol li {
+  margin: 5px inherit;
+
+  p {
+    margin: 0;
   }
 }
 
@@ -313,8 +320,6 @@ nav {
   overflow: auto;
   padding: 14.637px 0;
   padding: 0.732rem 0;
-  /* margin-bottom: 100.316px; */
-  /* margin-bottom: 5.016rem; */
   margin-bottom: 10px;
 
   // ----- search form -----
@@ -330,6 +335,7 @@ nav {
       padding: 0.452rem 0.732rem;
       border-radius: $border-radius-size;
       width: 180px;
+      font-size: 14px;
     }
   }
 
@@ -347,6 +353,7 @@ nav {
       @extend .sans-serif-font;
       display: inline;
       font-weight: bold;
+      font-size: 14px;
     }
 
     li + li {
@@ -370,14 +377,13 @@ body {
     margin: 1.236rem 0 0.618rem 0;
 
     h1 {
-      font-size: 48px;
-      //font-size: 3.1rem;
+      font-size: 22px;
       font-weight: bold;
       text-transform: uppercase;
       margin-bottom: 7.640px;
       margin-bottom: 0.382rem;
 
-      a, a:hover {
+      a {
         color: $text-color;
       }
     }
@@ -392,8 +398,7 @@ body {
   // ----- blog content -----
 
   .blog-index > article {
-    margin-bottom: 137.069px;
-    margin-bottom: 6.853rem; /* for home page post preview */
+    margin-bottom: 60px;
   }
 
   section h1 {
@@ -408,8 +413,7 @@ body {
     padding: 1.184rem 0;
     margin-bottom: 62px;
     margin-bottom: 3.1rem;
-    margin-top: -84.715px;
-    margin-top: -4.236rem;
+    margin-top: -45px;
     border-top: $border-style;
 
     span, a {
@@ -544,9 +548,14 @@ article {
       line-height: 52.96px;
       line-height: 2.648rem; /* 1.916 + 0.732 */
 
-      a, a:hover {
+      a {
         color: $text-color;
+
+        &:hover {
+          color: $accent-color;
+        }
       }
+
     }
 
     p.meta {
@@ -583,10 +592,7 @@ article {
     font-size: 30.56px;
     font-size: 1.528rem; /* 1.618 - 0.09 */
     text-transform: uppercase;
-    margin-top: 52.358px;
-    margin-top: 2.618rem;
-    margin-bottom: 9.046px;
-    margin-bottom: 0.452rem;
+    margin: 20px 0 15px;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -622,6 +628,7 @@ article {
     @extend .default-line-height;
     @extend .margin-bottom-large;
     text-align: left;
+    margin-bottom: 15px;
 
     a {
       text-decoration: underline;
@@ -726,9 +733,31 @@ article {
 
   body {
     > header {
-      margin: 44.401px 0;
-      margin: 2.618rem 0;
+      margin: 10px auto;
     }
+
+    > nav {
+      padding: 0;
+      margin-bottom: 15px;
+
+      > form {
+        margin-bottom: 10px;
+      }
+
+      input.search {
+        text-align: center;
+      }
+
+      .main-navigation {
+        padding: 5px 0;
+      }
+
+    }
+
+  }
+
+  article header h1 {
+    font-size: 34px;
   }
 
 
@@ -754,8 +783,7 @@ article {
       margin-bottom: 1.184rem;
 
       input.search {
-        font-size: 15.349px;
-        font-size: 0.905em; /* 0.732 + 0.173 */
+        font-size: 14px;
       }
     }
   }
@@ -770,12 +798,10 @@ article {
 
 @media screen and (max-width: 480px) {
   body > header {
-    margin: 32.495px 0;
-    margin: 1.916rem 0;
+    margin: 10px auto;
 
     h1 {
-      font-size: 37.244px;
-      font-size: 2.196rem; /* 1.916 + 0.236 */
+      font-size: 18px;
     }
 
     h2 {
@@ -785,8 +811,13 @@ article {
   }
 
   nav {
-    margin-bottom: 32.495px;
-    margin-bottom: 1.916rem;
+    margin-bottom: 15px;
+
+    form {
+      input.search {
+        font-size: 13px;
+      }
+    }
 
     ul {
       padding: 12.415px 0;
@@ -794,6 +825,7 @@ article {
 
       li {
         font-weight: normal;
+        font-size: 13px;
       }
 
       li + li {
@@ -806,6 +838,7 @@ article {
       margin-bottom: 16.96px;
       margin-bottom: 1rem;
     }
+
   }
 
   nav input.search,
@@ -823,15 +856,13 @@ article {
     margin-left: 0;
 
       h1 {
-        font-size: 27.441px;
-        font-size: 1.618rem;
+        font-size: 28px;
       }
     }
   }
 
   .blog-index > article {
-    margin-bottom: 85.071px !important;
-    margin-bottom: 5.016rem !important; /* 4.236 + 0.452 */
+    margin-bottom: 60px!important;
   }
 
   img#portrait {
@@ -845,10 +876,9 @@ article {
   article {
     header {
       h1 {
-        font-size: 32.495px;
-        font-size: 1.916rem;
         line-height: 37.244px;
         line-height: 2.196rem; /* 1.916 + 0.28 */
+        font-size: 28px;
       }
     }
 
