@@ -83,8 +83,7 @@ $border-style: 2px solid $secondary-text-color;
 }
 
 .margin-bottom-largest {
-  margin-bottom: 62.000px;
-  margin-bottom: 4.236rem;
+  margin-bottom: 20px;
 }
 
 .block-padding {
@@ -181,6 +180,11 @@ aside,
 .mobile-nav,
 .subscription {
   display: none;
+}
+
+.img-center {
+  display: block;
+  margin: 0 auto;
 }
 
 section {
