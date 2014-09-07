@@ -1,11 +1,10 @@
 ---
-author: andrews
+author: Andrew Skotzko
 comments: true
 date: 2013-05-30 18:39:53+00:00
 layout: post
 slug: style-without-substance-is-a-blatant-lie
 title: Style without substance is a blatant lie
-wordpress_id: 32
 categories:
 - Random musings
 ---
@@ -95,6 +94,3 @@ There is lots of marginal work out there. Most work, by definition, is marginal,
 
 
 As long as you never lie to your audience, I say ship, ship, and ship some more.
-
-
-

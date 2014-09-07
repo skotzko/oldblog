@@ -1,11 +1,10 @@
 ---
-author: andrews
+author: Andrew Skotzko
 comments: true
 date: 2013-08-27 18:23:44+00:00
 layout: post
 slug: the-results-are-in-experiment-1-tanked
 title: 'The results are in: experiment #1 tanked'
-wordpress_id: 25
 categories:
 - Experiments
 - Self-Tracking
@@ -99,7 +98,7 @@ I do take away a few lessons from the experiment that are useful:
   * I was interested in using the project as a hands-on way to learn more about the practical applications and challenges of the [Quantified Self (QS) movement](http://quantifiedself.com/). The punchline: there is massive value to be derived from collecting and implementing personal analytics, but it won't take off until it is much easier than it is today. Automation is critical and probably a necessary component to realize the promise of QS.
 
 
-  * Everyone wants to be more awesome. Although QS and self-experimentation can involve private areas of our lives, people are fundamentally interested in exploring this field and using it to improve their lives. I had more in-person conversations about this experiment than almost any of my previous ones (which were not written up publicly). 
+  * Everyone wants to be more awesome. Although QS and self-experimentation can involve private areas of our lives, people are fundamentally interested in exploring this field and using it to improve their lives. I had more in-person conversations about this experiment than almost any of my previous ones (which were not written up publicly).
 
 
   * I must be wary of my OCD tendencies around data and research, and never allow augmentation / secondary efforts (e.g. extensive logging) to overwhelm the real work (working out consistently).
@@ -118,6 +117,3 @@ At some point in the future, I'll re-approach this experiment in a more incremen
 
 
 Onward.
-
-
-

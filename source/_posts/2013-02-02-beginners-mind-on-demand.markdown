@@ -1,5 +1,5 @@
 ---
-author: andrews
+author: Andrew Skotzko
 comments: true
 date: 2013-02-02 20:25:21+00:00
 layout: post
@@ -12,80 +12,30 @@ categories:
 - Mental Performance
 ---
 
-![floor](http://andrewblog.s3.amazonaws.com/wp-content/uploads/2013/02/floor.jpg)
-
-
-
-
+{% img img-center /images/2013/02/floor.jpg %}
 
 Two months ago, I was scared. Scared I wouldn't be able to keep up the course I was on. Scared my progress would grind to a stop. Scared I wouldn't be able to deliver on the commitments that I'd made. Scared that I couldn't cut it on the new level I was playing at.
 
-
-
-
-
 See, about five months before that, I'd decided to go full time into product and software engineering with very little background in it. It was an incredible opportunity: join one of the best software product teams in the world and learn from, and with, the best. My answer was yes, almost without thinking, when I got the chance.
-
-
-
-
 
 That was the end of last April. True or not, I believed that to rapidly get to a level where I could really contribute, I'd have to make an almost Faustian bargain: I would have to drop everything else in my life to learn what I needed to in such a short period of time. Social life, hobbies, most everything that I did for fun, gone. Note: there was no explicit deadline looming, but I always feel the clock ticking in my head. One of the curses of my brain. But to me, this deal was a no-brainer.
 
-
-
-
-
 Pulling it off damn near broke me. As of early December, I was burned out. Totally fried. I could barely think straight anymore — even easy problems felt overwhelming, and I felt a sort of persistent mental cloudiness. I'd experienced that once or twice before in my life, but not in years. I knew something was seriously wrong and needed to change, stat, or things were going downhill.
-
-
-
-
 
 It turned out the answer was two-fold: first, I needed to take care of myself physically. It's not news at all: Regular exercise and a healthy diet are essential (I follow a low carb, Paleo-ish diet). The mid-afternoon hours always feel flat to me, so I started going for a light jog during that time. Within 3 days, I felt hopeful again and the cloud was dissipating. But it wasn't enough.
 
-
-
 <!-- more -->
-
-
 
 The other key was, paradoxically, to do less. I won't go into a whole "less is more" tangent right now, although I do believe it to be true. Taking care of your body is only the first step in getting to a place of sustained energy and creativity, and knowing that maintaining that level is NOT an accident or stroke of luck. That feeling alone is huge: knowing how to systematically crank up your creativity. The other part is cultivating the mental space and stimuli that make you better.
 
-
-
-
-
 In this post, I'm going to explore the mental side of reclaiming creativity and energy around work, through the vehicle that saved my ass and is rarely given the credit it deserves: a hobby. This post will give you ideas for how to get your creativity going again if you feel like I did two months ago.
-
-
-
-
 
 Before I get into what you should do, let's cover **what you shouldn't do**: abuse alcohol and/or drugs, or stay out all night. While it's tempting to go rage a lot and internally justify it as a well-deserved escape, this will lead to bad places. I've tried it and it doesn't work.
 
-
-
-
-
 Now, on to what does work: systematically opening up space and filling it with things that stoke your creativity. Caveat: I recommend getting your health in order before taking up other hobbies. There is nothing that generates a higher return for you than an investment in your own health.
 
-
-
-
-
 ## Why should you use your time and energy to cultivate a hobby?
-
-
-
-
-
 ### Context switching is a powerful hack for your mind
-
-
-
-
-
 Your mind can be a Clydesdale horse, or a jackrabbit that runs everywhere. It is each at different times, and times when each serves you best. Learning to switch between these two modes is a useful exercise, because each is useful at different parts of the creative process. The jackrabbit is very useful early in the creative process, when you want to generate a LOT of ideas. Quantity of ideas leads to quality of ideas, and the jackrabbit is your go-to mode here. But later in the creative process, when it comes to actually creating and delivering something of value, you want to go into Clydesdale mode. You need to hitch your mind to a certain context and let it go to work. That's how you're able to "turn it on" when you get into your office — your mind develops an almost Pavlovian response to the context of your office. That space means it's time to go to work. This is referred to as ["embodied thinking," in which our physical context frames not just the types of ideas we have, but even the frames in which we think and the metaphors we use to explore ideas.](http://www.amazon.com/Philosophy-Flesh-Embodied-Challenge-Western/dp/0465056741)
 
 
@@ -315,6 +265,3 @@ It's impossible to develop your creativity in one field without developing it in
 
 
 Learn how to develop hobbies, you have a reliable and never-ending source of beginner's mind.
-
-
-

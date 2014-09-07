@@ -1,11 +1,10 @@
 ---
-author: andrews
+author: Andrew Skotzko
 comments: true
 date: 2013-01-29 20:24:10+00:00
 layout: post
 slug: why-people-suck-at-generating-ideas
 title: Why people suck at generating ideas
-wordpress_id: 66
 categories:
 - Creativity
 - Productivity
@@ -102,6 +101,3 @@ It’s a subtle change and WILL feel cheesy the first time you try it.
 
 
 But this subtle change makes all the difference in the quantity of ideas you generate. And quantity of ideas leads to quality of ideas. So get brainstorming and make something interesting.
-
-
-

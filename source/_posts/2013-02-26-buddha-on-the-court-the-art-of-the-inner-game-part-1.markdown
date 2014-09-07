@@ -1,20 +1,15 @@
 ---
-author: andrews
+author: Andrew Skotzko
 comments: true
 date: 2013-02-26 20:38:44+00:00
 layout: post
 slug: buddha-on-the-court-the-art-of-the-inner-game-part-1
 title: 'Buddha on the court: the art of the inner game (part 1)'
-wordpress_id: 73
 categories:
 - Mental Performance
 ---
 
-![jackson](http://andrewblog.s3.amazonaws.com/wp-content/uploads/2014/02/jackson.jpg)
-
-
-
-
+{% img img-center /images/2014/02/jackson.jpg %}
 
 On Friday, November 10th, 2006, Lawrence Jackson was running out of time. The All-American defensive end for the USC Trojans had yet to register a sack in his junior season. Coming into the season, Jackson had his sights on a national title, a [Bednarik award](http://en.wikipedia.org/wiki/Bednarik_Award), and possibly a first-round pick in the coming NFL draft.
 
@@ -172,17 +167,7 @@ A charged, negative thought is a hijacker ready to take over your mind. How many
 
 
 
-<blockquote>
-  
-> 
 > I’m in a meeting, and the person I’m meeting with makes an offhand remark, ever so casually, about how my approach to a problem was all wrong. No credit for what I have delivered, no recognition of my effort. Just making me feel stupid. Great, now she thinks I’m an idiot. Why did she say that? Is there something wrong with my work? There is. I keep fucking this up. Dammit. Stupid! No wonder she’s always talking down to me. Did her parents not love her or something? God, what a jerk. I can’t stand this.
-> 
-> 
-</blockquote>
-
-
-
-
 
 It’s a runaway train. An entire conversation, full of judgments about the other person with no real basis. A charged, emotional reaction to a single stimulus. Minutes go by and I would not be present at all—I’d be completely off somewhere in my mind and contributing nothing, not moving forward. How unfair to the people I was with. How distracting. How unhelpful.
 
@@ -226,7 +211,7 @@ We all need a little help turning down the noise of the modern world. There is a
 
 
 
-I use a few tricks to turn down the noise:
+I use a few tricks to turn down the noise.
 
 
 
@@ -298,6 +283,3 @@ I also suggest putting your phone away or on airplane mode when you're trying to
 
 
 It comes down to minimizing the things that don’t matter so you have more time for the things that do.
-
-
-

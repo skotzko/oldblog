@@ -1,48 +1,26 @@
 ---
-author: andrews
+author: Andrew Skotzko
 comments: true
 date: 2013-03-12 19:03:33+00:00
 layout: post
 slug: charlie-and-the-zealot
 title: Charlie and the zealot
-wordpress_id: 43
 categories:
 - Mental Performance
 ---
 
 Have you met The Zealot lately?
 
-
-
-
-
 He's the bombastic preacher who blasts all other forms of worship.
-
-
-
-
 
 He's the chess player who is entirely reliant on memorized gambits to win or confound his opponent, and is upset when it's not enough.
 
-
-
-
-
 He's the middle manager who insists that This is How It Must Be Done. Why? Because this is how it must be done.
-
-
-
-
 
 What do these zealots share? Circular logic. A vague malaise. A low sense of their ability to create or adapt to new ways of doing things. An inability to improvise, because they have not grasped the deeper principles of their chosen framework and integrated those principles into an overall seamless flow in decision making.
 
-
-
-
-
-On the other hand, there's Charlie:![charlie](http://andrewblog.s3.amazonaws.com/wp-content/uploads/2013/03/charlie.jpg)
-
-
+{% img img-center /images/2013/03/charlie.jpg %}
+<p class="text-center">On the other hand, there's Charlie.</p>
 
 
 
@@ -82,9 +60,9 @@ There are infinite examples. The point is that a well-understood framework is us
 
 
 
-**Frameworks are most useful for three things:** 1. A framework is a helpful guide when a beginner is learning how to do something.  
+**Frameworks are most useful for three things:** 1. A framework is a helpful guide when a beginner is learning how to do something.
 
-2. A framework establishes a well-developed arsenal of tools, and a certain way of approaching a problem or looking at the world. This point of view can be applied in other contexts as well.  
+2. A framework establishes a well-developed arsenal of tools, and a certain way of approaching a problem or looking at the world. This point of view can be applied in other contexts as well.
 
 3. A framework can create a community of people around itself, something bigger than the idea itself. Such a community can do powerful things.
 
@@ -110,17 +88,7 @@ I'll let Charlie close this as only he can:
 
 
 
-<blockquote>
-  
-> 
 > If the facts don't hang together on a latticework of theory, you don't have them in a usable form. You've got to have models in your head. And you've got to array your experience—both vicarious and direct—on this latticework of models. You may have noticed students who just try to remember and pound back what is remembered. Well, they fail in school and in life.
-> 
-> 
-</blockquote>
-
-
-
-
 
 What are the models? Well, the first rule is that you've got to have multiple models—because if you just have one or two that you're using, the nature of human psychology is such that you'll torture reality so that it fits your models, or at least you'll think it does. You become the equivalent of a chiropractor who, of course, is the great boob in medicine.
 
@@ -135,18 +103,3 @@ It's like the old saying, "To the man with only a hammer, every problem looks li
 
 
 And the models have to come from multiple disciplines—because all the wisdom of the world is not to be found in one little academic department. That's why poetry professors, by and large, are so unwise in a worldly sense. They don't have enough models in their heads. So you've got to have models across a fair array of disciplines.
-
-
-
-
-
-## #
-
-
-
-
-
-Where am I wrong here, or missing something? Leave a comment below and let me know!
-
-
-

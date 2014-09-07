@@ -1,11 +1,10 @@
 ---
-author: andrews
+author: Andrew Skotzko
 comments: true
 date: 2013-05-21 18:43:58+00:00
 layout: post
 slug: have-you-gotten-too-comfortable
 title: Have you gotten too comfortable?
-wordpress_id: 36
 categories:
 - Creativity
 - Psychology
@@ -90,6 +89,3 @@ First, acknowledge that [there is good stress ("eustress") and bad stress ("dist
 
 
 If there's one thing I've learned in the last year, it's that the only way to a masterwork is through many marginal works. Creating anything meaningful is humbling, chaotic, messy, inspiring. And yes, scary at times. But the outputs of this process are worth it; they're not just what I hope for, but arguably they are embodiment of all our hopes and the promise of a better future. And they depend, at the most basic level, on energy. So if you find that you're not cycling between intensely expending energy & recovering it... You've probably gotten too comfortable. Watch out.
-
-
-

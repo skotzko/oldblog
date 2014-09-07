@@ -1,58 +1,25 @@
 ---
-author: andrews
+author: Andrew Skotzko
 comments: true
 date: 2014-02-15 13:16:49+00:00
 layout: post
 slug: analog-love-in-a-digital-world
 title: Analog hearts in a digital world
-wordpress_id: 120
 categories:
 - Productivity
 - Psychology
 ---
 
-![Analog hearts in a digital world](http://andrewblog.s3.amazonaws.com/wp-content/uploads/2014/02/digital_heart-300x289.jpg)
-
-
-
-
+{% img img-center /images/2014/02/digital_heart-300x289.jpg %}
 
 If there's ever a time of year when we want to feel human connection, it's around Valentine's Day. And connection requires vulnerability and honesty, experiencing the world through another's eyes.
 
-
-
-
-
 Here are two questions that I've found helpful in authentically opening up my work and thinking to others over the last few months, which has led to some wonderful connections and conversations:
-
-
-
-
-
-
-
   1. What do the things that I feel compelled to do tell me about myself?
-
-
-  2. Why do I want this thing that I want?
-
-
-
-
+  1. Why do I want this thing that I want?
 
 Both are variants on the same theme: understanding what is driving you from within. Being honest with yourself, and in turn, others. At having a chance of doing this thing you want to do authentically and humanly.
 
-
-
-
-
 And the experience of authentic human connection, of a shared human experience that means something?
 
-
-
-
-
 In a digital world, it turns out that is what our analog hearts are really after.
-
-
-

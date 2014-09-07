@@ -1,27 +1,17 @@
 ---
-author: andrews
+author: Andrew Skotzko
 comments: true
 date: 2013-04-02 19:02:39+00:00
 layout: post
 slug: how-to-get-in-the-zone-on-demand
 title: How to get in the zone, on demand
-wordpress_id: 40
 categories:
 - Mental Performance
 - Psychology
 ---
-
-![push_hands1](http://andrewblog.s3.amazonaws.com/wp-content/uploads/2013/04/push_hands1.jpg)
-
-
-
-
+{% img img-center /images/2013/04/push_hands1.jpg %}
 
 Josh Waitzkin was about to get his ass kicked, and he knew it.
-
-
-
-
 
 In November 2000, Josh Waitzkin, a former national chess master—he was the subject of the movie "Searching for Bobby Fischer"—was competing in the opening round of the Chung Hwa Cup, the world championship of the Tai Chi Push Hands martial art. His opening match was supposed to be just after 9am. Around 8:30, Waitzkin went into his thirty minute pre-match routine. However, the matches did not proceed according to the official posted schedule (the Taiwanese officials of this tournament often devise tricks to throw off foreign competitors). Waitzkin had no food to snack on, and by noon he was starving and ate the greasy food he was given. Minutes after finishing his meal, he was called to the judges table and told that his match would begin immediately. He had no time to warm up or prepare. He was scattered, unfocused, and had a stomach full of greasy food. The match was over before it even began.
 
@@ -229,13 +219,7 @@ What you want to do is gradually, over a long period of time, shorten the routin
 
 
 
-<blockquote>
-  
-> 
 > The next step of the process is to gradually alter the routine so that it is similar enough so as to have the same physiological effect, but slightly different so as to make the “trigger” both lower-maintenance and more flexible. The key is to make the changes incrementally, slowly, so there is more similarity than difference from the last version of the routine. This process is systematic, straightforward, and rooted in the most stable of all principles: incremental growth.
-> 
-> 
-</blockquote>
 
 
 
@@ -248,6 +232,3 @@ The benefits of being able to get in the zone on-demand are staggering for any p
 
 
 Compound the ability to rapidly relax, recover, and refocus over the duration of any extended competition and it is a huge competitive advantage.
-
-
-

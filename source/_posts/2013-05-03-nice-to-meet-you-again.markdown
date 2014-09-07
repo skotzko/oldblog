@@ -1,11 +1,10 @@
 ---
-author: andrews
+author: Andrew Skotzko
 comments: true
 date: 2013-05-03 18:47:11+00:00
 layout: post
 slug: nice-to-meet-you-again
 title: Nice to meet you, again
-wordpress_id: 38
 categories:
 - Psychology
 - Relationships
@@ -96,6 +95,3 @@ So I hope I have occasion to say "nice to meet you" to someone I've already met,
 
 
 I wish the same for you.
-
-
-
