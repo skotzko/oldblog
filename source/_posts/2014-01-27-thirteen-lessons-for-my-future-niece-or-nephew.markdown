@@ -4,12 +4,11 @@ comments: true
 date: 2014-01-27 18:40:36+00:00
 layout: post
 slug: thirteen-lessons-for-my-future-niece-or-nephew
-title: 13 lessons for my nephew
+title: 13 lessons for my niece
 categories:
 - Lessons
 ---
-
-After a long day in transit, I wanted to share a note of lessons I wrote in hopes that my future nephew learns them earlier than I did:
+After a long day in transit, I wanted to share a note of lessons I wrote in hopes that my future niece learns them earlier than I did:
 
   1. The world is both big and small and travel is one of the best things you can do for yourself. Embrace it. Get out into it.
   1. Learn to pack light. You need much less than you think.
