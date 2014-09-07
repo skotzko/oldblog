@@ -151,6 +151,10 @@ body {
   margin: 0 auto;
 }
 
+.text-center {
+  text-align: center!important;
+}
+
 img {
   width: auto;
   max-width: 100%;
@@ -478,6 +482,7 @@ body {
 
   article {
     @extend .margin-bottom-larger;
+    text-align: left;
 
     h1 {
       font-size: 38.319px;
@@ -488,6 +493,7 @@ body {
       padding-bottom: 0.236rem;
       margin: 0;
     }
+
   }
 
   time, footer {

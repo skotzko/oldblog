@@ -5,6 +5,7 @@ date: 2014-02-02 19:13:14+00:00
 layout: page
 slug: about
 sharing: false
+hidedate: true
 title: About
 ---
 
