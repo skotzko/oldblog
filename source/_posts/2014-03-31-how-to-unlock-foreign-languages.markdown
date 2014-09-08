@@ -116,71 +116,25 @@ One of they foundational principles in this entire approach is to use English as
 
 So what are the essentials? We tart with Gabriel Wyner, one of my favorite language learning experts, who provides a good base vocabulary list here [here](http://fluent-forever.com/the-method/vocabulary/base-vocabulary-list/#.UzoTG61dVxs). In addition to his basic list, I would add basic numbers, and then two extremely useful types of phrases: connectors, and "skeleton keys."
 
-
-
-
-
 First, the essential words: You'll just need to learn these cold, because they underly everything. You don't have to focus on them much after the beginning, because you'll use them so much they'll become automatic.
-
-
-
-
 
 Our second category, connectors, are useful for making your conversations seem more natural earlier on. We all use short connective phrases, which fill in conversational gaps and provide transitions between the things we're actually trying to say. For example:
 
-
-
-
-
-
-
   * I'm not sure
-
-
   * what do you think?
-
-
   * well...
-
-
   * it's because
-
-
   * so...
-
-
   * although
-
-
   * but
-
-
-
-
 
 Learning these basic phrases earlier will help you in 2 ways: 1) makes you seem like a more natural speaker than you are, so people are more likely to talk with you; and 2) it lets you get other people talking by tossing the ball back to them (such as a connective phrase like "I'm not sure; what do you think?"). Shout out to [Benny](http://www.fluentin3months.com) for this idea. Learning some of these common phrases saved my ass when I didn't know what else to say (read: constantly).
 
-
-
-
-
 Finally, the "skeleton keys," as I like to call them. These are commonly used phrases to express the most common intentions: I want, I need, I'd like, etc. In other languages that have verb conjugations (most languages other than English, including all romance languages that I know of), this is a ** hack**: in languages, you can use the intentional phrase + an infinitive (un-conjugated) verb to express tons of ideas. Why is this useful? Because when you're learning a new language, you have enough going through your head anyway: vocabulary, tone, tense, accent, mood, insecurity, etc. It's much easier to quickly apply vocabulary you've learned in the infinitive form by coupling it with an intentional phrase, than it is to worry about conjugating it. You must learn to conjugate and use verbs as they're intended, but having a way to express an idea without conjugating turns out to be a useful crutch to have in your back pocket.
-
-
-
-
 
 Depending on how much time you're putting into this every day, the above material might take you anywhere from one to four weeks to learn. As you practice, you'll lock in this foundational material quickly. Following that though, I recommend choosing your material from subjects that you're personally interested in and would learn about anyway in your native language (my example was cooking; cooking classes and recipes in Spanish kept me engaged when I otherwise would have gotten bored).
 
-
-
-
-
 #### #2 - Start speaking, immediately
-
-
-
-
 
 This one is self-explanatory. Speak. Speak as much as you possibly can in your target language. Avoid English like the plague.
 
@@ -206,179 +160,51 @@ Second, I was speaking like a gringo. I had a terrible accent that did not at al
 
 Commit to the sounds and accent from day one. First of all, committing to it from day one means you don't have to go back and try to change it later. More importantly, it will result in being understood better and in being treated better wherever you go. WIN.
 
-
-
-
-
 #### #4 - Separate learning and review
-
-
-
-
-
 This is a key point when learning anything, not just languages: don't try to learn something new and lock it into long-term memory at the same time. New knowledge takes time to be [consolidated and transferred to long-term memory](http://en.wikipedia.org/wiki/Memory_consolidation), and initial learning is all about getting it locked into short term memory and reviewing at the right intervals so that it efficiently transfers to long-term memory.
 
-
-
-
-
 ##### Learning
-
-
-
-
-
 You need to constrain the amount of new material you try to take in. The brain can only take in so much new information in a given day. I recommend learning 15 new words or phrases per day (30 words/day if you're feeling aggressive).
-
-
-
-
 
 But how much vocab do I have to learn? **Much less than you think.**
 
-
-
-
-
 [This study by Mark Davies at BYU](http://davies-linguistics.byu.edu/ling485/for_class/hispling_final.htm) investigated word frequency in Spanish to determine how many words were necessary to understand the majority of native material. While this was Spanish-focused, as far as I know the pattern holds true across languages (given that at the general day-to-day level of language, people everywhere are all pretty much saying the same things, just in different languages).
-
-
-
-
-
 I came across many references to this study while researching methods, so I dug into it. Here are the shocking results, broken out by whether you want to pace yourself or go fast.
-
-
-
-
 
 Just to drive this home one more time: **if you choose your words well and learn 30 per day, you will have enough vocab to understand 95% of the spoken language in 3 months (100 days). That is an amazing ROI on your time.** Check out the chart below (and the full study [here](http://davies-linguistics.byu.edu/ling485/for_class/hispling_final.htm)):
 
-
-
-
-
-
-
 ##### Review
-
-
-
-
-
 This is where I clue you into one of my secret weapons: [Anki](http://www.ankisrs.net). Anki is one of my favorite pieces of software in existence. It is the [leading open-source Spaced Repetition Software (SRS) program](http://en.wikipedia.org/wiki/Spaced_repetition_software) on the market—free, and cross-platform. What is SRS? Think of flashcards on steroids, but managed by a computer instead of by hand. It's the most effective tool I've found yet for locking information into long-term memory for incredible recall.
-
-
-
-
 
 **If you want to turbocharge your ability to retain new material that you learn (like vocabulary and key phrases), use Anki.** Ignore this one at your own peril.
 
-
-
-
-
 #### #5 - Practice every day
-
-
-
-
-
 Pretty self-explanatory. When you're learning a new language. you are literally changing how your brain is wired. That takes daily practice and dedication. This needs to just become part of your day if you're serious about it. Locking in new habits is beyond the scope of this post, but I recommend checking out [Beginner's Mind, on Demand](http://www.andrewskotzko.com/beginners-mind-on-demand/) and [TinyHabits](http://tinyhabits.com) for more there.
-
-
-
-
 
 If you do this right, this is an enjoyable part of the day that you'll look forward to. Especially because you'll see, feel, and hear yourself improving every single day. And that is motivating.
 
-
-
-
-
 ### Achieving social fluency & advanced levels
-
-
-
-
-
 #### #6 - Move to native materials, ASAP
-
-
-
-
-
 This is an extension of Do Not Translate. As soon as you possibly can (that is, from day one) use reading and viewing materials that were made for the native audience. In the beginning, this will mean using simple native reading and viewing materials.
-
-
-
-
 
 Very quickly though, you'll get bored with the material you're using. This is normal, don't worry about it. What do you do instead? Just consume the media you would in your native language, but in your target language. I learned a TON reading stories about cooking and learning recipes in Spanish for some cooking classes I took.
 
-
-
-
-
 When you use material that you naturally enjoy, it doesn't feel like work. To me it feels more like unlocking a fun cheat code where you get to do the thing you like and learn this language too.
-
-
-
-
 
 As soon as possible (once you start to be able to have actual conversations in the target language), you want to get a monolingual dictionary so that you begin to learn new words and phrases using the target language itself.
 
-
-
-
-
 #### #7 - Get as much passive exposure as possible
-
-
-
-
-
 This is the area where immersion is most useful. By hearing the sounds of the language in the street, in music, on TV, and seeing it written everywhere, you start to pick up nuances (especially pronunciation) that is hard to replicate without this level of exposure.
-
-
-
-
 
 But what if you can't travel to a country where your target language is spoken? (time, money, etc). The good news: you don't even have to, thanks to virtual immersion.
 
-
-
-
-
 ##### Virtual immersion
-
-
-
-
-
 Thanks to the web, you can create an environment that gives you most of the benefits of immersion, without leaving home. If you're going to watch TV, do it in your target language. If you listen to music while working, listen to music in your target language (I, for one, am a fan of the "Intro to Argentine Rock" Rdio playlist). You can find great radio from around the world on the web at [TuneIn](http://tunein.com), the [BBC](http://bbc.co.uk), or on YouTube.
-
-
-
-
 
 This is where I want to give a shoutout to...
 
-
-
-
-
 #### #8 - Use the Telenovela method
-
-
-
-
-
 ["The Telenovela Method"](http://www.amazon.com/The-Telenovela-Method-Spanish-Online-ebook/dp/B00GXSS4CO) is a clever and fun way to learn a lot of your target language. (The resource lists he includes in that book are worth the price of purchase on their own.)
-
-
-
-
 
 The gist of the Telenovela method is to use material (TV shows, movies, books) that was created for a native audience, and to work your way through them slowly. Scene-by-scene or sentence-by-sentence, learn everything you need to fully understand the material. Add it to Anki once you truly understand it. Rinse & repeat.
 
@@ -402,125 +228,37 @@ Start simply: when you see a dog, think the word for "dog" in your target langua
 
 * * *
 
-
-
-
-
 Learning a new language doesn't need to be scary, or expensive, or this all-consuming thing that takes over your life (although that can be fun, too).
-
-
-
-
 
 Combine the highest-frequency material with a good learning approach, use it every day, and retain what you have learned. I share a ton of resource links in the FAQ below—if I've missed something good, let me know and I'll add it.
 
-
-
-
-
 There's a big, wide, happy world waiting for you to come out and unlock new cultural and travel experiences. This can be your key.
-
-
-
-
 
 Good luck! I hope you've found this useful. Please leave a comment below and let me know how this works for you, what works, what doesn't, and any questions you have.
 
-
-
-
-
 ## FAQ
 
-
-
-
-
-Back to top.
-
-
-
-
-
 ### Where can I download Anki decks?
-
-
-
-
-
 The truth is, you will have much better experience and enjoy better performance if you make your own cards. There are several reasons for this: 1. Anki is a phenomenal tool for retaining what you've learned, but not for initially learning something. There is an initial foundation of understanding and retention that occurs when you actually learn something on your own. You skip this if you get your cards "off the shelf." Also keep in mind:
 
-
-
-
-
-
-
-  1. Having to catch up on tons of cards can quickly get overwhelming and take a lot of time. If you're aggressively using downloaded decks, you may soon find yourself in a position like me where I missed 2 days and came back to having to review almost 1,000 flashcards for Spanish alone in one morning review session. Not so fun.
-
-
-  2. Other people are often not as careful as you in creating / maintaining their decks. I have memorized things that were wrong because I was using someone else's deck.
-
-
-  3. If the image on your card is at all ambiguous (which will happen often), you may not remember what it was actually supposed to mean, since you didn't make the card. This leads to false positive/negatives, which messes up the review patterns and schedule determined by the Anki algorithm.
-
-
-
-
+1. Having to catch up on tons of cards can quickly get overwhelming and take a lot of time. If you're aggressively using downloaded decks, you may soon find yourself in a position like me where I missed 2 days and came back to having to review almost 1,000 flashcards for Spanish alone in one morning review session. Not so fun.
+1. Other people are often not as careful as you in creating / maintaining their decks. I have memorized things that were wrong because I was using someone else's deck.
+1. If the image on your card is at all ambiguous (which will happen often), you may not remember what it was actually supposed to mean, since you didn't make the card. This leads to false positive/negatives, which messes up the review patterns and schedule determined by the Anki algorithm.
 
 That said, I totally get it if you want to download one of the many decks on a specific topic that are available online [here](https://ankiweb.net/shared/decks/). You can also download my personal, hand-crafted Spanish deck (with images and media) here.
 
-
-
-
-
 I'll quote [Gabriel's advice on learning from a downloaded deck](http://fluent-forever.com/personal-anki-decks/), which I think is spot-on:
-
-
-
-
-
-> ...that being said, if you’re dead set against making your own deck because you have no hands or something, you can make using someone else’s deck more effective by splitting the memorization and learning steps.
-
-
-  SPLIT UP LEARNING AND REVIEW:
-
-
-
-  Download the deck, install it, and suspend every single card. Go through the suspended cards and choose the ones that are clear in meaning to you. Use a dictionary to make sure they mean what you think they mean. Un-suspend those cards and learn them over a week or so. Now go back and un-suspend more cards. Keep doing this, and you’ll eventually learn all the concepts, and then be able to use Anki to effectively memorize them.
+> ...that being said, if you’re dead set against making your own deck because you have no hands or something, you can make using someone else’s deck more effective by splitting the memorization and learning steps...
 >
->
-</blockquote>
-
-
-
-
+> Download the deck, install it, and suspend every single card. Go through the suspended cards and choose the ones that are clear in meaning to you. Use a dictionary to make sure they mean what you think they mean. Un-suspend those cards and learn them over a week or so. Now go back and un-suspend more cards. Keep doing this, and you’ll eventually learn all the concepts, and then be able to use Anki to effectively memorize them.
 
 ### How should I make Anki cards?
+Generally, follow Gabriel's advice [here](http://fluent-forever.com/create-better-flashcards). The key points are:
 
-
-
-
-
-Generally, follow Gabriel's advice [here](http://fluent-forever.com/create-better-flashcards). The key points are: Use images for anything possible.
-
-
-
-
-
-
-
-  * If a word is at all ambiguous, use two images. This way it'll be clear during review what you're looking at.)
-
-
-  * Use definite articles (example: "la ala", not just "ala" for "wing"). This is very important if definite articles are less common in your native language than in your target language, (such as English vs Spanish / most romance languages).
-
-
-  * **Simple is better.**
-
-
-
-
+- Use images for anything possible.
+- If a word is at all ambiguous, use two images. This way it'll be clear during review what you're looking at.)
+- Use definite articles (example: "la ala", not just "ala" for "wing"). This is very important if definite articles are less common in your native language than in your target language, (such as English vs Spanish / most romance languages).
+- **Simple is better.**
 
 ### What random tricks helped?
 Reading comic books. They're written for a native, casual audience, and they are almost 100% dialogue. Comic books do a great job capturing the way the language is actually used by real people in their everyday lives. Plus, they have awesome art and cool stories.
@@ -530,308 +268,93 @@ Reading comic books. They're written for a native, casual audience, and they are
 
 If comic books aren't your thing, any relatively dialogue-heavy text will do, like a children's book (especially if you can get a parallel text in your native language when you can't understand something). "The Little Prince" was and is a favorite of mine, now in two languages.
 
-
 [Using Google Images as a foreign language dictionary](http://www.fluentin3months.com/the-best-online-dictionary-for-learning-any-language-google-image/) works well, especially once you adapt to the "don't translate" principle.
-
-
-
-
 
 Make a one-page self bio in the target language and go through it with a native speaker to improve it, make it fluid, and learn how to pronounce it right. Once you've got it, practice and memorize it, and voila! you've basically memorized / scripted your answers to the first 5 minutes of meeting anyone new, and done so in a way that will make you sound more native and make them more likely to respond positively to you. Winning.
 
-
-
-
-
 ### How do I structure a good language exchange with a conversation partner?
-
-
-
-
-
 This is an art unto itself, and I think the reigning master is Andrew Tracey (he covers this and lots of other great resources in his book).
-
-
-
-
 
 That said, you want to keep it interesting and engaging for both you and your partner. You'll want to switch back and forth between languages, say every 15-20 minutes.
 
-
-
-
-
 If you want to go the conversational route, [here is a list of good conversation starters that I've compiled](https://www.evernote.com/shard/s8/sh/e91954b6-3668-443c-8aba-f444308c7847/1a5dbc7a801bc05537483da540841265), ranging from lighthearted to heavyweight topics. Further, here are other [tips I've compiled from various resources about how to structure a good exchange](https://www.evernote.com/shard/s8/sh/035b2350-5bc4-4d07-8bda-e372ed6de8be/82a1459862548678d454491ffb85832f).
 
-
-
-
-
 ### How do I retain what I've learned?
-
-
-
-
-
 Frankly, I wouldn't worry all that much about retention for now. If you're actually using the language & Anki every day (which you should be) then you'll already be retaining a lot of what you know. And the rest of the language you have learned isn't gone, it's just hibernating. I like Tim's recommendations for reactivating a hibernating language [here](http://www.fourhourworkweek.com/blog/2007/09/20/how-to-resurrect-your-high-school-spanish-or-any-language-plus-be-on-the-cbs-early-show/).
 
-
-
-
-
 ### Where do I go for more?
-
-
-
-
-
 Here's a compiled list of resources that I used all the time.
-
-
-
-
 
 **Online tools & communities**
 
-
-
-
-
-
-
   * [Lang-8](http://www.lang-8.com/): native speakers correct your writing in the target language
-
-
   * [Forvo](http://forvo.com): get native pronunciations of almost any word. Amazing when you just don't know how to say a word.
-
-
   * Google image search in your target language (Spanish [here](https://www.google.com/imghp?hl=es-419&tab=ii&authuser=0)): when I don't know a word in my target language, this is my first stop.
-
-
   * [Anki](http://www.ankisrs.net)
-
-
   * [FluentLi](http://fluentli.com/): good for getting usage questions answers, like "how would you actually use this phrase in day to day life?"
-
-
   * [Verbling](http://verbling.com) & [LiveMocha](http://livemocha.com): both offer live, drop in video classes in foreign language. I didn't do much of these, but they caught my eye.
-
-
   * [How to Learn Any Language](http://how-to-learn-any-language.com/forum/default.asp): good forum if you want to nerd out on language learning.
-
-
-  * spreadsheet of key words / phrases
-
-
   * [Here's a spreadsheet for Spanish](https://docs.google.com/spreadsheet/ccc?key=0ApBq5nqLSn9MdFp4ZjNPdmpPOVNuTk5MRFNGUlh4Y1E&usp=sharing) that you can use to build out your decks / Anki cards (Google how to do it by importing a CSV to Anki). It includes the first 400-500 words, many useful / common connector phrases, and then the highest frequency 2,000 words in the spoken language.
-
-
   * [Spanish Google Images search (preset to good image sizes for Anki) ](https://www.google.com/search?q=%7Bquery%7D&hl=es-419&authuser=0&site=imghp&tbm=isch&sout=1&biw=1440&bih=779&dpr=1)
-
-
   * [Spanish Google Images search, preset to show captions below the images.](http://translate.google.com/translate?hl=en&sl=es&tl=en&u=http://images.google.es/search?q=%7Bquery%7D&btnG=Search&tbm=isch&hl=en&sout=1&biw=1080&bih=722&gbv=2&gs_sm=e&gs_upl=2527l4331l0l4492l7l7l1l0l0l0l226l895l0.3.2l5l0) This way, you always have native text to use in Anki with the image.
-
-
   * [About.com Spanish reference.](http://spanish.about.com/) Actually quite good at explaining many confusing concepts.
-
-
-
-
 
 **iPhone Apps**
 
-
-
-
-
-In addition to being good at their primary task, both of these apps work offline. This is a huge lifesaver when traveling. I link to Android equivalents where I know them — if you know something I've missed, let me know in the comments and I'll add it.
-
-
-
-
-
-
+In addition to being good at their primary task, these apps work offline. This is a lifesaver when traveling. I link to Android equivalents where I know them — if you know something I've missed, let me know in the comments and I'll add it.
 
   * [ConjuVerb (free): offline Spanish verb conjugation.](https://itunes.apple.com/us/app/conjuverb-spanish-verb-conjugation/id441599491?mt=8) After you use it for awhile, use the built-in flashcards tool and lookup frequency lists to add to your Anki deck. [This Android app](https://play.google.com/store/apps/details?id=conjugate.spanish) looks like an equivalent but I haven't tested it.
-
-
   * [SpanishDict (free): great Spanish dictionary.](http://www.spanishdict.com) Also has a good [online presence.](http://www.spanishdict.com) Android version [here.](https://play.google.com/store/apps/details?id=com.spanishdictapp)
-
-
   * [Anki ($25): Anki, on your iPhone. Absolutely worth every penny. No question.](https://itunes.apple.com/us/app/ankimobile-flashcards/id373493387?mt=8) Free Android equivalent [here.](https://play.google.com/store/apps/details?id=com.ichi2.anki)
-
-
-
-
 
 **Books**
 
-
-
-
-
-
-
-  * [Fluent Forever](http://www.amazon.com/Fluent-Forever-Learn-Language-Forget/dp/0385348118), by Gabriel Wyner (not yet released)
-
-
+  * [Fluent Forever](http://www.amazon.com/Fluent-Forever-Learn-Language-Forget/dp/0385348118), by Gabriel Wyner
   * [The Telenovela Method](http://www.amazon.com/The-Telenovela-Method-Spanish-Online-ebook/dp/B00GXSS4CO), by Andrew Tracey
-
-
   * [In Other Words](http://www.amazon.com/Other-Words-Psychology-Second-language-Acquisition/dp/0465032818), by Kenji Hakuta
-
-
   * [Fluent in 3 Months](http://www.amazon.com/Fluent-Months-Anyone-Language-Anywhere-ebook/dp/B00DB3D352), by Benny Lewis
-
-
-
-
 
 **Blogs/Forums**
 
-
-
-
-
 I want to send lots of thanks to [Benny Lewis](http://fluentin3months.com), [Tim Ferriss](http://www.fourhourworkweek.com/blog/category/language/), [Andrew Tracey](http://howlearnspanish.com/), and especially to [Gabriel Wyner](http://fluent-forever.com/). Their work formed the core of the approach that helped me immensely and unlocked a whole new way to see the world for me.
-
-
-
-
 
 I am deeply grateful and recommend you check out / subscribe to their blogs if this is an area of interest for you.
 
-
-
-
-
 If you really want to nerd out, I also recommend checking out the [How To Learn Any Language forum](http://how-to-learn-any-language.com/forum/).
-
-
-
-
 
 ### What didn't work?
 
-
-
-
-
-
-
   * Focusing on grammar first, or even early
-
-
   * Writing to use the language without getting it corrected. Use [Lang-8](http://www.lang-8.com/) for this; write short, fun entries using whatever words or phrases you're focusing on or struggling with. You'll remember them better and get corrections on how to use them, all in one go!
-
-
   * Trying to write or read about something I wasn't fundamentally interested in (like some boring historical event); to stay engaged, I needed material that appealed to my interests
-
-
   * not using definite articles in Anki: in English, we don't use definite articles ("the") anywhere near as much as other languages do.
-
-
-  * Translating constantly: **this is the big trap that I and damn near everybody I know has fallen into**. Translating is slow, tiring, and boring for your conversational partner. Moreover, your goal is NOT to train yourself to translate. Your goal is to train yourself to communicate fluidly in this new language. After those initial 300-400 base vocab words, translation is only slowing you down and making you dependent on a crutch you don't need.
-
-
-
-
+  * Translating: **this is the big trap that I and damn near everybody I know has fallen into**. Translating is slow, tiring, and boring for your conversational partner. Moreover, your goal is NOT to train yourself to translate. Your goal is to train yourself to communicate fluidly in this new language. After those initial 300-400 base vocab words, translation is only slowing you down and making you dependent on a crutch you don't need.
 
 ### What if I'm just going on a quick trip somewhere, and don't want to learn the whole language?
 
-
-
-
-
 Fair enough. You're going on vacation for two weeks—worth bothering to learn anything? I'd say so. There is immense value in getting the basic words and phrases (i.e. the initial 400).
-
-
-
-
 
 Without fail, putting forth an honest attempt to speak in the local language will get you treated better than the opposite. You'll get better deals, more sympathy, more help, and maybe some amazing new cultural experiences that locals invite you to join in.
 
-
-
-
-
 So, yes, at least learn something. A little bit of effort here can have an outsized impact on the quality and fun of your trip.
-
-
-
-
 
 ### What are the flaws with this approach?
 
-
-
-
-
-Well, you'll naturally become a more interesting and sexy person and your social calendar may get quite full. Don't come whining to me when you're too busy doing awesome new stuff.
-
-
-
-
+You'll quickly become more interesting and attractive, so your social calendar may get quite full. Don't come whining to me when you're too busy doing awesome new stuff.
 
 But in all seriousness, I can think of two things about this approach that you may consider a flaw, depending on your personal goal:
 
-
-
-
-
-
-
-  1. I **heavily** prioritize spoken language over written language.
-
-
-  2. I don't know how this process would need to change to get to a true level of mastery with a given language. This approach is aimed at getting to social fluency and general fluency, not aimed at the level of being able to give a 30 minute highly technical testimony in front of Congress in the language.
-
-
-
-
+1. I **heavily** prioritize spoken language over written language.
+1. I don't know how this process would need to change to get to a true level of mastery with a given language. This approach is aimed at getting to social fluency and general fluency, not aimed at the level of being able to give a 30 minute highly technical testimony in front of Congress in the language.
 
 ### How much will this cost me?
-
-
-
-
-
 This process can work on its own, for free and without paying for any classes. Many of the best resources are free (I listed them above). That said, your progress may speed up if you find a good teacher to help you with more advanced grammar and linguistic nuance after you already have a solid, working handle on the language.
 
-
-
-
-
 ### Which language should I learn?
-
-
-
-
-
 Whichever you actually feel motivated to and interested in. Whether you want to learn a language to surprise a loved one, unlock new career opportunities, or just because you like the sound of it—all these are perfectly good reasons.
-
-
-
-
 
 That said, when choosing a language you will want to:
 
-
-
-
-
-
-
   * Consider the sounds: if your target language has sounds that do not exist in your native language, it is going to be harder. There are tongue and throat muscles and patterns that you just don't have right now.
-
-
   * [Deconstruct the language with the help of a native (or Google)](http://www.fourhourworkweek.com/blog/2007/11/07/how-to-learn-but-not-master-any-language-in-1-hour-plus-a-favor/) to see how different its structure is from your native language. Is the word order different? Do modifiers go before or after that which they modify?
-
-
   * Consider the language difficulty charts. The US Foreign Service Institute and Defense Language Institute chart out languages based on Category 1-4, with each step up in number representing the expectation that it will take twice as long as a language at the level below it.
-
-
-
-
-
-Back to top.
