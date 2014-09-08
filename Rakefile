@@ -2,6 +2,8 @@ require "rubygems"
 require "bundler/setup"
 require "stringex"
 require "dotenv/tasks"
+require "yui/compressor"
+require "html_compressor"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
@@ -416,8 +418,51 @@ task :s3 => :dotenv do
   Rake::Task["notify"].invoke
 end
 
+# minification
+desc "Minify CSS"
+task :minify_css do
+  puts "## Minifying CSS"
+  compressor = YUI::CssCompressor.new
+  Dir.glob("#{public_dir}/**/*.css").each do |name|
+    puts "Minifying #{name}"
+    input = File.read(name)
+    output = File.open("#{name}", "w")
+    output << compressor.compress(input)
+    output.close
+  end
+end
+
+desc "Minify JS"
+task :minify_js do
+  puts "## Minifying JS"
+  compressor = YUI::JavaScriptCompressor.new
+  Dir.glob("#{public_dir}/**/*.js").each do |name|
+    puts "Minifying #{name}"
+    input = File.read(name)
+    output = File.open("#{name}", "w")
+    output << compressor.compress(input)
+    output.close
+  end
+end
+
+desc "Minify HTML"
+task :minify_html do
+  puts "## Minifying HTML"
+  compressor = HtmlCompressor::HtmlCompressor.new
+  Dir.glob("#{public_dir}/**/*.html").each do |name|
+    puts "Minifying #{name}"
+    input = File.read(name)
+    output = File.open("#{name}", "w")
+    output << compressor.compress(input)
+    output.close
+  end
+end
+
+desc "Minify CSS/JS"
+task :minify => [:minify_css, :minify_js, :minify_html]
+
 desc "Generate and deploy website via s3_website"
-task :full_deploy => [:generate, :s3] do
+task :full_deploy => [:generate, :minify, :s3] do
   puts "Site deployed via S3"
 end
 
