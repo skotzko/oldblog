@@ -23,6 +23,8 @@ group :development do
   # minification
   gem 'yui-compressor', '~> 0.12.0'
   gem 'html_compressor', '~> 0.0.3'
+
+  gem 'image_optim'
 end
 
 gem 'sinatra', '~> 1.4.2'

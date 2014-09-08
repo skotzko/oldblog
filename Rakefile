@@ -4,6 +4,7 @@ require "stringex"
 require "dotenv/tasks"
 require "yui/compressor"
 require "html_compressor"
+require "image_optim"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
@@ -462,8 +463,20 @@ desc "Minify CSS/JS"
 task :minify => [:minify_css, :minify_js, :minify_html]
 
 desc "Generate and deploy website via s3_website"
-task :full_deploy => [:generate, :minify, :s3] do
+task :full_deploy => [:generate, :minify, :optimize_images, :s3] do
   puts "Site deployed via S3"
+end
+
+desc "Optimize images"
+task :optimize_images do
+   Dir.chdir('source/images') do
+     image_optim = ImageOptim.new(:pngout => false, :nice => 20)
+     image_optim.optimize_images!(Dir['*.*']) do |unoptimized, optimized|
+       if optimized
+         puts "optimized: #{unoptimized} => #{optimized}"
+       end
+     end
+   end
 end
 
 desc "Rename files in the posts directory if the filename does not match the post date in the YAML front matter"
