@@ -1,6 +1,7 @@
 require "rubygems"
 require "bundler/setup"
 require "stringex"
+require "dotenv/tasks"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
@@ -20,7 +21,7 @@ deploy_branch  = "gh-pages"
 
 public_dir      = "public"    # compiled site directory
 source_dir      = "source"    # source file directory
-blog_index_dir  = 'source'    # directory for your blog's index page (if you put your index in source/blog/index.html, set this to 'source/blog')
+blog_index_dir  = "source"    # directory for your blog's index page (if you put your index in source/blog/index.html, set this to 'source/blog')
 deploy_dir      = "_deploy"   # deploy directory (for Github pages deployment)
 stash_dir       = "_stash"    # directory to stash posts for speedy generation
 posts_dir       = "_posts"    # directory for blog files
@@ -407,12 +408,17 @@ task :list do
   puts "(type rake -T for more detail)\n\n"
 end
 
-desc "Deploy website via s3cmd with CloudFront cache invalidation"
-task :s3 do
-  puts "## Deploying website via s3cmd"
+desc "Deploy website via s3_website"
+task :s3 => :dotenv do
+  puts "## Deploying website via s3_website"
   Rake::Task["rename_posts"].invoke
-  ok_failed system("s3cmd sync --acl-public --reduced-redundancy --cf-invalidate public/* s3://#{s3_bucket}/")
+  ok_failed system("s3_website push")
   Rake::Task["notify"].invoke
+end
+
+desc "Generate and deploy website via s3_website"
+task :full_deploy => [:generate, :s3] do
+  puts "Site deployed via S3"
 end
 
 desc "Rename files in the posts directory if the filename does not match the post date in the YAML front matter"

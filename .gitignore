@@ -12,4 +12,6 @@ source/stylesheets/screen.css
 vendor
 node_modules
 Gemfile.lock
-s3_website.yml
+
+# use dotenv gem to load S3 vars from this file into ENV
+.env
