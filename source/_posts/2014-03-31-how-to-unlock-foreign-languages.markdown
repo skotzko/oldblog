@@ -193,7 +193,7 @@ After a few weeks in Buenos Aires, I was hanging out with my Spanish teacher, Gi
 
 She insisted I try the tramontaña flavor of the famous local ice cream company, and so of course I was dispatched to buy two cones. She followed along just to see what would happen, and proceeded to have a laughing fit as I royally fucked it up. The guy at the counter had no clue what I was saying, and I just kept trying because I was felt determined to pull this off.
 
-{% img img-center /images/2014/03/tramontana.jpg %}
+{% img img-center /images/2014/03/tramontana.png %}
 <p class="text-center">The ice cream flavor I royally messed up.</p>
 
 Afterwards, when I found Gisela again—with the wrong flavors of ice cream, by the way—she was still laughing. "What's so funny?," I asked. And between giggles, she recounted that what was so funny was that I was using all the right words and grammatical structures, but the guy behind the counter still had no idea what the hell I was saying.
