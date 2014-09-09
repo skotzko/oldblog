@@ -147,7 +147,7 @@ After a few weeks in Buenos Aires, I was hanging out with my Spanish teacher, Gi
 
 She insisted I try the tramontaña flavor of the famous local ice cream company, and so of course I was dispatched to buy two cones. She followed along just to see what would happen, and proceeded to have a laughing fit as I royally fucked it up. The guy at the counter had no clue what I was saying, and I just kept trying because I was felt determined to pull this off.
 
-{% img img-center /images/2014/03/tramontana.png %}
+{% img img-center /images/2014/03/tramontana-150x150.png %}
 <p class="text-center">The ice cream flavor I royally messed up.</p>
 
 Afterwards, when I found Gisela again—with the wrong flavors of ice cream, by the way—she was still laughing. "What's so funny?," I asked. And between giggles, she recounted that what was so funny was that I was using all the right words and grammatical structures, but the guy behind the counter still had no idea what the hell I was saying.
@@ -213,7 +213,7 @@ This, on its own, is a powerful way to build your vocabulary and grammatical ski
 #### #9 - Don't study grammar until you have a grasp of the language
 Starting with grammar is akin to the idea that if you memorize enough rules of a game, you'll know how to play it. Just because I know the rules of football, or cricket, or swimming, does not mean I am any good at those skills. Why would the skill of language be any different? (Remember: it is just a skill, and therefore learnable and trainable like any other.)
 
-{% img img-center /images/2014/03/combo.png  %}
+{% img img-center /images/2014/03/combo-300x160.png  %}
 <p class="text-center">Where would you rather learn the game?</p>
 
 You will need an excellent grammar book and to spend time internalizing this part of the language. But grammar is boring as hell until you actually have personal experience in the language to use it on. Once you've been using and speaking the language every day for a few weeks and are underway, THEN you can return to grammar. With this basis, it will actually help you understand what you've already seen as opposed to confusing you with a bunch of rules that seem arbitrary and out of context.
