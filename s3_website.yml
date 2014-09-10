@@ -6,7 +6,10 @@ cloudfront_distribution_config:
   default_cache_behavior:
     min_TTL: <%= 60 * 60 * 24 %>
 
-max_age: 120
+max_age:
+  "assets/*": 3600
+  "images/*": 3600
+  "*": 500
 gzip: true
 site: public
 s3_endpoint: us-west-2
