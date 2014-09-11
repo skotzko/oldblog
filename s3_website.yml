@@ -7,8 +7,8 @@ cloudfront_distribution_config:
     min_TTL: <%= 60 * 60 * 24 %>
 
 max_age:
-  "assets/*": 3600
-  "images/*": 3600
+  "public/assets/*": 3600
+  "public/images/*": 3600
   "*": 500
 gzip: true
 site: public
