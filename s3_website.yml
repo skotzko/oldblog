@@ -1,7 +1,7 @@
 s3_id: <%= ENV['S3_ID'] %>  # supplied by .env file / dotenv gem
 s3_secret: <%= ENV['S3_SECRET'] %>  # supplied by .env file / dotenv gem
-s3_bucket: www.andrewskotzko.com
-cloudfront_distribution_id: EHTVD4W282B55
+s3_bucket: www.andrewskotzko.com2
+cloudfront_distribution_id: E1UQIR4PJG0EW
 cloudfront_distribution_config:
   default_cache_behavior:
     min_TTL: <%= 60 * 60 * 24 %>
@@ -9,6 +9,8 @@ cloudfront_distribution_config:
 max_age:
   "assets/*": 3600
   "images/*": 3600
+  "images/2013/*": 3600
+  "images/2014/*": 3600
   "*": 500
 gzip: true
 site: public
