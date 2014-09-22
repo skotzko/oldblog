@@ -879,16 +879,20 @@ article {
 // ------------------------------
 
 @media screen and (max-width: 480px) {
-  body > header {
-    margin: 10px auto;
+  body {
+    width: 100%;
 
-    h1 {
-      font-size: 18px;
-    }
+    > header {
+      margin: 10px auto;
 
-    h2 {
-      font-size: 15.349px;
-      font-size: 0.905rem; /* 0.732 + 0.173 */
+      h1 {
+        font-size: 18px;
+      }
+
+      h2 {
+        font-size: 15.349px;
+        font-size: 0.905rem; /* 0.732 + 0.173 */
+      }
     }
   }
 
@@ -977,6 +981,12 @@ article {
     margin-right: auto;
   }
 
+  #main {
+    #content {
+      padding: 0 5%;
+    }
+  }
+
   article {
     header {
       h1 {
@@ -1002,6 +1012,13 @@ article {
       h2 {
         font-size: 23.015px;
         font-size: 1.357rem; /* 1.184 + 0.173 */
+      }
+
+      // full width images in small screen
+      img {
+        width: 112%; // relative to parent (paragraph which has 5% padding per side)
+        max-width: 112%; // relative to parent (paragraph which has 5% padding per side)
+        margin-left: -6%;
       }
 
     }
