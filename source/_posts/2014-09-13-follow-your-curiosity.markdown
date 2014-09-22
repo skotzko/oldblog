@@ -64,4 +64,4 @@ And so what I realized is that my answer to The Question—big data—has been s
 
 Where will your curiosity take you? Follow it.
 
-<p>(Photo credit: <a href="https://secure.flickr.com/photos/sylvainbourdos/">Sylvain Bourdos</a>)</p>
+<p class="photo-credit">(Photo credit: <a href="https://secure.flickr.com/photos/sylvainbourdos/">Sylvain Bourdos</a>)</p>

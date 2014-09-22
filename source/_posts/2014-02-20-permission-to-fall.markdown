@@ -10,8 +10,6 @@ categories:
 ---
 {% img img-center /images/2014/02/falling.jpg %}
 
-<p class="text-center">(Photo: <a href="http://www.flickr.com/photos/simongoez/with/8484970166">Cultoftheshadow</a>)</p>
-
 > In life, I regret the things I didn't do more than the missteps I made along the way.<br>- David Stanley
 
 For the last three months, I traveled throughout South America. Despite what my [Instagram photos](http://instagram.com/skotzko) may suggest, for the first month I was on the road, I was not enjoying it. Everything was new and stressful. There were no familiar places or friends to fall back on. The lack of regular schedules shot my all routines to hell. I felt lonely without my friends, and had no idea what I was doing. I drank too much, and exercised too little.
@@ -62,3 +60,5 @@ Only one gatekeeper left.
 And so, the real question:
 
 Will I leap?
+
+<p class="photo-credit">(Photo credit: <a href="http://www.flickr.com/photos/simongoez/with/8484970166">Cultoftheshadow</a>)</p>
