@@ -3,7 +3,7 @@ author: Andrew Skotzko
 comments: true
 date: 2014-02-15 13:16:49+00:00
 layout: post
-slug: analog-love-in-a-digital-world
+slug: analog-hearts-in-a-digital-world
 title: Analog hearts in a digital world
 categories:
 - Productivity
@@ -15,6 +15,7 @@ categories:
 If there's ever a time of year when we want to feel human connection, it's around Valentine's Day. And connection requires vulnerability and honesty, experiencing the world through another's eyes.
 
 Here are two questions that I've found helpful in authentically opening up my work and thinking to others over the last few months, which has led to some wonderful connections and conversations:
+
   1. What do the things that I feel compelled to do tell me about myself?
   1. Why do I want this thing that I want?
 
