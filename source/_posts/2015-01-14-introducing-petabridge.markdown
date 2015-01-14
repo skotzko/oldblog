@@ -26,26 +26,26 @@ And so…
 
 ## Introducing Petabridge
 
-<a href="http://petabridge.com">{% img img-right /images/petabridge_logo.png %}</a>
+<a href="http://twitter.com/petabridge">{% img img-right /images/petabridge_logo.png %}</a>
 
-I am pleased to announce that I am co-founding [Petabridge](http://petabridge.com/) – a company dedicated to making distributed computing easy and accessible for .NET developers. My partner in crime is my longtime friend and fellow software developer, Aaron Stannard. (And yes, it’s sometimes confusing that we have the same initials.)
+I am pleased to announce that I am co-founding [Petabridge](http://twitter.com/petabridge/) – a company dedicated to making distributed computing easy and accessible for .NET developers. My partner in crime is my longtime friend and fellow software developer, Aaron Stannard. (And yes, it’s sometimes confusing that we have the same initials.)
 
 **Why are we doing this? I’ve always been obsessed with unlocking potential and empowering people in scalable ways, and I can think of no better way to do that than to help tens of thousands of developers around the world create more great stuff**. 
 
 Writing great open-source software is hard. Really hard. It starts with individuals and is fundamentally community-driven. But open-source ecosystems also need corporate stewards to make them sustainable over the long-term. These stewards continually drive the platform forward when individual developers are focused on their own lives. [Cassandra](https://en.wikipedia.org/wiki/Apache_Cassandra) has [DataStax](http://datastax.com/), [Java](https://en.wikipedia.org/wiki/Java_(programming_language)) has [Oracle](http://www.oracle.com/index.html), [Scala](https://en.wikipedia.org/wiki/Scala_(programming_language)) has [TypeSafe](http://typesafe.com/), and so on. 
 
-The beating heart of Petabridge is open source software (OSS) and community contribution. We’re making it our goal to build a business around .NET open source projects like [Helios](https://github.com/Aaronontheweb/helios) and [Akka.NET](https://akkadotnet.github.io/), initially by offering training, support, and consulting services for companies who want to use them. 
+The beating heart of [Petabridge](http://twitter.com/petabridge/) is open source software (OSS) and community contribution. We’re making it our goal to build a business around .NET open source projects like [Helios](https://github.com/Aaronontheweb/helios) and [Akka.NET](https://akkadotnet.github.io/), initially by offering training, support, and consulting services for companies who want to use them. 
 
 All along the way, we will be continually contributing work, tools, and knowledge back to the community under the appropriate OSS licenses to help more developers unlock their potential, and that of their ideas. 
 
 We believe that [Akka.NET](https://akkadotnet.github.io/) and [Helios](https://github.com/Aaronontheweb/helios) have a larger role <!-- more --> to play in the .NET ecosystem and will act as the foundation for more ambitious, distributed programming projects that haven’t even been invented yet. We’re noodling on several such designs ourselves.
 
-I see a bright future ahead for .NET and its OSS ecosystem, but it needs companies like Petabridge to support the bigger projects. Writing open source code is one key element, but educating developers to use it is another – especially with something as mind-bending as [the Actor model](https://en.wikipedia.org/wiki/Actor_model) used by [Akka.NET](https://akkadotnet.github.io/).
+I see a bright future ahead for .NET and its OSS ecosystem, but it needs companies like [Petabridge](http://twitter.com/petabridge/) to support the bigger projects. Writing open source code is one key element, but educating developers to use it is another – especially with something as mind-bending as [the Actor model](https://en.wikipedia.org/wiki/Actor_model) used by [Akka.NET](https://akkadotnet.github.io/).
 
 ## Step one: training and support
 {% img img-left /images/akka_net_logo_only.png %} So while we continue to contribute to the open-source development in this space, the first order of business is education. There are tens of thousands of developers around the globe who need to learn this material to unlock the value that’s tied up in their heads.
 
-The first thing Petabridge will be offering is soup-to-nuts Akka.NET training – learn everything from how the Actor model works to building your first substantial Akka.NET application. We’ll take you from 20 to 120 and get you ready to build scalable, distributed applications in .NET.
+The first thing [Petabridge](http://twitter.com/petabridge/) will be offering is soup-to-nuts Akka.NET training – learn everything from how the Actor model works to building your first substantial Akka.NET application. We’ll take you from 20 to 120 and get you ready to build scalable, distributed applications in .NET.
 
 We’ll be offering free tutorials and webinars online covering everything from distributed computing fundamentals to Akka.NET—so [go to our website and sign up to receive updates about upcoming Akka.NET training and the latest tips and tricks that we share.](http://petabridge.com)
 
