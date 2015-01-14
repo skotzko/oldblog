@@ -8,6 +8,8 @@ categories:
 - petabridge
 ---
 
+{% img img-center /images/interactive_data.jpg %}
+
 The future of computing is a massively-connected world where everyone and their mother has 3+ devices. That means data. Lots and lots of data. 
 
 [Early last year, I started deeply exploring distributed systems and large-scale data processing](http://andrewskotzko.com/follow-your-curiosity/). Since then, I’ve spent a lot of time thinking and discussing these forces and what to do about them with my longtime friend and fellow developer, [Aaron Stannard](http://www.aaronstannard.com/). We became very interested in how these ideas could be applied in the global [.NET ecosystem](https://en.wikipedia.org/wiki/.NET_Framework), which is the technical ecosystem that supports many of the world’s largest companies (major banks, the Fortune 500, etc).
@@ -48,3 +50,5 @@ The first thing Petabridge will be offering is soup-to-nuts Akka.NET training �
 We’ll be offering free tutorials and webinars online covering everything from distributed computing fundamentals to Akka.NET—so [go to our website and sign up to receive updates about upcoming Akka.NET training and the latest tips and tricks that we share.](http://petabridge.com)
 
 Onward!
+
+<p class="photo-credit">(Photo credit: <a href="https://www.flickr.com/photos/inl/">Idaho National Laboratory</a>)</p>
