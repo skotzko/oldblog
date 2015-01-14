@@ -191,6 +191,19 @@ aside,
   margin: 0 auto;
 }
 
+.img-left {
+  display: block;
+  float: left!important;
+  margin: 25px;
+}
+
+.img-right {
+  display: block;
+  float: right!important;
+  margin: 25px;
+}
+
+
 section {
   @extend .margin-bottom-largest;
 }
