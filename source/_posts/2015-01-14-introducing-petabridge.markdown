@@ -24,7 +24,7 @@ And so…
 
 ## Introducing Petabridge
 
-{% img img-right /images/petabridge_logo.png %}
+<a href="http://petabridge.com">{% img img-right /images/petabridge_logo.png %}</a>
 
 I am pleased to announce that I am co-founding [Petabridge](http://petabridge.com/) – a company dedicated to making distributed computing easy and accessible for .NET developers. My partner in crime is my longtime friend and fellow software developer, Aaron Stannard. (And yes, it’s sometimes confusing that we have the same initials.)
 
