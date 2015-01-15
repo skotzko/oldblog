@@ -30,7 +30,7 @@ And so…
 
 I am pleased to announce that I am co-founding [Petabridge](http://twitter.com/petabridge/) – a company dedicated to making distributed computing easy and accessible for .NET developers. My partner in crime is my longtime friend and fellow software developer, Aaron Stannard. (And yes, it’s sometimes confusing that we have the same initials.)
 
-**Why are we doing this? I’ve always been obsessed with unlocking potential and empowering people in scalable ways, and I can think of no better way to do that than to help tens of thousands of developers around the world create more great stuff**. 
+**Why am I doing this? I’ve always been obsessed with unlocking potential and empowering people in scalable ways, and I can think of no better way to do that than to help tens of thousands of developers around the world create more great stuff**. 
 
 Writing great open-source software is hard. Really hard. It starts with individuals and is fundamentally community-driven. But open-source ecosystems also need corporate stewards to make them sustainable over the long-term. These stewards continually drive the platform forward when individual developers are focused on their own lives. [Cassandra](https://en.wikipedia.org/wiki/Apache_Cassandra) has [DataStax](http://datastax.com/), [Java](https://en.wikipedia.org/wiki/Java_(programming_language)) has [Oracle](http://www.oracle.com/index.html), [Scala](https://en.wikipedia.org/wiki/Scala_(programming_language)) has [TypeSafe](http://typesafe.com/), and so on. 
 
@@ -40,14 +40,16 @@ All along the way, we will be continually contributing work, tools, and knowled
 
 We believe that [Akka.NET](https://akkadotnet.github.io/) and [Helios](https://github.com/Aaronontheweb/helios) have a larger role <!-- more --> to play in the .NET ecosystem and will act as the foundation for more ambitious, distributed programming projects that haven’t even been invented yet. We’re noodling on several such designs ourselves.
 
-I see a bright future ahead for .NET and its OSS ecosystem, but it needs companies like [Petabridge](http://twitter.com/petabridge/) to support the bigger projects. Writing open source code is one key element, but educating developers to use it is another – especially with something as mind-bending as [the Actor model](https://en.wikipedia.org/wiki/Actor_model) used by [Akka.NET](https://akkadotnet.github.io/).
+I see a bright future ahead for .NET and its OSS ecosystem, but it needs companies like [Petabridge](http://twitter.com/petabridge/) to support the bigger projects and develop data platforms for the ecosystem. Writing open source code is one key element, but educating developers to use it is another – especially with something as mind-twisting as [the Actor model](https://en.wikipedia.org/wiki/Actor_model) used by [Akka.NET](https://akkadotnet.github.io/).
 
 ## Step one: training and support
 {% img img-left /images/akka_net_logo_only.png %} So while we continue to contribute to the open-source development in this space, the first order of business is education. There are tens of thousands of developers around the globe who need to learn this material to unlock the value that’s tied up in their heads.
 
-The first thing [Petabridge](http://twitter.com/petabridge/) will be offering is soup-to-nuts Akka.NET training – learn everything from how the Actor model works to building your first substantial Akka.NET application. We’ll take you from 20 to 120 and get you ready to build scalable, distributed applications in .NET.
+The first thing [Petabridge](http://twitter.com/petabridge/) will be offering is soup-to-nuts Akka.NET training – learn everything from how the Actor model works to how to deploy substantial Akka.NET applications in production. We’ll take you from 20 to 120 and get you ready to build and run scalable, distributed applications in .NET.
 
 We’ll be offering free tutorials and webinars online covering everything from distributed computing fundamentals to Akka.NET—so [go to our website and sign up to receive updates about upcoming Akka.NET training and the latest tips and tricks that we share.](http://petabridge.com)
+
+And while I'm busy bossing you around, dear reader, I might as well go ahead and ask you to <a href="http://twitter.com/petabridge">go follow us on Twitter</a>.
 
 Onward!
 
