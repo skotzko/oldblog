@@ -914,6 +914,16 @@ article {
     }
   }
 
+  article .entry-content img {
+    &.img-left, &.img-right {
+      max-width: 100%;
+      width: inherit;
+    }
+
+    &.img-left {margin: 0 10px 10px 0;}
+    &.img-right {margin: 0 0 10px 10px;}
+  }
+
   // subscriptions
   $email-input-font-size: 11px;
   $email-input-height: 30px;
