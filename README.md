@@ -1,0 +1,2 @@
+# skotzko.github.io
+blog
