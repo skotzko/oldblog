@@ -260,7 +260,7 @@ desc "deploy public directory to github pages"
 multitask :push do
   puts "committing any changes"
   system "git add -A"
-  message = "Site updated at #{Time.now.utc}"
+  message = "autoamtic commit during deploy at #{Time.now.utc}"
   system "git commit -m \"#{message}\""
   puts "pushing!"
   system "git push"
