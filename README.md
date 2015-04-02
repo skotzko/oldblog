@@ -21,5 +21,5 @@ A `full_deploy` does the following, in this order:
 1. Images are optimized in place
 1. Minification is run on `/_public`
 1. `/_public` is copied into `/_deploy`
-1. Any changes from optimization/minification are committed and pushed to remote branch (usually `source`).
+1. Any changes from optimization/minification are committed and pushed to remote branch (usually `source`) with a timestamped commit.
 1. `/_deploy` is pushed to the `master` branch with a timestamped commit.
