@@ -258,6 +258,11 @@ end
 
 desc "deploy public directory to github pages"
 multitask :push do
+  puts "committing any changes"
+  system "git add -A"
+  message = "Site updated at #{Time.now.utc}"
+  system "git commit -m \"#{message}\""
+
   puts "## Deploying branch to Github Pages "
   puts "## Pulling any updates from Github Pages "
   cd "#{deploy_dir}" do
@@ -458,8 +463,7 @@ end
 desc "Minify CSS/JS"
 task :minify => [:minify_css, :minify_js, :minify_html]
 
-desc "Generate and deploy website via s3_website"
-# task :full_deploy => [:generate, :minify, :optimize_images, :s3] do
+desc "Generate and deploy website to github pages"
 task :full_deploy => [:generate, :optimize_images, :minify, :push] do
   puts "Site deployed via GitHub pages"
 end
@@ -469,14 +473,12 @@ task :optimize_images do
   puts "optimizing images"
    Dir.chdir('source/images') do
      image_optim = ImageOptim.new(:pngout => false, :nice => 20)
-     image_optim.optimize_images!(Dir['*.*', '2013/*/**', '2014/*/**']) do |unoptimized, optimized|
-       if optimized
-         puts "optimized: #{unoptimized} => #{optimized}"
-       else
-        puts "did not optimize: #{unoptimized}"
-       end
-     end
-   end
+     image_optim.optimize_images!(Dir['*.*', '201*/*/**',]) do |unoptimized, optimized|
+      if optimized
+        puts "optimized: #{unoptimized} => #{optimized}"
+      end
+    end
+  end
 end
 
 desc "Rename files in the posts directory if the filename does not match the post date in the YAML front matter"
