@@ -374,11 +374,7 @@ task :setup_github_pages, :repo do |t, args|
 end
 
 def ok_failed(condition)
-  if (condition)
-    puts "OK"
-  else
-    puts "FAILED"
-  end
+  puts condition ? "OK" : "FAILED"
 end
 
 def get_stdin(message)
@@ -463,17 +459,21 @@ desc "Minify CSS/JS"
 task :minify => [:minify_css, :minify_js, :minify_html]
 
 desc "Generate and deploy website via s3_website"
-task :full_deploy => [:generate, :minify, :optimize_images, :s3] do
-  puts "Site deployed via S3"
+# task :full_deploy => [:generate, :minify, :optimize_images, :s3] do
+task :full_deploy => [:generate, :optimize_images, :minify, :push] do
+  puts "Site deployed via GitHub pages"
 end
 
 desc "Optimize images"
 task :optimize_images do
+  puts "optimizing images"
    Dir.chdir('source/images') do
      image_optim = ImageOptim.new(:pngout => false, :nice => 20)
-     image_optim.optimize_images!(Dir['*.*']) do |unoptimized, optimized|
+     image_optim.optimize_images!(Dir['*.*', '2013/*/**', '2014/*/**']) do |unoptimized, optimized|
        if optimized
          puts "optimized: #{unoptimized} => #{optimized}"
+       else
+        puts "did not optimize: #{unoptimized}"
        end
      end
    end
