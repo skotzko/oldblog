@@ -262,7 +262,6 @@ multitask :push do
   system "git add -A"
   message = "autoamtic commit during deploy at #{Time.now.utc}"
   system "git commit -m \"#{message}\""
-  puts "pushing!"
   system "git push"
   puts "## Deploying branch to Github Pages "
   puts "## Pulling any updates from Github Pages "
