@@ -233,6 +233,7 @@ task :deploy do
 
   Rake::Task[:copydot].invoke(source_dir, public_dir)
   Rake::Task["#{deploy_default}"].execute
+  Rake::Task[:notify].execute
 end
 
 desc "Generate website and deploy"
@@ -464,7 +465,7 @@ desc "Minify CSS/JS"
 task :minify => [:minify_css, :minify_js, :minify_html]
 
 desc "Generate and deploy website to github pages"
-task :full_deploy => [:generate, :optimize_images, :minify, :push] do
+task :full_deploy => [:generate, :optimize_images, :minify, :push, :notify] do
   puts "Site deployed via GitHub pages"
 end
 
