@@ -37,6 +37,7 @@ $hide-line-numbers: true;
 
 $border-radius-size: 4px;
 $border-style: 2px solid $secondary-text-color;
+$blockquote-border: 2px solid $accent-color;
 
 
 // ------------------------------
@@ -211,7 +212,7 @@ section {
 blockquote {
   @extend .block-padding;
   @extend .margin-bottom-large;
-  border-left: $border-style;
+  border-left: $blockquote-border;
   font-style: italic;
 
   p {
