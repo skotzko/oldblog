@@ -110,6 +110,12 @@ What could happen to advance food production, clean energy, water management, he
 
 Creativity, aided by infinite computing, is how we're going to solve the problems standing between us and the abundant future we need.
 
+> **What is "infinite computing"?**
+>
+> Infinite computing is the confluence of three trends: an exponential increase in available computing power; access to that power; and the precipitous fall in the cost of that power. Today, computing is the least expensive resource we can throw at a problem. And when one combines these trends with the scalability that we can now access via the cloud, we can deploy hundreds, even thousands, of computers to help solve the growing number of challenges we face as designers, engineers and artists.
+>
+> \- [Carl Bass, Wired Magazine interview](http://www.wired.co.uk/magazine/archive/2012/03/ideas-bank/weve-reached-infinity)
+
 But here's the kicker: the software of our future will not be written like the software of our past.
 
 The software of our future will be distributed, existing across a massive network of computers. It will be infinitely scalable on demand. It will react to data as needed and take the right actions, at the right time, in the right place.
