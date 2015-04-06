@@ -114,7 +114,7 @@ Creativity, aided by infinite computing, is how we're going to solve the problem
 >
 > Infinite computing is the confluence of three trends: an exponential increase in available computing power; access to that power; and the precipitous fall in the cost of that power. Today, computing is the least expensive resource we can throw at a problem. And when one combines these trends with the scalability that we can now access via the cloud, we can deploy hundreds, even thousands, of computers to help solve the growing number of challenges we face as designers, engineers and artists.
 >
-> \- [Carl Bass, Wired Magazine interview](http://www.wired.co.uk/magazine/archive/2012/03/ideas-bank/weve-reached-infinity)
+> \- [Carl Bass](https://twitter.com/carlbass), in [Wired Magazine](http://www.wired.co.uk/magazine/archive/2012/03/ideas-bank/weve-reached-infinity)
 
 But here's the kicker: the software of our future will not be written like the software of our past.
 
