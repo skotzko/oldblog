@@ -72,7 +72,7 @@ Imagine a world where people everywhere can collaborate and pool their ideas and
 
 Imagine a world of universal access to personalized education.
 
-Imagine the staggering capabilities of [the rising billion](http://www.washingtonpost.com/blogs/innovations/wp/2013/07/31/bill-gates-steve-jobs-and-the-rising-billion/) plugging into the global network and creating massive new markets and opportunities. ("The fastest way to become a billionaire? Help a billion people.")
+Imagine the staggering capabilities of [the rising billion](http://peterdiamandis.tumblr.com/post/115575716698/rising-billions-dramatic-positive-change) plugging into the global network and creating massive new markets and opportunities. ("The fastest way to become a billionaire? Help a billion people.")
 
 Imagine if the human race could benefit from the very best in all of us. Imagine if we could access and benefit from the full potential of every. single. person. What could be possible then?
 
