@@ -10,7 +10,7 @@ categories:
 ---
 {% img img-center /images/gun.png %}
 
-One of my earliest memories is a decrepit, dusty blue Toyota pickup truck lazily rolling past our house. It was June 1991, and my family lived in N’Djamena, Chad. I was five.
+One of my earliest memories is of a decrepit, dusty blue Toyota pickup truck lazily rolling past our house. It was June 1991, and my family lived in N’Djamena, Chad. I was five.
 
 The bed of this truck was spilling over with African men carrying rifles. I really wasn’t too sure what would happen when they hit one of the endless potholes in the roads there. Anyway, in the middle of the truck bed there was some sort of tower-like thing sticking up. Something tall and alien looking poking its head out above the gaggle of men in the back of the truck.
 
