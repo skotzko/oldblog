@@ -21,10 +21,7 @@ Onboard the redeye flight from Miami to Buenos Aires, my lack of Spanish was imm
 
 Fast-forward six weeks to arrive at one of the proudest moments of the trip: I sitting in a dark little cerveceria named Konna in Bariloche, in Northern Patagonia, drinking beer surrounded by native Spanish speakers. And having real conversations in Spanish. Conversations that went beyond what foods I had eaten, what I thought of the town, and where I was traveling from and to. A real conversation amongst friends in a bar, for 2 hours.
 
-This was what I'd been working my ass off for. <!-- more -->The crowning point
-of the night when one of the women at the table, my lovely Spanish teacher
-Mariela, said that my progress amazed her. After a comment about my love of
-mate, steak, and naps, she declared that I was _Argentino Argentino_. I beamed like a kid with his first trophy.
+<a name="morelink"></a>This was what I'd been working my ass off for.<!-- more --> The crowning point of the night when one of the women at the table, my lovely Spanish teacher Mariela, said that my progress amazed her. After a comment about my love of mate, steak, and naps, she declared that I was _Argentino Argentino_. I beamed like a kid with his first trophy.
 
 I wasn't fluent and my Spanish wasn't perfect, but that wasn't the point: I was having a blast, _actually speaking real Spanish with real Spanish speakers in a real conversation_. That is the point: the cultural experience and growth.
 

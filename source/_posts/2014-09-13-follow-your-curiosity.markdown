@@ -15,8 +15,8 @@ _NB: This is the first post in an ongoing, "good advice" series, where I pay for
 
 I've been feeling damn frustrated since I got back from South America. Since I returned, I've been exploring different technological landscapes, looking to see which area draws me in.
 
+<a name="morelink"></a>
 From May through July, I spent a lot of my time building crappy prototypes. And trying to come up with new ideas. And I didn't like any of them.
-
 <!-- more -->
 
 ## Organic interest

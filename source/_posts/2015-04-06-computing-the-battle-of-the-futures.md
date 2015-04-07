@@ -22,11 +22,11 @@ Then it hit me: The anti-aircraft gun wasn't pointed at the sky.
 
 The gun was mounted for use at street level.
 
+<a name="morelink"></a>
 That anti-aircraft gun, and that truck full of men, were on their way to kill people.
 
 I have never forgotten that.
-
- <!-- more -->
+<!-- more -->
 
 I spent years of my youth in Africa and Asia, and was evacuated from countries a few times due to civil unrest and armed conflict. From early on, I saw that the world could be a very harsh place.
 

@@ -4,13 +4,13 @@ title: " Introducing Petabridge and the future of open-source data in .NET"
 date: 2015-01-14 11:11:22 -0800
 comments: true
 published: true
-categories: 
+categories:
 - petabridge
 ---
 
 {% img img-center /images/interactive_data.jpg %}
 
-The future of computing is a massively-connected world where everyone and their mother has 3+ devices. That means data. Lots and lots of data. 
+The future of computing is a massively-connected world where everyone and their mother has 3+ devices. That means data. Lots and lots of data.
 
 [Early last year, I started deeply exploring distributed systems and large-scale data processing](http://andrewskotzko.com/follow-your-curiosity/). Since then, I’ve spent a lot of time thinking and discussing these forces and what to do about them with my longtime friend and fellow developer, [Aaron Stannard](http://www.aaronstannard.com/). We became very interested in how these ideas could be applied in the global [.NET ecosystem](https://en.wikipedia.org/wiki/.NET_Framework), which is the technical ecosystem that supports many of the world’s largest companies (major banks, the Fortune 500, etc).
 
@@ -20,7 +20,7 @@ So what is a creative developer in .NET-land to do, if she wants to learn how to
 
 There haven’t been very many good answers to that question. Until now.
 
-Over the last several months, Aaron and I have seen commercial interest in [Akka.NET](https://akkadotnet.github.io/) and [Helios](https://github.com/Aaronontheweb/helios) pick up dramatically. (Both of these projects are fundamental tools for doing high-performance distributed data processing in the .NET framework.) 
+Over the last several months, Aaron and I have seen commercial interest in [Akka.NET](https://akkadotnet.github.io/) and [Helios](https://github.com/Aaronontheweb/helios) pick up dramatically. (Both of these projects are fundamental tools for doing high-performance distributed data processing in the .NET framework.)
 
 And so…
 
@@ -32,13 +32,13 @@ I am pleased to announce that I am co-founding [Petabridge](http://twitter.com/p
 
 *Why am I doing this? I’ve always been obsessed with unlocking potential and empowering people in scalable ways, and I can think of no better way to do that than to help tens of thousands of developers around the world create more great stuff*.
 
-Writing great open-source software is hard. Really hard. It starts with individuals and is fundamentally community-driven. But open-source ecosystems also need corporate stewards to make them sustainable over the long-term. These stewards continually drive the platform forward when individual developers are focused on their own lives. [Cassandra](https://en.wikipedia.org/wiki/Apache_Cassandra) has [DataStax](http://datastax.com/), [Java](http://docs.oracle.com/javase/7/docs/technotes/guides/language/) has [Oracle](http://www.oracle.com/index.html), [Scala](http://www.scala-lang.org/) has [TypeSafe](http://typesafe.com/), and so on. 
+Writing great open-source software is hard. Really hard. It starts with individuals and is fundamentally community-driven. But open-source ecosystems also need corporate stewards to make them sustainable over the long-term. These stewards continually drive the platform forward when individual developers are focused on their own lives. [Cassandra](https://en.wikipedia.org/wiki/Apache_Cassandra) has [DataStax](http://datastax.com/), [Java](http://docs.oracle.com/javase/7/docs/technotes/guides/language/) has [Oracle](http://www.oracle.com/index.html), [Scala](http://www.scala-lang.org/) has [TypeSafe](http://typesafe.com/), and so on.
 
-The beating heart of [Petabridge](http://twitter.com/petabridge/) is open source software (OSS) and community contribution. We’re making it our goal to build a business around .NET open source projects like [Helios](https://github.com/Aaronontheweb/helios) and [Akka.NET](https://akkadotnet.github.io/), initially by offering training, support, and consulting services for companies who want to use them. 
+The beating heart of [Petabridge](http://twitter.com/petabridge/) is open source software (OSS) and community contribution. We’re making it our goal to build a business around .NET open source projects like [Helios](https://github.com/Aaronontheweb/helios) and [Akka.NET](https://akkadotnet.github.io/), initially by offering training, support, and consulting services for companies who want to use them.
 
-All along the way, we will be continually contributing work, tools, and knowledge back to the community under the appropriate OSS licenses to help more developers unlock their potential, and that of their ideas. 
+All along the way, we will be continually contributing work, tools, and knowledge back to the community under the appropriate OSS licenses to help more developers unlock their potential, and that of their ideas.
 
-We believe that [Akka.NET](https://akkadotnet.github.io/) and [Helios](https://github.com/Aaronontheweb/helios) have a larger role to play in the .NET ecosystem and will act as the foundation for more ambitious, distributed programming projects that haven’t even been invented yet. We’re noodling on several such designs ourselves. Both of these tools are foundational in doing distributed, realtime decision-making on large streams of data. For example, imagine having 50 tickets to a private Neil Diamond show to sell to 10,000 raving fans who are bidding at the same time—which bids win? How do you dynamically price it so that the tickets go to the highest bidders, and also not oversell tickets? Making the right decisions, in realtime, across many distributed parties is a difficult software problem, with major financial implications for the business.  <!-- more -->
+We believe that [Akka.NET](https://akkadotnet.github.io/) and [Helios](https://github.com/Aaronontheweb/helios) have a larger role to play in the .NET ecosystem and will act as the foundation for more ambitious, distributed programming projects that haven’t even been invented yet. We’re noodling on several such designs ourselves. Both of these tools are foundational in doing distributed, realtime decision-making on large streams of data. For example, imagine having 50 tickets to a private Neil Diamond show to sell to 10,000 raving fans who are bidding at the same time—which bids win? How do you dynamically price it so that the tickets go to the highest bidders, and also not oversell tickets? <a name="morelink"></a>Making the right decisions, in realtime, across many distributed parties is a difficult software problem, with major financial implications for the business.<!-- more -->
 
 I see a bright future ahead for .NET and its OSS ecosystem, but it needs companies like [Petabridge](http://twitter.com/petabridge/) to support the bigger projects and develop data platforms for the ecosystem. Writing open source code is one key element, but educating developers to use it is another – especially with something as mind-twisting as [the Actor model](https://en.wikipedia.org/wiki/Actor_model) used by [Akka.NET](https://akkadotnet.github.io/).
 
