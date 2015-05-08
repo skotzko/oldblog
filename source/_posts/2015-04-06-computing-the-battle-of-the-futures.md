@@ -143,6 +143,4 @@ What about an abundant world excites you? Leave a comment below and let's contin
 
 \###
 
-P.S. Here's a great little talk by [Dave Logan](https://twitter.com/davelogan1) on just how you go about rewriting your default future. Enjoy, and let me know what you think about it in the comments!
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4Z3r9dw_Jso" frameborder="0" allowfullscreen></iframe>
+P.S. [Here's a great little talk](https://www.youtube.com/watch?v=4Z3r9dw_Jso) by [Dave Logan](https://twitter.com/davelogan1) on just how you go about rewriting your default future. Enjoy, and let me know what you think about it in the comments!
