@@ -74,7 +74,7 @@ Imagine a world of universal access to personalized education.
 
 Imagine the staggering capabilities of [the rising billion](http://peterdiamandis.tumblr.com/post/115575716698/rising-billions-dramatic-positive-change) plugging into the global network and creating massive new markets and opportunities. ("The fastest way to become a billionaire? Help a billion people.")
 
-Imagine if the human race could benefit from the very best in all of us. Imagine if we could access and benefit from the full potential of every. single. person. What could be possible then?
+*Imagine if the human race could benefit from the very best in all of us.* Imagine if we could access and benefit from the full potential of every. single. person. What could be possible then?
 
 **This is the world I envision: a world where everyone has the chance to realize their potential**.
 
