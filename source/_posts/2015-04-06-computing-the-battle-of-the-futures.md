@@ -116,7 +116,8 @@ Creativity, aided by infinite computing, is how we're going to solve the problem
 >
 > \- [Carl Bass](https://twitter.com/carlbass), in [Wired Magazine](http://www.wired.co.uk/magazine/archive/2012/03/ideas-bank/weve-reached-infinity)
 
-But here's the kicker: the software of our future will not be written like the software of our past.
+#### The software of our future
+Here's the kicker: *the software of our future will not be written like the software of our past.*
 
 The software of our future will be distributed, existing across a massive network of computers. It will be infinitely scalable on demand. It will react to data as needed and take the right actions, at the right time, in the right place.
 
@@ -124,12 +125,14 @@ This infinite computing resource will be used by every scientist, every artist, 
 
 And that's why **I'm committed to making the power of distributed computing accessible to everyone, so more people are able to use this critical resource to invent our future**.
 
-I may not know much right now about solving problems in nanotechnology, clean water, energy production or other essential fields, but I can collaborate and create computing resources that help domain experts figure it out. (Coincidentally, this is why I started [Petabridge](http://petabridge.com) with [Aaron](http://twitter.com/aaronontheweb): to help software developers discover entirely new ways to take on audacious challenges.)
+I may not know much about solving problems in nanotechnology, clean water, energy production or other essential fields, but I can collaborate with domain experts who do and create computing resources for them to figure it out. (Coincidentally, this is why I started [Petabridge](http://petabridge.com) with [Aaron](http://twitter.com/aaronontheweb): to help software developers discover entirely new ways to take on audacious challenges.)
 
-### What can you do?
-If you're reading this on a modern laptop or smartphone in a first-world country, realize how lucky you already are. Compared to the rest of the world, regardless of how much money you make, you are in the 1%. Realize that you can rewrite your future, and our future.
+### What can you do today?
+First: If you're reading this on a modern laptop or smartphone in a first-world country, realize how lucky you already are. Compared to the rest of the world, regardless of how much money you make, you are in the 1%. 
 
-**Here are five ways you can help** create a world of abundance starting now. Pick one and go!
+Second: *Realize that you can rewrite your future, and in turn, our future.*
+
+Third: **Here are five ways you can help** create a world of abundance starting now. Pick one and run with it.
 
 1. No matter what you currently do, I implore you to [discover what matters to you](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action?language=en)
 2. Learn more about [what it will take to create a world of abundance](http://www.amazon.com/Abundance-Future-Better-Than-Think/dp/145161683X/)
