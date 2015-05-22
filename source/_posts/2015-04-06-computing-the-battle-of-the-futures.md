@@ -128,7 +128,7 @@ And that's why **I'm committed to making the power of distributed computing acce
 I may not know much about solving problems in nanotechnology, clean water, energy production or other essential fields, but I can collaborate with domain experts who do and create computing resources for them to figure it out. (Coincidentally, this is why I started [Petabridge](http://petabridge.com) with [Aaron](http://twitter.com/aaronontheweb): to help software developers discover entirely new ways to take on audacious challenges.)
 
 ### What can you do today?
-First: If you're reading this on a modern laptop or smartphone in a first-world country, realize how lucky you already are. Compared to the rest of the world, regardless of how much money you make, you are in the 1%. 
+First: If you're reading this on a modern laptop or smartphone in a first-world country, realize how lucky you already are. Compared to the rest of the world, regardless of how much money you make, you are in the 1%.
 
 Second: *Realize that you can rewrite your future, and in turn, our future.*
 

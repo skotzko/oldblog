@@ -22,11 +22,11 @@ subscribe_email:
 email:
 
 # github config
-gems:
-- jekyll-mentions
-- jemoji
-- jekyll-redirect-from
-- jekyll-sitemap
+# gems:
+# - jekyll-mentions
+# - jemoji
+# - jekyll-redirect-from
+# - jekyll-sitemap
 
 # ----------------------- #
 #    Jekyll & Plugins     #

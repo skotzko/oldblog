@@ -14,14 +14,16 @@ layout: null
     {% if site.email %}<email><![CDATA[{{ site.email }}]]></email>{% endif %}
   </author>
 
-  {% for post in site.posts limit: 20 %}
-  <entry>
-    <title type="html"><![CDATA[{% if site.titlecase %}{{ post.title | titlecase | cdata_escape }}{% else %}{{ post.title | cdata_escape }}{% endif %}]]></title>
-    <link href="{{ site.url }}{{ post.url }}"/>
-    <updated>{{ post.date | date_to_xmlschema }}</updated>
-    <id>{{ site.url }}{{ post.id }}</id>
-    <content type="html"><![CDATA[{{ post.content | remove_linenumbers | expand_urls: site.url | cdata_escape }}]]></content>
-    <category scheme="{{ site.url }}/categories/" term="{{ category | replace: ' ','-' | downcase }}" />
-  </entry>
+  {% for post in site.posts limit: 10 %}
+    {% unless post.no_rss %}
+      <entry>
+        <title type="html"><![CDATA[{% if site.titlecase %}{{ post.title | titlecase | cdata_escape }}{% else %}{{ post.title | cdata_escape }}{% endif %}]]></title>
+        <link href="{{ site.url }}{{ post.url }}"/>
+        <updated>{{ post.date | date_to_xmlschema }}</updated>
+        <id>{{ site.url }}{{ post.id }}</id>
+        <content type="html"><![CDATA[{{ post.content | remove_linenumbers | expand_urls: site.url | cdata_escape }}]]></content>
+        <category scheme="{{ site.url }}/categories/" term="{{ category | replace: ' ','-' | downcase }}" />
+      </entry>
+    {% endunless %}
   {% endfor %}
 </feed>
