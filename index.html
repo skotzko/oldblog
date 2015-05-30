@@ -20,7 +20,7 @@ keywords: github pages, Jekyll, foundation 5
     <div class="content">
       {% unless post.dont_truncate %}
         {% if post.content | size > 300 %}
-          <a class='button' href='{{post.url}}'>Read more</a>
+          <a class='button' href='{{ post.url }}#morelink'>Read more</a>
         {% endif %}
       {% endunless %}
     </div>

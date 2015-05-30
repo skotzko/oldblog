@@ -117,65 +117,65 @@
   </url>
   <url>
     <loc>https://andrewskotzko.com/</loc>
-    <lastmod>2015-05-30T10:13:19-07:00</lastmod>
+    <lastmod>2015-05-30T10:18:03-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://andrewskotzko.com/error/</loc>
-    <lastmod>2015-05-30T10:13:19-07:00</lastmod>
+    <lastmod>2015-05-30T10:18:03-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://andrewskotzko.com/about/</loc>
-    <lastmod>2015-05-30T10:13:19-07:00</lastmod>
+    <lastmod>2015-05-30T10:18:03-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://andrewskotzko.com/bower_components/modernizr/test/basic.html</loc>
-    <lastmod>2015-05-30T10:13:04-07:00</lastmod>
+    <lastmod>2015-05-30T10:15:54-07:00</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://andrewskotzko.com/bower_components/modernizr/test/caniuse.html</loc>
-    <lastmod>2015-05-30T10:13:04-07:00</lastmod>
+    <lastmod>2015-05-30T10:15:54-07:00</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://andrewskotzko.com/bower_components/modernizr/test/caniuse_files/form_validation.html</loc>
-    <lastmod>2015-05-30T10:13:04-07:00</lastmod>
+    <lastmod>2015-05-30T10:15:54-07:00</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://andrewskotzko.com/bower_components/modernizr/test/caniuse_files/hashchange.html</loc>
-    <lastmod>2015-05-30T10:13:04-07:00</lastmod>
+    <lastmod>2015-05-30T10:15:54-07:00</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://andrewskotzko.com/bower_components/modernizr/test/caniuse_files/mathml.html</loc>
-    <lastmod>2015-05-30T10:13:04-07:00</lastmod>
+    <lastmod>2015-05-30T10:15:54-07:00</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://andrewskotzko.com/bower_components/modernizr/test/caniuse_files/pushstate.html</loc>
-    <lastmod>2015-05-30T10:13:04-07:00</lastmod>
+    <lastmod>2015-05-30T10:15:54-07:00</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://andrewskotzko.com/bower_components/modernizr/test/caniuse_files/xhtml.html</loc>
-    <lastmod>2015-05-30T10:13:04-07:00</lastmod>
+    <lastmod>2015-05-30T10:15:54-07:00</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://andrewskotzko.com/bower_components/modernizr/test/index.html</loc>
-    <lastmod>2015-05-30T10:13:04-07:00</lastmod>
+    <lastmod>2015-05-30T10:15:54-07:00</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://andrewskotzko.com/bower_components/modernizr/test/js/basic.html</loc>
-    <lastmod>2015-05-30T10:13:04-07:00</lastmod>
+    <lastmod>2015-05-30T10:15:54-07:00</lastmod>
     <priority>0.6</priority>
   </url>
 </urlset>
