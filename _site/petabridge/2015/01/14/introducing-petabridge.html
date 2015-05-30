@@ -1,0 +1,197 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Introducing Petabridge and the future of open-source data in .NET - test config name</title>
+    <meta name="description" content=" Introducing Petabridge and the future of open-source data in .NET - test config name" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content=", " />
+
+    <!-- CSS  Get: http://www.google.com/fonts/
+    http://stackoverflow.com/questions/7985081/how-to-deploy-a-jekyll-site-locally-with-css-js-and-background-images-included
+    ================================================== -->
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700,800|Raleway:400,200,700" rel="stylesheet" type="text/css">
+    <!-- Fount Awesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Ah, the favicon.
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Open Graph: https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/
+    Twitter: https://dev.twitter.com/docs/cards/types/summary-card
+    ============================== -->
+    <meta property="og:title" content=" Introducing Petabridge and the future of open-source data in .NET"/>
+    <meta property="og:site_name" content=" - test config name"/>
+    <meta property="og:url" content=" - https://andrewskotzko.com"/>
+    <meta property="og:description" content=""/>
+    <meta property="og:image" content=""/>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@askotzko">
+    <meta name="twitter:title" content=" Introducing Petabridge and the future of open-source data in .NET">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
+  
+    <!-- modernizr
+    ================================================== -->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+  </head>
+  <body>
+
+<div class="off-canvas-wrap" data-offcanvas>
+  <div class="inner-wrap"> 
+    <!-- Add header and nav here  -->
+    
+        <!--[if lt IE 8]>
+            <div data-alert class="alert-box alert radius" class="browsehappy">Please <a href="http://browsehappy.com/">upgrade your browser</a>. <a href="#" class="close">&times;</a></div>
+        <![endif]-->
+
+    <header id="header" class="row">
+
+        <div class="small-12 columns">
+            <section class="right show-for-medium-up mam">
+                <ul class="inline-list">
+                    <li><a href="https://andrewskotzko.com">Home</a></li>
+<li><a href="page-html-unit-test.html">Unit test</a></li>
+<li><a href="page-foundation-example.html">Foundation</a></li>
+<li><a href="page-template-example.html">Template</a></li>
+                </ul>
+            </section>
+
+            <section class="right show-for-small">
+                <ul class="inline-list mam">
+                <li>
+                    <a class="right-off-canvas-toggle" href="#"><i class="fa fa-bars fa-lg">
+                    </i></a>
+                </li>
+                </ul>
+            </section>
+
+            <h1><a href="https://andrewskotzko.com">The Blog of Andrew Skotzko</a></h1>
+
+        </div>
+    </header>
+
+        <!-- Off Canvas Menu -->
+        <aside class="right-off-canvas-menu">
+            <!-- navigation list goes here -->
+            <ul class="off-canvas-list">
+               <li><a href="https://andrewskotzko.com">Home</a></li>
+<li><a href="page-html-unit-test.html">Unit test</a></li>
+<li><a href="page-foundation-example.html">Foundation</a></li>
+<li><a href="page-template-example.html">Template</a></li>
+            </ul>
+        </aside>
+
+
+        <div class="row">
+          <section role="main">
+            <div class="small-12 columns">
+        
+              <p><img class="center" src="/images/interactive_data.jpg" alt="" /></p>
+
+<p>The future of computing is a massively-connected world where everyone and their mother has 3+ devices. That means data. Lots and lots of data.</p>
+
+<p><a href="http://andrewskotzko.com/follow-your-curiosity/">Early last year, I started deeply exploring distributed systems and large-scale data processing</a>. Since then, I’ve spent a lot of time thinking and discussing these forces and what to do about them with my longtime friend and fellow developer, <a href="http://www.aaronstannard.com/">Aaron Stannard</a>. We became very interested in how these ideas could be applied in the global <a href="https://en.wikipedia.org/wiki/.NET_Framework">.NET ecosystem</a>, which is the technical ecosystem that supports many of the world’s largest companies (major banks, the Fortune 500, etc).</p>
+
+<p>There’s massive amounts of value locked up inside the minds of developers all over this ecosystem, and they haven’t had the tools to realize those ideas. Due to the <a href="http://news.microsoft.com/2014/11/12/microsoft-takes-net-open-source-and-cross-platform-adds-new-development-capabilities-with-visual-studio-2015-net-2015-and-visual-studio-online/">previously proprietary nature of the .NET ecosystem</a>, most solutions and knowledge have been siloed behind corporate firewalls, never shared with the larger community. The open-sourced tools, training and knowledge just aren’t there in this ecosystem, despite its financial wealth.</p>
+
+<p>So what is a creative developer in .NET-land to do, if she wants to learn how to build the distributed processing systems and scalable apps that are our technical future?</p>
+
+<p>There haven’t been very many good answers to that question. Until now.</p>
+
+<p>Over the last several months, Aaron and I have seen commercial interest in <a href="https://akkadotnet.github.io/">Akka.NET</a> and <a href="https://github.com/Aaronontheweb/helios">Helios</a> pick up dramatically. (Both of these projects are fundamental tools for doing high-performance distributed data processing in the .NET framework.)</p>
+
+<p>And so…</p>
+
+<h2 id="introducing-petabridge">Introducing Petabridge</h2>
+
+<p><a href="http://twitter.com/petabridge">
+<img class="right" src="/images/petabridge_logo.png" alt="" /></a></p>
+
+<p>I am pleased to announce that I am co-founding <a href="http://twitter.com/petabridge/">Petabridge</a> – a company dedicated to making distributed computing easy and accessible for .NET developers. My partner in crime is my friend and fellow fanatic, Aaron. (And yes, it’s sometimes confusing that we have the same initials.)</p>
+
+<p><em>Why am I doing this? I’ve always been obsessed with unlocking potential and empowering people in scalable ways, and I can think of no better way to do that than to help tens of thousands of developers around the world create more great stuff</em>.</p>
+
+<p>Writing great open-source software is hard. Really hard. It starts with individuals and is fundamentally community-driven. But open-source ecosystems also need corporate stewards to make them sustainable over the long-term. These stewards continually drive the platform forward when individual developers are focused on their own lives. <a href="https://en.wikipedia.org/wiki/Apache_Cassandra">Cassandra</a> has <a href="http://datastax.com/">DataStax</a>, <a href="http://docs.oracle.com/javase/7/docs/technotes/guides/language/">Java</a> has <a href="http://www.oracle.com/index.html">Oracle</a>, <a href="http://www.scala-lang.org/">Scala</a> has <a href="http://typesafe.com/">TypeSafe</a>, and so on.</p>
+
+<p>The beating heart of <a href="http://twitter.com/petabridge/">Petabridge</a> is open source software (OSS) and community contribution. We’re making it our goal to build a business around .NET open source projects like <a href="https://github.com/Aaronontheweb/helios">Helios</a> and <a href="https://akkadotnet.github.io/">Akka.NET</a>, initially by offering training, support, and consulting services for companies who want to use them.</p>
+
+<p>All along the way, we will be continually contributing work, tools, and knowledge back to the community under the appropriate OSS licenses to help more developers unlock their potential, and that of their ideas.</p>
+
+<p>We believe that <a href="https://akkadotnet.github.io/">Akka.NET</a> and <a href="https://github.com/Aaronontheweb/helios">Helios</a> have a larger role to play in the .NET ecosystem and will act as the foundation for more ambitious, distributed programming projects that haven’t even been invented yet. We’re noodling on several such designs ourselves. Both of these tools are foundational in doing distributed, realtime decision-making on large streams of data. For example, imagine having 50 tickets to a private Neil Diamond show to sell to 10,000 raving fans who are bidding at the same time—which bids win? How do you dynamically price it so that the tickets go to the highest bidders, and also not oversell tickets? <a name="morelink"></a>Making the right decisions, in realtime, across many distributed parties is a difficult software problem, with major financial implications for the business.<!-- more --></p>
+
+<p>I see a bright future ahead for .NET and its OSS ecosystem, but it needs companies like <a href="http://twitter.com/petabridge/">Petabridge</a> to support the bigger projects and develop data platforms for the ecosystem. Writing open source code is one key element, but educating developers to use it is another – especially with something as mind-twisting as <a href="https://en.wikipedia.org/wiki/Actor_model">the Actor model</a> used by <a href="https://akkadotnet.github.io/">Akka.NET</a>.</p>
+
+<h2 id="where-do-we-start">Where do we start?</h2>
+<p><img class="left" src="/images/akka_net_logo_only.png" alt="" /> So while we continue to contribute to the open-source development in this space, the first order of business is education. There are tens of thousands of developers around the globe who need to learn this material to unlock the value that’s tied up in their heads.</p>
+
+<p>The first thing <a href="http://twitter.com/petabridge/">Petabridge</a> will be offering is soup-to-nuts Akka.NET training – learn everything from how the Actor model works to how to deploy substantial Akka.NET applications in production. We’ll take you from 20 to 120 and get you ready to build and run scalable, distributed applications in .NET. We’re already building tools and products that will be released down the line, starting with several tools to make the development/testing process easier for distributed software.</p>
+
+<p>We’ll be offering free tutorials and webinars online covering everything from distributed computing fundamentals to Akka.NET—so <a href="http://petabridge.com">go to our website and sign up to receive updates about upcoming Akka.NET training and the latest tips and tricks that we share.</a></p>
+
+<p>And while I’m busy bossing you around, dear reader, I might as well go ahead and ask you to <a href="http://twitter.com/petabridge">go follow us on Twitter</a>.</p>
+
+<p>Onward!</p>
+
+<p class="photo-credit">(Photo credit: <a href="https://www.flickr.com/photos/inl/">Idaho National Laboratory</a>)</p>
+ 
+           
+            </div>
+          </section>
+        </div>
+        
+
+        <footer class="site-footer row" role="contentinfo">
+        <hr/>
+          <div class="large-12 columns">
+            <ul class="inline-list">
+                <li><a href="https://andrewskotzko.com">Home</a></li>
+<li><a href="page-html-unit-test.html">Unit test</a></li>
+<li><a href="page-foundation-example.html">Foundation</a></li>
+<li><a href="page-template-example.html">Template</a></li>
+            </ul>
+            <p class="quiet copyright right"> <a href="https://twitter.com/askotzko">
+                <i class="fa fa-twitter">
+                </i>
+             @askotzko</a>, <a href="https://github.com/skotzko/">
+                <i class="fa fa-github">
+                </i>
+             @skotzko</a> 2015.</p>
+          </div>
+        </footer>
+
+
+      <!-- close the off-canvas menu -->
+      <a class="exit-off-canvas"></a>
+
+      </div>
+    </div>
+
+
+    <!-- Loading JavaScripts
+    ================================================== -->
+    <!-- Zepto (http://zeptojs.com/) is great, but I am sticking with jQuery. Sorry! -->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="bower_components/jquery/jquery.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-30368898-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+
+  </body>
+</html>
