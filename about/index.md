@@ -10,7 +10,7 @@ title: About me
 * I'm a curious entrepreneur and believe we're either learning and growing, or dying
 * I'm passionate about using technology to help people connect, express their humanity, and unlock their own capabilities
 * I always keep asking questions, and try to share what I learn.
-* My favorite parable: ["Eat Me If You Wish"](http://www.andrewskotzko.com/eat-me-if-you-wish/)
+* My favorite parable: ["Eat Me If You Wish"](/eat-me-if-you-wish/)
 
 I want to be as creative as possible and always keep learning and growing.
 
