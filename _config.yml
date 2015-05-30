@@ -7,7 +7,7 @@ email : andrew@skotzko.com
 twitter : askotzko
 github : skotzko
 author : Andrew Skotzko
-analytics : UA-30368898-1
+analytics_id : UA-30368898-1
 year : 2015
 markdown : kramdown # use pygments instead?
 exclude :
