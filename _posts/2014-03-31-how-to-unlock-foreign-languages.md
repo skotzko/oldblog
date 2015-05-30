@@ -2,7 +2,6 @@
 author: Andrew Skotzko
 comments: true
 date: 2014-03-31 16:32:40+00:00
-layout: default
 slug: how-to-unlock-foreign-languages
 title: 'How to Unlock Foreign Languages: 11 Principles'
 categories:

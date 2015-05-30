@@ -1,8 +1,5 @@
 ---
-author: Andrew Skotzko
-comments: true
 date: 2013-05-03 18:47:11+00:00
-layout: default
 slug: nice-to-meet-you-again
 title: Nice to meet you, again
 categories:

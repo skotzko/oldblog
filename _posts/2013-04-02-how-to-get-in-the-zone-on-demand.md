@@ -1,8 +1,5 @@
 ---
-author: Andrew Skotzko
-comments: true
 date: 2013-04-02 19:02:39+00:00
-layout: default
 slug: how-to-get-in-the-zone-on-demand
 title: How to get in the zone, on demand
 categories:

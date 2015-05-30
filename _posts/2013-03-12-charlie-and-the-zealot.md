@@ -1,8 +1,5 @@
 ---
-author: Andrew Skotzko
-comments: true
 date: 2013-03-12 19:03:33+00:00
-layout: default
 slug: charlie-and-the-zealot
 title: Charlie and the zealot
 categories:

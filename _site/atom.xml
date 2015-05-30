@@ -4,7 +4,7 @@
   <title><![CDATA[]]></title>
   <link href="https://andrewskotzko.com/atom.xml" rel="self"/>
   <link href="https://andrewskotzko.com/"/>
-  <updated>2015-05-30T09:48:17-07:00</updated>
+  <updated>2015-05-30T10:11:38-07:00</updated>
   <id>https://andrewskotzko.com/</id>
   <author>
     <name><![CDATA[Andrew Skotzko]]></name>
@@ -15,9 +15,9 @@
     
       <entry>
         <title type="html"><![CDATA[Computing and the Battle of the Futures]]></title>
-        <link href="https://andrewskotzko.com/petabridge/abundance/distributed%20systems/2015/04/06/computing-the-battle-of-the-futures.html"/>
+        <link href="https://andrewskotzko.com/computing-the-battle-of-the-futures"/>
         <updated>2015-04-06T00:00:00-07:00</updated>
-        <id>https://andrewskotzko.com/petabridge/abundance/distributed%20systems/2015/04/06/computing-the-battle-of-the-futures</id>
+        <id>https://andrewskotzko.com/computing-the-battle-of-the-futures</id>
         <content type="html"><![CDATA[<p><img class="center" src="/images/gun.png" alt="" /></p>
 
 <p>One of my earliest memories is of a decrepit, dusty blue Toyota pickup truck lazily rolling past our house. It was June 1991, and my family lived in N’Djamena, Chad. I was five.</p>
@@ -173,9 +173,9 @@ That anti-aircraft gun, and that truck full of men, were on their way to kill pe
     
       <entry>
         <title type="html"><![CDATA[ Introducing Petabridge and the future of open-source data in .NET]]></title>
-        <link href="https://andrewskotzko.com/petabridge/2015/01/14/introducing-petabridge.html"/>
+        <link href="https://andrewskotzko.com/introducing-petabridge"/>
         <updated>2015-01-14T11:11:22-08:00</updated>
-        <id>https://andrewskotzko.com/petabridge/2015/01/14/introducing-petabridge</id>
+        <id>https://andrewskotzko.com/introducing-petabridge</id>
         <content type="html"><![CDATA[<p><img class="center" src="/images/interactive_data.jpg" alt="" /></p>
 
 <p>The future of computing is a massively-connected world where everyone and their mother has 3+ devices. That means data. Lots and lots of data.</p>
@@ -231,9 +231,9 @@ That anti-aircraft gun, and that truck full of men, were on their way to kill pe
     
       <entry>
         <title type="html"><![CDATA[Curiosity, and a walk through the desert]]></title>
-        <link href="https://andrewskotzko.com/advice/lessons/2014/09/13/follow-your-curiosity.html"/>
+        <link href="https://andrewskotzko.com/follow-your-curiosity"/>
         <updated>2014-09-13T20:25:28-07:00</updated>
-        <id>https://andrewskotzko.com/advice/lessons/2014/09/13/follow-your-curiosity</id>
+        <id>https://andrewskotzko.com/follow-your-curiosity</id>
         <content type="html"><![CDATA[<p><img class="center" src="/images/desert_walk.jpg" alt="" /></p>
 
 <p><em>NB: This is the first post in an ongoing, “good advice” series, where I pay forward the advice I’ve received which has made or is making a real difference for me.</em></p>
@@ -302,9 +302,9 @@ From May through July, I spent a lot of my time building crappy prototypes. And 
     
       <entry>
         <title type="html"><![CDATA[How to Email Notes & Ideas Into Scrivener]]></title>
-        <link href="https://andrewskotzko.com/tools/writing/2014/08/21/how-to-email-notes-or-ideas-into-scrivener.html"/>
+        <link href="https://andrewskotzko.com/how-to-email-notes-or-ideas-into-scrivener"/>
         <updated>2014-08-21T13:54:14-07:00</updated>
-        <id>https://andrewskotzko.com/tools/writing/2014/08/21/how-to-email-notes-or-ideas-into-scrivener</id>
+        <id>https://andrewskotzko.com/how-to-email-notes-or-ideas-into-scrivener</id>
         <content type="html"><![CDATA[<p>Over the last several months, I’d fallen off the wagon writing-wise due to very heavy client workloads. I’m finally getting back into it after wrapping up a project. Given the restart, I got to wondering about my writing workflow and which tools I use.</p>
 
 <p>In whatever I do (coding, writing, etc) I’m always concerned with tools and establishing a good workflow and rhythm. For me, that means mobility and cross-platform access to what I’m working on. I want my data stored in the cloud so it isn’t tied to any one physical device or location, and so it’s properly backed up off-premises. This protects my work from accidents (or stupidity) well, and gives me flexibility about when, where and how I do my work. I appreciate that.</p>
@@ -389,9 +389,9 @@ line.</p>
     
       <entry>
         <title type="html"><![CDATA[How to Unlock Foreign Languages: 11 Principles]]></title>
-        <link href="https://andrewskotzko.com/languages/learning/2014/03/31/how-to-unlock-foreign-languages.html"/>
+        <link href="https://andrewskotzko.com/how-to-unlock-foreign-languages"/>
         <updated>2014-03-31T09:32:40-07:00</updated>
-        <id>https://andrewskotzko.com/languages/learning/2014/03/31/how-to-unlock-foreign-languages</id>
+        <id>https://andrewskotzko.com/how-to-unlock-foreign-languages</id>
         <content type="html"><![CDATA[<p><img class="center" src="/images/2014/03/Buenos_Aires_Japanese_Garden-300x300.jpg" />&lt;/img&gt;</p>
 
 <p><em><strong>Heads up</strong>: This a long, detailed post (~6,400 words) so you might want to read it somewhere comfy. You can get the gist by skimming the headings and sequence lists, and then diving into the specific sections as you see fit. Be sure to check out the FAQ and resource links/downloads at the end. Skim read time: 5 minutes. Full read time: 32 minutes.</em></p>
@@ -765,9 +765,9 @@ This is an extension of Do Not Translate. As soon as you possibly can (that is, 
     
       <entry>
         <title type="html"><![CDATA[Permission to fall]]></title>
-        <link href="https://andrewskotzko.com/lessons/2014/02/20/permission-to-fall.html"/>
+        <link href="https://andrewskotzko.com/permission-to-fall"/>
         <updated>2014-02-20T06:45:19-08:00</updated>
-        <id>https://andrewskotzko.com/lessons/2014/02/20/permission-to-fall</id>
+        <id>https://andrewskotzko.com/permission-to-fall</id>
         <content type="html"><![CDATA[<p><img class="center" src="/images/2014/02/falling.jpg" alt="" /></p>
 
 <blockquote>
@@ -832,9 +832,9 @@ This is an extension of Do Not Translate. As soon as you possibly can (that is, 
     
       <entry>
         <title type="html"><![CDATA[Analog hearts in a digital world]]></title>
-        <link href="https://andrewskotzko.com/productivity/psychology/2014/02/15/analog-hearts-in-a-digital-world.html"/>
+        <link href="https://andrewskotzko.com/analog-hearts-in-a-digital-world"/>
         <updated>2014-02-15T05:16:49-08:00</updated>
-        <id>https://andrewskotzko.com/productivity/psychology/2014/02/15/analog-hearts-in-a-digital-world</id>
+        <id>https://andrewskotzko.com/analog-hearts-in-a-digital-world</id>
         <content type="html"><![CDATA[<p><img class="center" src="/images/2014/02/digital_heart-300x289.jpg" alt="" />
 If there’s ever a time of year when we want to feel human connection, it’s around Valentine’s Day. And connection requires vulnerability and honesty, experiencing the world through another’s eyes.</p>
 
@@ -858,9 +858,9 @@ If there’s ever a time of year when we want to feel human connection, it’s a
     
       <entry>
         <title type="html"><![CDATA[13 lessons for my niece]]></title>
-        <link href="https://andrewskotzko.com/lessons/2014/01/27/thirteen-lessons-for-my-future-niece-or-nephew.html"/>
+        <link href="https://andrewskotzko.com/thirteen-lessons-for-my-future-niece-or-nephew"/>
         <updated>2014-01-27T10:40:36-08:00</updated>
-        <id>https://andrewskotzko.com/lessons/2014/01/27/thirteen-lessons-for-my-future-niece-or-nephew</id>
+        <id>https://andrewskotzko.com/thirteen-lessons-for-my-future-niece-or-nephew</id>
         <content type="html"><![CDATA[<p>After a long day in transit, I wanted to share a note of lessons I wrote in hopes that my future niece learns them earlier than I did:</p>
 
 <ol>
@@ -889,9 +889,9 @@ Uncle Andrew</p>
     
       <entry>
         <title type="html"><![CDATA[The results are in: experiment #1 tanked]]></title>
-        <link href="https://andrewskotzko.com/experiments/self-tracking/2013/08/27/the-results-are-in-experiment-1-tanked.html"/>
+        <link href="https://andrewskotzko.com/the-results-are-in-experiment-1-tanked"/>
         <updated>2013-08-27T11:23:44-07:00</updated>
-        <id>https://andrewskotzko.com/experiments/self-tracking/2013/08/27/the-results-are-in-experiment-1-tanked</id>
+        <id>https://andrewskotzko.com/the-results-are-in-experiment-1-tanked</id>
         <content type="html"><![CDATA[<p>Nobody likes to start something with a failure.</p>
 
 <p>Especially a public something.</p>
@@ -899,7 +899,6 @@ Uncle Andrew</p>
 <p>I just did that.</p>
 
 <h2 id="what-happened">What happened?</h2>
-
 <p>A few months ago, I announced that I was going to begin publishing my ongoing experiments. In <a href="http://www.andrewskotzko.com/2013/06/25/announcing-personal-experiments/">experiment 1</a>, I hoped to make some physical changes and feel better, have more energy, etc. The plan was to workout and quantify my progress both inside and outside my body.</p>
 
 <p>It was a good idea, a good intention, and decently planned out. But it was too much, too soon.</p>
@@ -909,7 +908,6 @@ Uncle Andrew</p>
 <p>I’m declaring Experiment 1 a failure because I was not able to finish the experiment and fell off the wagon.</p>
 
 <h2 id="what-i-learned">What I learned</h2>
-
 <p>Here is a link to the <a href="https://docs.google.com/spreadsheet/ccc?key=0ApBq5nqLSn9MdDBIdFdrZGZzQUY0UzFBUVh5emtSOWc&amp;usp=sharing">spreadsheet where I was tracking everything</a>.</p>
 
 <p>Looking over those documents, a few things are clear: I was more consistent at doing the workouts than I was at tracking it all. In fact, I found the tracking aspect exhausting due to how manual everything was. I kept doing the workouts and diet for over a month but quit all the tracking after about 2 full weeks. Automation of data collection and aggregation is going to be essential for future efforts in this space.</p>
@@ -921,21 +919,11 @@ Uncle Andrew</p>
 <!-- more -->
 
 <ul>
-  <li>
-    <p>I am strongly reminded to start new projects small and let them progress incrementally, rather than trying to force a new effort to be fully matured immediately.</p>
-  </li>
-  <li>
-    <p>I was interested in using the project as a hands-on way to learn more about the practical applications and challenges of the <a href="http://quantifiedself.com/">Quantified Self (QS) movement</a>. The punchline: there is massive value to be derived from collecting and implementing personal analytics, but it won’t take off until it is much easier than it is today. Automation is critical and probably a necessary component to realize the promise of QS.</p>
-  </li>
-  <li>
-    <p>Everyone wants to be more awesome. Although QS and self-experimentation can involve private areas of our lives, people are fundamentally interested in exploring this field and using it to improve their lives. I had more in-person conversations about this experiment than almost any of my previous ones (which were not written up publicly).</p>
-  </li>
-  <li>
-    <p>I must be wary of my OCD tendencies around data and research, and never allow augmentation / secondary efforts (e.g. extensive logging) to overwhelm the real work (working out consistently).</p>
-  </li>
-  <li>
-    <p>I now think that the key to making any big change is to make incremental small changes, such that the “new thing” isn’t some new external thing at all, but gradually just becomes part of who I am. After all, it’s easy and natural to do things that are “just who we are” without needing extra motivation. The trick is to hack that process with small changes that become habits and add up.</p>
-  </li>
+  <li>I am strongly reminded to start new projects small and let them progress incrementally, rather than trying to force a new effort to be fully matured immediately.</li>
+  <li>I was interested in using the project as a hands-on way to learn more about the practical applications and challenges of the <a href="http://quantifiedself.com/">Quantified Self (QS) movement</a>. The punchline: there is massive value to be derived from collecting and implementing personal analytics, but it won’t take off until it is much easier than it is today. Automation is critical and probably a necessary component to realize the promise of QS.</li>
+  <li>Everyone wants to be more awesome. Although QS and self-experimentation can involve private areas of our lives, people are fundamentally interested in exploring this field and using it to improve their lives. I had more in-person conversations about this experiment than almost any of my previous ones (which were not written up publicly).</li>
+  <li>I must be wary of my OCD tendencies around data and research, and never allow augmentation / secondary efforts (e.g. extensive logging) to overwhelm the real work (working out consistently).</li>
+  <li>I now think that the key to making any big change is to make incremental small changes, such that the “new thing” isn’t some new external thing at all, but gradually just becomes part of who I am. After all, it’s easy and natural to do things that are “just who we are” without needing extra motivation. The trick is to hack that process with small changes that become habits and add up.</li>
 </ul>
 
 <p>At some point in the future, I’ll re-approach this experiment in a more incremental fashion rather than trying to boil the ocean. That will also have the added benefit of isolating the variables which is a better approach to data-driven experimentation anyway.</p>
@@ -949,9 +937,9 @@ Uncle Andrew</p>
     
       <entry>
         <title type="html"><![CDATA[Do I need a makeover?]]></title>
-        <link href="https://andrewskotzko.com/experiments/self-tracking/2013/06/25/do-i-need-a-makeover.html"/>
+        <link href="https://andrewskotzko.com/do-i-need-a-makeover"/>
         <updated>2013-06-25T11:27:06-07:00</updated>
-        <id>https://andrewskotzko.com/experiments/self-tracking/2013/06/25/do-i-need-a-makeover</id>
+        <id>https://andrewskotzko.com/do-i-need-a-makeover</id>
         <content type="html"><![CDATA[<p>Over the last three or four months, I’ve noticed my energy levels decreasing and it has freaked me out a little bit. It’s not that I have felt bad; I’ve just felt less and less <em>good</em>. I also noticed that my drive at work and sex drive were lower than they had been in the past, and having just turned 27 last week, that shouldn’t be the case.</p>
 
 <p><strong>WTF?</strong></p>

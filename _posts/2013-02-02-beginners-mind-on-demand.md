@@ -1,11 +1,7 @@
 ---
-author: Andrew Skotzko
-comments: true
 date: 2013-02-02 20:25:21+00:00
-layout: default
 slug: beginners-mind-on-demand
 title: Beginner's mind, on demand
-wordpress_id: 68
 categories:
 - Creativity
 - Habits

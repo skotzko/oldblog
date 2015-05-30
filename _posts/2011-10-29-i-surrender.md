@@ -1,8 +1,5 @@
 ---
-author: Andrew Skotzko
-comments: true
 date: 2011-10-29 19:15:26+00:00
-layout: default
 slug: i-surrender
 title: I surrender
 categories:

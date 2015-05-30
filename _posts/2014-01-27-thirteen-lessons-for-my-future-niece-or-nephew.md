@@ -2,7 +2,6 @@
 author: Andrew Skotzko
 comments: true
 date: 2014-01-27 18:40:36+00:00
-layout: default
 slug: thirteen-lessons-for-my-future-niece-or-nephew
 title: 13 lessons for my niece
 categories:

@@ -1,8 +1,5 @@
 ---
-author: andrews
-comments: true
 date: 2013-06-25 18:27:06+00:00
-layout: default
 slug: do-i-need-a-makeover
 title: Do I need a makeover?
 wordpress_id: 27

@@ -1,8 +1,5 @@
 ---
-author: Andrew Skotzko
-comments: true
 date: 2013-02-26 20:38:44+00:00
-layout: default
 slug: buddha-on-the-court-the-art-of-the-inner-game-part-1
 title: 'Buddha on the court: the art of the inner game (part 1)'
 categories:

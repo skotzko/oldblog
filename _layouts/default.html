@@ -8,6 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords" content="{{ page.keywords }}, {{ site.keywords }}" />
 
+    {% if page.block_search_engines %}
+    <meta name="robots" content="noindex, follow" />
+    <meta name="googlebot" content="noindex, follow" />
+    {% endif %}
+
     <!-- CSS  Get: http://www.google.com/fonts/
     http://stackoverflow.com/questions/7985081/how-to-deploy-a-jekyll-site-locally-with-css-js-and-background-images-included
     ================================================== -->
@@ -15,11 +20,13 @@
     <!-- Fount Awesome -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
 
     <!-- Ah, the favicon.
     ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/images/favicon.ico"/>
 
     <!-- Open Graph: https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/
     Twitter: https://dev.twitter.com/docs/cards/types/summary-card
@@ -34,17 +41,17 @@
     <meta name="twitter:title" content="{{ page.title }}">
     <meta name="twitter:description" content="{{ page.description }}">
     <meta name="twitter:image" content="{{ page.imageurl }}">
-  
+
     <!-- modernizr
     ================================================== -->
-    <script src="bower_components/modernizr/modernizr.js"></script>
+    <script src="/bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
 
 <div class="off-canvas-wrap" data-offcanvas>
-  <div class="inner-wrap"> 
+  <div class="inner-wrap">
     <!-- Add header and nav here  -->
-    
+
         <!--[if lt IE 8]>
             <div data-alert class="alert-box alert radius" class="browsehappy">Please <a href="http://browsehappy.com/">upgrade your browser</a>. <a href="#" class="close">&times;</a></div>
         <![endif]-->
@@ -67,7 +74,7 @@
                 </ul>
             </section>
 
-            <h1><a href="{{ site.url }}">{{ site.brand }}</a></h1>
+            <h1><a href="/">{{ site.brand }}</a></h1>
 
         </div>
     </header>
@@ -84,13 +91,13 @@
         <div class="row">
           <section role="main">
             <div class="small-12 columns">
-        
-              {{ content }} 
-           
+
+              {{ content }}
+
             </div>
           </section>
         </div>
-        
+
 
         <footer class="site-footer row" role="contentinfo">
         <hr/>
@@ -122,9 +129,9 @@
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="bower_components/jquery/jquery.js"><\/script>')</script>
-    <script src="js/plugins.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="/js/plugins.js"></script>
+    <script src="/bower_components/foundation/js/foundation.min.js"></script>
+    <script src="/js/script.js"></script>
 
     <!-- Google Analytics -->
     <script>

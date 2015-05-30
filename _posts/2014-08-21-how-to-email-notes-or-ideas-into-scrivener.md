@@ -2,7 +2,6 @@
 author: Andrew Skotzko
 comments: true
 date: 2014-08-21 20:54:14+00:00
-layout: default
 slug: how-to-email-notes-or-ideas-into-scrivener
 title: How to Email Notes & Ideas Into Scrivener
 wordpress_id: 242

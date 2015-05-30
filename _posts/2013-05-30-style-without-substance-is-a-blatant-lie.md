@@ -1,8 +1,5 @@
 ---
-author: Andrew Skotzko
-comments: true
 date: 2013-05-30 18:39:53+00:00
-layout: default
 slug: style-without-substance-is-a-blatant-lie
 title: Style without substance is a blatant lie
 categories:

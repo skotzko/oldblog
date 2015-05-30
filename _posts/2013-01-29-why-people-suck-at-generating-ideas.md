@@ -1,8 +1,5 @@
 ---
-author: Andrew Skotzko
-comments: true
 date: 2013-01-29 20:24:10+00:00
-layout: default
 slug: why-people-suck-at-generating-ideas
 title: Why people suck at generating ideas
 categories:

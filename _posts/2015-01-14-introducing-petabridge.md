@@ -1,5 +1,4 @@
 ---
-layout: default
 title: " Introducing Petabridge and the future of open-source data in .NET"
 date: 2015-01-14 11:11:22 -0800
 comments: true

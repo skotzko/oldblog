@@ -2,7 +2,6 @@
 author: Andrew Skotzko
 comments: true
 date: 2014-02-15 13:16:49+00:00
-layout: default
 slug: analog-hearts-in-a-digital-world
 title: Analog hearts in a digital world
 categories:

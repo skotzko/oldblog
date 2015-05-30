@@ -1,8 +1,5 @@
 ---
-author: Andrew Skotzko
-comments: true
 date: 2012-08-29 19:19:44+00:00
-layout: default
 slug: mercenaries
 title: Mercenaries
 categories:

@@ -1,8 +1,5 @@
 ---
-author: Andrew Skotzko
-comments: true
 date: 2012-02-05 20:16:32+00:00
-layout: default
 slug: my-name-is-andrew-and-im-a-hoarder
 title: My name is Andrew, and I'm a hoarder
 categories:

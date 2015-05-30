@@ -1,5 +1,4 @@
 ---
-layout: default
 title: "Curiosity, and a walk through the desert"
 slug: "follow-your-curiosity-2"
 date: 2014-09-13 20:25:28 -0700

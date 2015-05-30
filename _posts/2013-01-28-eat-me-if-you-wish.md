@@ -1,9 +1,6 @@
 ---
-author: Andrew Skotzko
-comments: true
 date: 2013-01-28 20:23:20+00:00
-layout: default
-slug: eat-me-if-you-wish
+
 title: Eat me if you wish
 categories:
 - Philosophy

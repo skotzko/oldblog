@@ -1,7 +1,5 @@
 ---
-layout: default
 title: "Computing and the Battle of the Futures"
-comments: true
 published: true
 categories:
 - petabridge

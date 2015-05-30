@@ -1,8 +1,5 @@
 ---
-author: Andrew Skotzko
-comments: true
 date: 2013-05-21 18:43:58+00:00
-layout: default
 slug: have-you-gotten-too-comfortable
 title: Have you gotten too comfortable?
 categories:
