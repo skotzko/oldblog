@@ -1,6 +1,6 @@
-name : test config name
+name : The Blog of Andrew Skotzko
 brand : The Blog of Andrew Skotzko
-description : This is the description of my site
+description :
 keyword :
 url : https://andrewskotzko.com
 email : andrew@skotzko.com
@@ -21,6 +21,7 @@ defaults:
     values:
       layout: "default"
       author: "Andrew Skotzko"
+      author_url: "https://twitter.com/askotzko"
       comments: true
 
 # simple_search: https://www.google.com/search

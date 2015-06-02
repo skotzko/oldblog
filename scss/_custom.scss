@@ -6,6 +6,10 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
+html {
+  border-top: 8px solid $primary-color;
+}
+
 //helper for font weight
 //Open+Sans:400,700,800|Raleway:400,200,700
 .font-light {
@@ -20,3 +24,26 @@ h1, h2, h3, h4, h5, h6 {
 .font-heavy {
 	font-weight: 800;
 }
+
+// CUSTOM
+*, *:before, *:after {
+  -webkit-box-sizing: border-box!important;
+     -moz-box-sizing: border-box!important;
+          box-sizing: border-box!important;
+}
+
+// blockquote {
+//   border-left: 2px solid $primary-color;
+// }
+
+header h1, header h1 a {color: $black;}
+
+a {
+  -webkit-transition: color .3s ease;
+     -moz-transition: color .3s ease;
+      -ms-transition: color .3s ease;
+       -o-transition: color .3s ease;
+          transition: color .3s ease;
+}
+
+@import "post";

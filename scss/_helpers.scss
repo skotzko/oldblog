@@ -1,0 +1,105 @@
+// HELPERS
+// .text-center {text-align: center!important;}
+// .text-left {text-align: left!important;}
+// .text-right {text-align: right!important;}
+.text-bold {font-weight: bold!important;}
+.text-underline {text-decoration: underline!important;}
+.text-italic {font-style: italic!important;}
+.text-red {color: red!important;}
+.text-upper {text-transform: uppercase!important;}
+.text-lower {text-transform: lowercase!important;}
+.text-strike {text-decoration: line-through!important;}
+.bg-shadow {
+  &.dark {background-color: rgba(0, 0, 0, 0.3);}
+  &.light {background-color: rgba(255, 255, 255, 0.2);}
+  h2 {background-color: transparent!important;}
+}
+.round-corners {border-radius: 10px;}
+
+.no-padding {
+  padding: 0px!important;
+  *:not(.button) {padding: 0px!important}
+}
+
+// .left {float: left!important;}
+// .right {float: right!important;}
+
+.center {
+  float: none;
+  margin: 0 auto;
+  display: block;
+}
+
+.img-center {
+  display: block;
+  margin: 0 auto;
+}
+
+.img-left {
+  display: block;
+  float: left!important;
+  margin: 25px;
+}
+
+.img-right {
+  display: block;
+  float: right!important;
+  margin: 25px;
+}
+
+.hidden {display: none!important;}
+.hide-for-small {display: inherit!important;}
+
+a.button.hide-for-small {
+  display: inline-block!important;
+  vertical-align: top;
+  zoom: 1; /* Fix for IE7 */
+  *display: inline; /* Fix for IE7 */
+}
+.show-for-small {display: none!important;}
+
+.block {
+  display: block!important;
+}
+
+.inline-block {
+  display: inline-block!important;
+  vertical-align: top;
+  zoom: 1; /* Fix for IE7 */
+  *display: inline; /* Fix for IE7 */
+}
+
+.clearfix:before,
+.clearfix:after {
+  content:"";
+  display:table;
+}
+.clearfix:after {
+  clear:both;
+}
+.clearfix {
+  zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+h1, h2, h3, h4 {
+  text-transform: uppercase;
+}
+
+.post h1 {text-transform: initial;}
+
+.post h1, h2, h3, h4, h5, h6 {
+  // color: black;
+  // &:hover {color: $primary-color;}
+
+  a {
+    color: black;
+    &:hover {
+      color: $primary-color;
+      -webkit-transition: all .25s ease;
+         -moz-transition: all .25s ease;
+          -ms-transition: all .25s ease;
+           -o-transition: all .25s ease;
+              transition: all .25s ease;
+    }
+  }
+}
