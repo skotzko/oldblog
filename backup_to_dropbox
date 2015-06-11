@@ -1,0 +1,10 @@
+#!/bin/bash
+# echo Running $BASH_SOURCE
+# set | egrep GIT
+# echo PWD is $PWD
+
+# ensure on master before publishing
+if [ `git rev-parse --abbrev-ref HEAD` == "master" ]; then
+   # archive entire blog to Dropbox
+   git archive -o ~/Dropbox/Writing/Blog/blog-backup.zip HEAD
+fi
