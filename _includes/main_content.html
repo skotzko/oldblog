@@ -1,0 +1,12 @@
+<div class="row">
+    <section role="main">
+        <div class="small-12 columns">
+            {{ content }}
+
+            {% if site.disqus_short_name and page.comments %}
+              {% include scripts/disqus.html %}
+            {% endif %}
+
+        </div>
+    </section>
+</div>
