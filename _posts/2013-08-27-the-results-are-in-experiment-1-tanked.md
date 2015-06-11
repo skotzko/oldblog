@@ -3,19 +3,18 @@ author: Andrew Skotzko
 comments: true
 date: 2013-08-27 18:23:44+00:00
 slug: the-results-are-in-experiment-1-tanked
-title: 'The results are in: experiment #1 tanked'
+title: "The Results Are In: Experiment #1 Tanked"
 categories:
 - Experiments
 - Self-Tracking
 ---
-
 Nobody likes to start something with a failure.
 
 Especially a public something.
 
 I just did that.
 
-## What happened?
+## What Happened?
 A few months ago, I announced that I was going to begin publishing my ongoing experiments. In [experiment 1](http://www.andrewskotzko.com/2013/06/25/announcing-personal-experiments/), I hoped to make some physical changes and feel better, have more energy, etc. The plan was to workout and quantify my progress both inside and outside my body.
 
 It was a good idea, a good intention, and decently planned out. But it was too much, too soon.
@@ -24,7 +23,7 @@ I was trying to do everything all at once. I was working out intensely, at least
 
 I'm declaring Experiment 1 a failure because I was not able to finish the experiment and fell off the wagon.
 
-## What I learned
+## What I Learned
 Here is a link to the [spreadsheet where I was tracking everything](https://docs.google.com/spreadsheet/ccc?key=0ApBq5nqLSn9MdDBIdFdrZGZzQUY0UzFBUVh5emtSOWc&usp=sharing).
 
 Looking over those documents, a few things are clear: I was more consistent at doing the workouts than I was at tracking it all. In fact, I found the tracking aspect exhausting due to how manual everything was. I kept doing the workouts and diet for over a month but quit all the tracking after about 2 full weeks. Automation of data collection and aggregation is going to be essential for future efforts in this space.

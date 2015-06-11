@@ -1,7 +1,7 @@
 ---
 date: 2013-03-12 19:03:33+00:00
 slug: charlie-and-the-zealot
-title: Charlie and the zealot
+title: Charlie and the Zealot
 categories:
 - Mental Performance
 ---

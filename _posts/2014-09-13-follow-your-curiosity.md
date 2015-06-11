@@ -1,6 +1,6 @@
 ---
-title: "Curiosity, and a walk through the desert"
-slug: "follow-your-curiosity-2"
+title: Curiosity, and a Walk Through the Desert
+slug: follow-your-curiosity
 date: 2014-09-13 20:25:28 -0700
 comments: true
 published: true
@@ -18,7 +18,7 @@ I've been feeling damn frustrated since I got back from South America. Since I r
 From May through July, I spent a lot of my time building crappy prototypes. And trying to come up with new ideas. And I didn't like any of them.
 <!-- more -->
 
-## Organic interest
+## Organic Interest
 Either the ideas were just plain bad, or weren't sustainably interesting to me. There were quite a few that would work and make somebody a lot of money, but not me—I was just the wrong person to deliver on that idea. I mean, if I couldn't get myself interested in working on something for more than two weeks, how could I possibly build it into something real and interesting for other people? Nonstarter.
 
 There has to be a basis of organic interest.
@@ -54,7 +54,7 @@ These were use cases such as:
 
 These are somewhat prosaic on the surface, but actually fascinating in terms of how these results are accomplished. I'm hooked—this big data stuff is thrilling.
 
-## New ground
+## New Ground
 The ridiculous quantities of data we are generating every day are beyond anything we've ever encountered in human history. The volume, velocity, and variety of the data we're generating is so extreme that the tools to handle it are literally being invented as we go.
 
 And I believe in this data. I believe in the latent power in data to make the world a better place and to give people delight and value and help in ways that we can't even imagine yet.
