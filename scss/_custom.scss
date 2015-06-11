@@ -137,7 +137,6 @@ $email-input-height: 60px;
 
   input[type="submit"] {
     @extend .email-input-style;
-    height: $email-input-height + 5px;
     width: 33%;
     padding: 1px;
     text-transform: uppercase;
