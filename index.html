@@ -1,5 +1,4 @@
 ---
-title: Home
 comments: false
 ---
 
@@ -18,7 +17,7 @@ comments: false
     <div class="content">
       {% unless post.dont_truncate %}
         {% if post.content | size > 300 %}
-          <a class='button' href='{{ post.url }}#morelink'>Read more</a>
+          <a class='button morelink' href='{{ post.url }}#morelink'>Read more &rarr;</a>
         {% endif %}
       {% endunless %}
     </div>

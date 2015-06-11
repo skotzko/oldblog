@@ -11,6 +11,18 @@ html {
   border-top: 8px solid $primary-color;
 }
 
+.round-corners {
+  border-radius: 7px;
+}
+
+a.morelink {
+  display: block;
+  width: 35%;
+  margin: 0 auto;
+  font-size: 20px;
+  border-radius: 7px;
+}
+
 //helper for font weight
 //Open+Sans:400,700,800|Raleway:400,200,700
 .font-light {
@@ -37,8 +49,6 @@ html {
 //   border-left: 2px solid $primary-color;
 // }
 
-header h1, header h1 a {color: $black;}
-
 a {
   -webkit-transition: color .3s ease;
      -moz-transition: color .3s ease;
@@ -48,9 +58,25 @@ a {
 }
 
 header {
-  h1 {
+  h1.title {
     font-size: 22px;
     text-align: center;
+    margin-top: 15px;
+    color: $oil;
+
+    a {
+      color: $oil;
+    }
+  }
+
+  .nav {
+    border-top: 2px solid #aaa;
+
+    li {
+      font-size: 18px;
+      margin-right: 10px;
+      font-family: 'Fjalla One'!important;
+    }
   }
 }
 
