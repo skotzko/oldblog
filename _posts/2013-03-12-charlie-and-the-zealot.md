@@ -20,6 +20,7 @@ What do these zealots share? Circular logic. A vague malaise. A low sense of the
 
 [Charlie Munger](http://en.wikipedia.org/wiki/Charlie_Munger) is a billionaire and philanthropist who is the cofounder of Berkshire Hathaway. Charlie is famous for giving speeches, and being able to think very deeply about a wide range of problems.
 
+<a name="morelink"></a>
 Here's the difference between Charlie and The Zealot: **dependence**.
 
 Charlie knows that every framework has a point of view that can be useful.<!-- more -->He also knows that it is not the only way of looking at a situation. The Zealot believes that the way of their framework is The One Way to Rule Them All, and in an extreme case, is dependent on that framework for their entire worldview.

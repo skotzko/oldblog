@@ -17,6 +17,7 @@ That was the end of last April. True or not, I believed that to rapidly get to a
 
 Pulling it off damn near broke me. As of early December, I was burned out. Totally fried. I could barely think straight anymore — even easy problems felt overwhelming, and I felt a sort of persistent mental cloudiness. I'd experienced that once or twice before in my life, but not in years. I knew something was seriously wrong and needed to change, stat, or things were going downhill.
 
+<a name="morelink"></a>
 It turned out the answer was two-fold: first, I needed to take care of myself physically. It's not news at all: Regular exercise and a healthy diet are essential (I follow a low carb, Paleo-ish diet). The mid-afternoon hours always feel flat to me, so I started going for a light jog during that time. Within 3 days, I felt hopeful again and the cloud was dissipating. But it wasn't enough.
 
 <!-- more -->

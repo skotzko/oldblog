@@ -31,7 +31,7 @@ body_class: home
       {% if paginator.next_page == 1 %}
         <a href="" class="inline-block older left">Older Entries</a>
       {% else %}
-        <a href="/page{{ paginator.next_page }}" class="inline-block older left">Older Entries</a>
+        <a href="{{ paginator.next_page_path }}" class="inline-block older left">Older Entries</a>
       {% endif %}
     {% else %}
       <span class="inline-block older left">Older Entries</span>
@@ -41,7 +41,7 @@ body_class: home
       {% if paginator.previous_page == 1 %}
         <a href="/" class="inline-block newer right">Newer Entries</a>
       {% else %}
-        <a href="/page{{ paginator.previous_page }}" class="inline-block newer right">Newer Entries</a>
+        <a href="{{ paginator.previous_page_path }}" class="inline-block newer right">Newer Entries</a>
       {% endif %}
     {% else %}
       <span class="inline-block newer right">Newer Entries</span>

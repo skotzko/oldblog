@@ -30,6 +30,7 @@ Looking over those documents, a few things are clear: I was more consistent at d
 
 I was surprised by how much I liked doing an ongoing log of thoughts in the observations. It was a good way to vent, and in retrospect, lets me see the arc of the experiment. [Let me know](http://www.andrewskotzko.com/about/) one thing that stands out to you.
 
+<a name="morelink"></a>
 I do take away a few lessons from the experiment that are useful:
 
 <!-- more -->

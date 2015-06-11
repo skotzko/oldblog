@@ -21,6 +21,7 @@ Now, I've always been a little obsessed with optimization, particularly self-opt
 
 And so&hellip;
 
+<a name="morelink"></a>
 ## Announcing Experiment 1: a Manly Makeover
 No, I'm not having those guys from 'Queer Eye For The Straight Guy' come into my house and swap out all my furniture and clothing. One, I like what I've got. Two, I think that show is long dead. Sorry Mom, I know you liked it. Third, I have a different kind of makeover in mind.
 

@@ -22,6 +22,7 @@ On the night of December 21st, I remember calling [Matt](http://mattdsandler.com
 
 Should I just go back to California and take another job? Should I scrap the idea of trying to build something of my own? I was minutes away from booking a trip back to the USA so I could spend the holidays with friends and family.
 
+<a name="morelink"></a>
 Thankfully, Matt helped me see that I was just looking for familiarity. But why wasn't I enjoying myself in Buenos Aires, a city full of steak, beautiful women, and dreams? <!-- more --> At first, the answer seemed simple. I wasn't committed to letting go of control and to seeing what the trip would bring me. I was holding back. I was also suffering from social isolation, and a bit too much time on my hands.
 
 But that wasn't the real reason. I know how to let go and accept what comes.

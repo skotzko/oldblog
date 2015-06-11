@@ -14,7 +14,8 @@ At dinner, I re-connected with a college peer I've known for about six years. I 
 
 Conversations are powerful.
 
-Conversations are powerful because moments are powerful. Moments are where we take risk.<!-- more -->Moments are when we expose ourselves in hopes that another will respond. Moments are when we push pause on our mental treadmills and appreciate something in the past that we were too busy experiencing to grasp the significance of. Moments are where we suddenly stop reaching, trying, stretching for something external and just...are.
+<a name="morelink"></a>
+Conversations are powerful because moments are powerful. Moments are where we take risk.<!-- more --> Moments are when we expose ourselves in hopes that another will respond. Moments are when we push pause on our mental treadmills and appreciate something in the past that we were too busy experiencing to grasp the significance of. Moments are where we suddenly stop reaching, trying, stretching for something external and just...are.
 
 Conversations may well be the most important tool we have for uncovering these moments. Conversations are often when those moments happen, or synthesize, come together, and coalesce into a cogent whole that has meaning and power.
 

@@ -20,6 +20,7 @@ When discussing peak performance, usually in an athletic context, people tend to
 
 I love the big moment, but I'm far more interested in everything behind that moment. What are the ongoing processes, routines, rhythms that elite performers have built into their lives? How do they train for adversity? We will explore these questions and more in the future of this blog, as they are critical to being consistently creative at a high level, which is one of [my primary goals](http://www.andrewskotzko.com/2013/03/31/a-roadmap/). For the balance of this post, we'll focus on one principle: the dynamic between peak moments and moments of rest, and how to traverse the gap between them.
 
+<a name="morelink"></a>
 Back to Waitzkin: what had to change to get to the next level at the world championships? He needed to master the ability to get in the zone, on demand. To be ready to go, at a moments notice, despite the appearance of unexpected or unfair distractions and obstacles. But how does a performer wrangle a state that is temporary and often fleeting?
 
 <!-- more -->

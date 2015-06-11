@@ -14,8 +14,8 @@ Here's what got me thinking...
 ## Is It Fair to Judge a Book by Its Cover?
 An acquaintance of mine from years ago recently published a book. I saw a very excited post on Facebook about it, overwhelmed with emotion about the book "hitting the bestseller list." I was curious and excited because I like this person and wanted to see what he had made, so I clicked through to check it out. Immediately, my bullshit meter started pinging based on the design of the website and book. But I wanted to give it a chance. After all, he was self-publishing this book, and maybe he'd had to create the collateral himself (he's not a designer). So I bought the book, hoping there was more substance than there was style.
 
+<a name="morelink"></a>
 I'm sad to report that book is an utter waste of space and attention. More than money, I want my time back.
-
 
 I've come to realize that while I love style, I don't value style unless it's backed by substance. And so I find myself conflicted. I'm torn between judging the merits of another's work and<!-- more -->celebrating the fact that this person actually made and shipped something.
 

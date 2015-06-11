@@ -15,6 +15,7 @@ Jackson obsessed over it. It was all he thought about. As Jackson saw it at the 
 
 But by midnight on Saturday the 11th, Jackson was the star of USC's victory over Oregon—a nationally televised, primetime game with major implications on bowl bids. He accumulated three sacks, ten tackles, and one tackle for a loss—a landmark game by any standard.
 
+<a name="morelink"></a>
 So what changed in a mere 36 hours?
 
 His approach to the game.<!-- more -->

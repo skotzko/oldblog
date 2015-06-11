@@ -23,6 +23,7 @@ Before I started, I'd guessed 1,000 items. Lowballed that one.
 
 ([You can see the full inventory here.](https://docs.google.com/spreadsheet/ccc?key=0ApBq5nqLSn9MdDZwdlpua0tkdERHeDYzWDZOMlhEU2c) I logged not just the count of stuff, but the weight and dollar value. I wanted to really understand the scope of this. A little OCD, but it worked for me.)
 
+<a name="morelink"></a>
 I've living under the accumulated weight of three thousand items, most of which I neither use nor even like anymore. No wonder I felt burdened.
 
 <!-- more -->
