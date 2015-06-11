@@ -60,22 +60,22 @@ Here's an example with my two current projects, "Blog" and "Daily Writing." The 
 I email IFTTT just as before, but now I put the #blog hashtag in the subject
 line.
 
-<img class="center img-center" src="/images/2014/08/blog-idea-send-in-2.png" alt=""></img>
+<img class="center img-center" src="/images/2014/08/blog-idea-send-in-2.png" alt="">
 
 ...and after syncing, there it is!
 
-<img class="center img-center" src="/images/2014/08/blog-only-idea.png" alt=""></img>
+<img class="center img-center" src="/images/2014/08/blog-only-idea.png" alt="">
 
 
 ### Example: Send in idea to the daily writing project
 I email IFTTT just as before, but now I put the #daily hashtag in the subject
 line.
 
-<img class="center img-center" src="/images/2014/08/daily-idea-send-in-2.png" alt=""></img>
+<img class="center img-center" src="/images/2014/08/daily-idea-send-in-2.png" alt="">
 
 ...and after syncing, there it is!
 
-<img class="center img-center" src="/images/2014/08/daily-idea.png" alt=""></img>
+<img class="center img-center" src="/images/2014/08/daily-idea.png" alt="">
 
 * * *
 
