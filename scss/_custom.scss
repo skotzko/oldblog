@@ -1,5 +1,6 @@
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 200;
+  color: #333;
 	@media #{$medium-up} {
 	}
 	@media #{$large-up} {
@@ -44,6 +45,13 @@ a {
       -ms-transition: color .3s ease;
        -o-transition: color .3s ease;
           transition: color .3s ease;
+}
+
+header {
+  h1 {
+    font-size: 22px;
+    text-align: center;
+  }
 }
 
 @import "post";
