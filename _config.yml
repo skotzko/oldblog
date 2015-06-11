@@ -57,5 +57,7 @@ googleplus_hidden: false
 excerpt_link: "Read More &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
 excerpt_separator: "<!--more-->"
 paginate: 5
+paginate_path: "/page:num/"
+
 
 sumo_me_site_id: 6c7e5a264e21bba1b607b7e3368085f29d1477fd0596d25495abc82313033d00
