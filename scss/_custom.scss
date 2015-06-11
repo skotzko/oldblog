@@ -61,10 +61,12 @@ header {
     font-size: 16px;
     text-align: center;
     margin-top: 15px;
+    text-transform: uppercase;
     color: $oil;
 
     a {
       color: $oil;
+      text-transform: uppercase;
     }
   }
 
