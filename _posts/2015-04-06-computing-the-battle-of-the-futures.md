@@ -6,7 +6,7 @@ categories:
 - abundance
 - distributed systems
 ---
-<img class="center" src="/images/gun.png" alt="">
+<img class="center img-center" src="/images/gun.png" alt="">
 
 One of my earliest memories is of a decrepit, dusty blue Toyota pickup truck lazily rolling past our house. It was June 1991, and my family lived in N'Djamena, Chad. I was five.
 

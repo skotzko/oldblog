@@ -9,7 +9,7 @@ categories:
 - Psychology
 ---
 
-<img class="center" src="/images/2014/02/digital_heart-300x289.jpg" alt="">
+<img class="center img-center" src="/images/2014/02/digital_heart-300x289.jpg" alt="">
 If there's ever a time of year when we want to feel human connection, it's around Valentine's Day. And connection requires vulnerability and honesty, experiencing the world through another's eyes.
 
 Here are two questions that I've found helpful in authentically opening up my work and thinking to others over the last few months, which has led to some wonderful connections and conversations:

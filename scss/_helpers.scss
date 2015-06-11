@@ -33,6 +33,11 @@
 .img-center {
   display: block;
   margin: 0 auto;
+  @media #{$small-only} {
+    width: 112%;
+    max-width: 112%;
+    margin-left: -6%;
+  }
 }
 
 .img-left {
@@ -47,7 +52,6 @@
   margin: 25px;
 }
 
-.hidden {display: none!important;}
 .hide-for-small {display: inherit!important;}
 
 a.button.hide-for-small {
@@ -69,6 +73,8 @@ a.button.hide-for-small {
   *display: inline; /* Fix for IE7 */
 }
 
+.hidden {display: none!important;}
+
 .clearfix:before,
 .clearfix:after {
   content:"";
@@ -79,27 +85,4 @@ a.button.hide-for-small {
 }
 .clearfix {
   zoom:1; /* For IE 6/7 (trigger hasLayout) */
-}
-
-h1, h2, h3, h4 {
-  text-transform: uppercase;
-}
-
-.post h1 {text-transform: initial;}
-
-.post h1, h2, h3, h4, h5, h6 {
-  // color: black;
-  // &:hover {color: $primary-color;}
-
-  a {
-    color: black;
-    &:hover {
-      color: $primary-color;
-      -webkit-transition: all .25s ease;
-         -moz-transition: all .25s ease;
-          -ms-transition: all .25s ease;
-           -o-transition: all .25s ease;
-              transition: all .25s ease;
-    }
-  }
 }

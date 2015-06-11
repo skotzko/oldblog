@@ -1,13 +1,45 @@
 .post {
   margin-bottom: 50px;
 
-  :not(:first-of-type) {
+  &:not(:first-of-type) {
     margin-top: 25px;
   }
 
-  h1 {text-align: center;}
+  h1 {
+    text-transform: initial;
+    text-align: center;
+    font-size: 26px;
+  }
+
   h1, h2, h3, h4, h5, h6 {
     color: $oil;
-    a {color: $oil;}
+    a {
+      color: $oil;
+      &:hover {
+        color: $primary-color;
+        -webkit-transition: all .25s ease;
+           -moz-transition: all .25s ease;
+            -ms-transition: all .25s ease;
+             -o-transition: all .25s ease;
+                transition: all .25s ease;
+      }
+    }
+  }
+}
+
+// MEDIA QUERIES
+@media #{$medium-up} {
+  .post {
+    h1 {
+      font-size: 32px;
+    }
+  }
+}
+
+@media #{$medium-up} {
+  .post {
+    h1 {
+      font-size: 38px;
+    }
   }
 }

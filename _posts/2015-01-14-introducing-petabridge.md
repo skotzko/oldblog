@@ -7,7 +7,7 @@ categories:
 - petabridge
 ---
 
-<img class="center" src="/images/interactive_data.jpg" alt="">
+<img class="center img-center" src="/images/interactive_data.jpg" alt="">
 
 The future of computing is a massively-connected world where everyone and their mother has 3+ devices. That means data. Lots and lots of data.
 

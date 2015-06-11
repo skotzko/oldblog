@@ -6,6 +6,7 @@ url : https://andrewskotzko.com
 email : andrew@skotzko.com
 twitter : askotzko
 github : skotzko
+stack_overflow: 524750
 author : Andrew Skotzko
 analytics_id : UA-30368898-1
 year : 2015
@@ -23,6 +24,7 @@ defaults:
       author: "Andrew Skotzko"
       author_url: "https://twitter.com/askotzko"
       comments: true
+      body_class: post
 
 # simple_search: https://www.google.com/search
 
@@ -53,6 +55,6 @@ googleplus_hidden: false
 # Blog config / pagination
 excerpt_link: "Read More &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
 excerpt_separator: "<!--more-->"
-paginate: 3
+paginate: 5
 
 sumo_me_site_id: 6c7e5a264e21bba1b607b7e3368085f29d1477fd0596d25495abc82313033d00

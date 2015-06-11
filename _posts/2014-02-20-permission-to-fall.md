@@ -7,7 +7,7 @@ title: Permission to fall
 categories:
 - Lessons
 ---
-<img class="center" src="/images/2014/02/falling.jpg" alt="">
+<img class="center img-center" src="/images/2014/02/falling.jpg" alt="">
 
 > In life, I regret the things I didn't do more than the missteps I made along the way.<br>- David Stanley
 

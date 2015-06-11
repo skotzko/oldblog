@@ -1,16 +1,28 @@
-<footer class="site-footer row" role="contentinfo">
+<footer class="site-footer row text-center" role="contentinfo">
+    <p>
+      <a href="#">Back to top.</a>
+    </p>
     <hr/>
     <div class="large-12 columns">
-        <ul class="inline-list">
-            {% include nav.html %}
-        </ul>
-        <p class="quiet copyright right">
+        <p class="quiet copyright center text-center">
             <a href="https://twitter.com/{{ site.twitter }}">
-                <i class="fa fa-twitter">
-    </i> @{{ site.twitter }}</a>,
+                <i class="fa fa-3x fa-twitter"></i>
+            </a>
             <a href="https://github.com/{{ site.github }}/">
-                <i class="fa fa-github">
-    </i> @{{ site.github }}</a> {{ site.year }}.</p>
+                <i class="fa fa-3x fa-github"></i>
+            </a>
+            <a href="https://stackoverflow.com/users/{{ site.stack_overflow }}/">
+                <i class="fa fa-3x fa-stack-overflow"></i>
+            </a>
+        </p>
+        <p class="copyright">
+          Copyright &copy; {{ site.time | date: "%Y" }} - {{ site.author }}
+        </p>
+        <p class='license'>
+          <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+          <img src="/images/creative_commons_license.png" alt="Creative Commons License" class="center">
+          </a>
+        </p>
     </div>
 </footer>
 <!-- close the off-canvas menu -->

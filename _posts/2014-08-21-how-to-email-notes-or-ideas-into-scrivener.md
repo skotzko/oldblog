@@ -25,7 +25,7 @@ So, **can you quickly email in ideas to a Scrivener project**? Absolutely. Here'
 
 I use [IFTTT](http://ifttt.com) to create plain text files in Dropbox from the emails I send in. These plain text files then sync into my Scrivener project through the external sync. I use the following external sync config in Scrivener (access from File > Sync > With External Folder... and then choose your Dropbox folder).
 
-<img class="center" src="/images/2014/08/sync-config.png" alt="">
+<img class="center img-center" src="/images/2014/08/sync-config.png" alt="">
 
 Now, depending on how many projects you have in Scrivener, you may want to:
   * email all ideas into one project, or...
@@ -46,9 +46,9 @@ A quick note before we dive in:
 
 Here's how it looks in screenshots:
 
-<img class="center" src="/images/2014/08/both-ideas-2.png" alt="">
+<img class="center img-center" src="/images/2014/08/both-ideas-2.png" alt="">
 
-<img class="center" src="/images/2014/08/second-idea.png" alt="">
+<img class="center img-center" src="/images/2014/08/second-idea.png" alt="">
 ## Emailing ideas into multiple Scrivener projects
 If you have multiple Scrivener projects, you'll likely want the ability to email into each of them independently. [Here is my IFTTT recipe to email ideas into a specific Scrivener project](https://ifttt.com/recipes/197604-email-notes-into-specific-scrivener-project).
 
@@ -60,22 +60,22 @@ Here's an example with my two current projects, "Blog" and "Daily Writing." The 
 I email IFTTT just as before, but now I put the #blog hashtag in the subject
 line.
 
-<img class="center" src="/images/2014/08/blog-idea-send-in-2.png" alt=""></img>
+<img class="center img-center" src="/images/2014/08/blog-idea-send-in-2.png" alt=""></img>
 
 ...and after syncing, there it is!
 
-<img class="center" src="/images/2014/08/blog-only-idea.png" alt=""></img>
+<img class="center img-center" src="/images/2014/08/blog-only-idea.png" alt=""></img>
 
 
 ### Example: Send in idea to the daily writing project
 I email IFTTT just as before, but now I put the #daily hashtag in the subject
 line.
 
-<img class="center" src="/images/2014/08/daily-idea-send-in-2.png" alt=""></img>
+<img class="center img-center" src="/images/2014/08/daily-idea-send-in-2.png" alt=""></img>
 
 ...and after syncing, there it is!
 
-<img class="center" src="/images/2014/08/daily-idea.png" alt=""></img>
+<img class="center img-center" src="/images/2014/08/daily-idea.png" alt=""></img>
 
 * * *
 

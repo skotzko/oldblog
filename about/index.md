@@ -5,6 +5,8 @@ slug: about
 sharing: false
 hidedate: true
 title: About me
+layout: page
+body_class: about
 ---
 ## Me in 10 seconds
 * I'm a curious entrepreneur and believe we're either learning and growing, or dying

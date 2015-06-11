@@ -1,34 +1,4 @@
-<ul class="nav inline-list">
-    <li><a href="/">Home</a></li>
-    <li><a href="/about">About</a></li>
+<ul class="nav text-center">
+  <li class="inline-block {% if page.body_class == 'home' %}hidden {% endif %}"><a href="/">Home</a></li>
+  <li class="inline-block"><a href="/about">About</a></li>
 </ul>
-<form class="right " action="https://www.google.com/search" method="get">
-    <fieldset role="search">
-        <input type="hidden" name="q" value="site:andrewskotzko.com">
-        <input class="search" type="text" name="q" results="0" placeholder="Search">
-    </fieldset>
-</form>
-
-
-{% comment %}
-<nav role="navigation">
-    <form action="https://www.google.com/search" method="get">
-        <fieldset role="search">
-            <input type="hidden" name="q" value="site:andrewskotzko.com">
-            <input class="search" type="text" name="q" results="0" placeholder="Search">
-        </fieldset>
-    </form>
-    <fieldset class="mobile-nav">
-        <select>
-            <option value="">Navigate…</option>
-            <option value="https://andrewskotzko.com/about">» About</option>
-            <option value="https://andrewskotzko.com/archives">» Archives</option>
-            <option value="http://feeds.feedburner.com/AndrewSkotzko">» RSS</option>
-        </select>
-    </fieldset>
-    <ul class="main-navigation">
-        <li><a href="/about">About</a></li>
-        <li><a href="/archives">Archives</a></li>
-    </ul>
-</nav>
-{% endcomment %}
