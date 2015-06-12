@@ -7,7 +7,9 @@
 
             {{ content }}
 
-            {% include email_subscribe.html %}
+            {% unless page.no_email_subscribe %}
+                {% include email_subscribe.html %}
+            {% endunless %}
 
             {% if site.disqus_short_name and page.comments %}
               {% include scripts/disqus.html %}

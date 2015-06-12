@@ -2,6 +2,7 @@
 comments: false
 date: 2014-02-02 19:13:14+00:00
 slug: about
+no_email_subscribe: true
 sharing: false
 hidedate: true
 title: About me
