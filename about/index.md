@@ -6,6 +6,8 @@ no_email_subscribe: true
 sharing: false
 hidedate: true
 title: About me
+hide_back_to_top: true
+hide_title: true
 layout: page
 body_class: about
 ---
