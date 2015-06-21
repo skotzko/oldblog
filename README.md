@@ -14,3 +14,9 @@ If you want to make sure foundation is up to date, try
 (requires bower)
 
 Github's doc on <a href="https://help.github.com/articles/using-jekyll-with-pages">how to use Jekyll on Github Pages</a>.
+
+***
+### LICENSE
+All articles and writing are licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license. For the full text of the license, please [see the Creative Commons site](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+All other code in this repo is under the [MIT License](/LICENSE).
