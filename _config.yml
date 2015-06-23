@@ -14,7 +14,7 @@ markdown : kramdown # use pygments instead?
 exclude :
   - node_modules
 
-permalink: /:title
+permalink: /:title/
 titlecase: true
 defaults:
   -
