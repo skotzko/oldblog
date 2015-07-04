@@ -1,7 +1,7 @@
 ### Setup
 1. Install [Node.JS + npm](https://nodejs.org/)
 2. Install [Bower](http://bower.io/) & [Grunt](http://gruntjs.com/): `npm install -g bower grunt-cli`
-3. Install [Jekyll](http://jekyllrb.com/) ([Windows instructions](http://jekyll-windows.juthilo.com/))
+3. Install [Jekyll](http://jekyllrb.com/) ([Windows instructions](http://jekyll-windows.juthilo.com/)): `gem install jekyll`
 4. Install [Foundation](http://foundation.zurb.com/): `gem install foundation`
 5. Run: `bower install`
 6. Run: `foundation update`
