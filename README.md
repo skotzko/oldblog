@@ -11,7 +11,7 @@ If you want to make sure foundation is up to date, try
 
 `foundation update`
 
-(requires bower)
+(requires [bower](http://bower.io/#install-bower))
 
 Github's doc on <a href="https://help.github.com/articles/using-jekyll-with-pages">how to use Jekyll on Github Pages</a>.
 
