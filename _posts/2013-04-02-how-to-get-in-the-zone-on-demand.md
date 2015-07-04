@@ -6,7 +6,7 @@ categories:
 - Mental Performance
 - Psychology
 ---
-<img class="center img-center" src="/images/2013/04/push_hands1.jpg" alt="">
+<img class="center img-center" imgsrc="/images/2013/04/push_hands1.jpg" alt="">
 
 Josh Waitzkin was about to get his ass kicked, and he knew it.
 

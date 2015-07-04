@@ -8,7 +8,7 @@ categories:
 - Productivity
 - Psychology
 ---
-<img class="center img-center" src="/images/2014/02/digital_heart-300x289.jpg" alt="">
+<img class="center img-center" imgsrc="/images/2014/02/digital_heart-300x289.jpg" alt="">
 
 If there's ever a time of year when we want to feel human connection, it's around Valentine's Day. And connection requires vulnerability and honesty, experiencing the world through another's eyes.
 

@@ -15,7 +15,7 @@ He's the middle manager who insists that This is How It Must Be Done. Why? Becau
 
 What do these zealots share? Circular logic. A vague malaise. A low sense of their ability to create or adapt to new ways of doing things. An inability to improvise, because they have not grasped the deeper principles of their chosen framework and integrated those principles into an overall seamless flow in decision making.
 
-<img class="center img-center" src="/images/2013/03/charlie.jpg" alt="">
+<img class="center img-center" imgsrc="/images/2013/03/charlie.jpg" alt="">
 <p class="text-center">On the other hand, there's Charlie.</p>
 
 [Charlie Munger](http://en.wikipedia.org/wiki/Charlie_Munger) is a billionaire and philanthropist who is the cofounder of Berkshire Hathaway. Charlie is famous for giving speeches, and being able to think very deeply about a wide range of problems.
