@@ -10,6 +10,7 @@
 9. Install GitHub pages: `bundle install`
 11. Set up a [SumoMe account](http://sumome.com).
 10. Update your info as needed in `_config.yml`
+11. Set up a [CloudFlare](https://www.cloudflare.com/) account and configure it [following these instructions](https://scotch.io/tutorials/jekyll-github-pages-and-cloudflare-for-pagespeed-win#cloudflare) (if you want CloudFlare CDN in front of your site and/or free HTTPS.)
 
 ([Backup instructions.](http://www.daigo.org/2013/11/installing-npm-on-mavericks-macbook-pro/))
 
