@@ -8,6 +8,7 @@
 7. Change the `CNAME` file to match the domain you want to use
 8. Push to `master` branch in `yourname.github.io` repo. ([Github's doc on how to use Jekyll on Github Pages](https://help.github.com/articles/using-jekyll-with-pages).)
 9. Install GitHub pages: `bundle install`
+10. Update your info as needed in `_config.yml`
 
 ([Backup instructions.](http://www.daigo.org/2013/11/installing-npm-on-mavericks-macbook-pro/))
 
