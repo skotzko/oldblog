@@ -2,12 +2,13 @@
 1. Install [Node.JS + npm](https://nodejs.org/)
 2. Install [Bower](http://bower.io/) & [Grunt](http://gruntjs.com/): `npm install -g bower grunt-cli`
 3. Install [Jekyll](http://jekyllrb.com/) ([Windows instructions](http://jekyll-windows.juthilo.com/)): `gem install jekyll`
-4. Install [Foundation](http://foundation.zurb.com/): `gem install foundation`
+4. Install [Foundation](http://foundation.zurb.com/docs/sass.html#cli): `gem install foundation`
 5. Run: `bower install`
 6. Run: `foundation update`
 7. Change the `CNAME` file to match the domain you want to use
 8. Push to `master` branch in `yourname.github.io` repo. ([Github's doc on how to use Jekyll on Github Pages](https://help.github.com/articles/using-jekyll-with-pages).)
 9. Install GitHub pages: `bundle install`
+11. Set up a [SumoMe account](http://sumome.com).
 10. Update your info as needed in `_config.yml`
 
 ([Backup instructions.](http://www.daigo.org/2013/11/installing-npm-on-mavericks-macbook-pro/))
