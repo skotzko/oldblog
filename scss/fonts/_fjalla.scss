@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Fjalla';
+  src: url('/scss/fonts/fjalla/fjalla.eot'); /* IE9 Compat Modes */
+  src: url('/scss/fonts/fjalla/fjalla.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/scss/fonts/fjalla/fjalla.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/scss/fonts/fjalla/fjalla.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/scss/fonts/fjalla/fjalla.svg#svgFontName') format('svg'); /* Legacy iOS */
+}

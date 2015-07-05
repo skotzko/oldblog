@@ -1,0 +1,8 @@
+ @font-face {
+  font-family: 'PT Serif';
+  src: url('/scss/fonts/pt_serif/pt_serif.eot'); /* IE9 Compat Modes */
+  src: url('/scss/fonts/pt_serif/pt_serif.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/scss/fonts/pt_serif/pt_serif.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/scss/fonts/pt_serif/pt_serif.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/scss/fonts/pt_serif/pt_serif.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
