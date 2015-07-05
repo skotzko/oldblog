@@ -8,7 +8,7 @@ categories:
 - Advice
 - Lessons
 ---
-<img class="center img-center" imgsrc="/images/desert_walk.jpg" alt="">
+<img class="center img-center" src="/images/desert_walk.jpg" alt="">
 
 _NB: This is the first post in an ongoing, "good advice" series, where I pay forward the advice I've received which has made or is making a real difference for me._
 

@@ -8,7 +8,7 @@ categories:
 - Languages
 - Learning
 ---
-<img class="center img-center" imgsrc="/images/2014/03/Buenos_Aires_Japanese_Garden-300x300.jpg">
+<img class="center img-center" src="/images/2014/03/Buenos_Aires_Japanese_Garden-300x300.jpg">
 
 _**Heads up**: This a long, detailed post (~6,400 words) so you might want to read it somewhere comfy. You can get the gist by skimming the headings and sequence lists, and then diving into the specific sections as you see fit. Be sure to check out the FAQ and resource links/downloads at the end. Skim read time: 5 minutes. Full read time: 32 minutes._
 
@@ -46,7 +46,7 @@ My goal was "social fluency"—the point where I can express myself naturally an
 
 That bar scene in Bariloche was my goal. I didn't know that it would be in that bar or in that city, but my goal was to have a normal, casual conversation over dinner with friends within eight weeks of landing in Argentina. (That's a high bar, but I was putting about 4 hours of work in each day on this.) Again, it doesn't matter what the goal is, but you need to have one.
 
-<img class="center img-center" imgsrc="/images/2014/03/konna-300x300.jpg">
+<img class="center img-center" src="/images/2014/03/konna-300x300.jpg">
 
 <p class="text-center">(The bar where my conversational goal was reached.)</p>
 
@@ -87,7 +87,7 @@ This is the sequence that emerged as I worked on this daily for a few months and
 About levels and that oh-so-slippery word, "fluency." Everyone seems to have their own definition of it. I find it useful to hitch real-world goals, like the "social fluency" I mentioned above, to the [European Common Framework](http://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages) for measuring language proficiency. This makes understanding your level easier, more concrete and measurable. The grid below lays out the levels (click for full-size).
 
 
-<img class="center img-center" imgsrc="/images/2014/03/CEFR-300x249.png">
+<img class="center img-center" src="/images/2014/03/CEFR-300x249.png">
 
 <p class="text-center">The Common European Framework of Reference for Languages (CEFR)</p>
 
@@ -141,11 +141,11 @@ As a side note, this is one reason that immersion programs or travel to a foreig
 #### #3 - Commit to the Sounds and Accents
 After a few weeks in Buenos Aires, I was hanging out with my Spanish teacher, Gisela, and we went to a polo tournament, which for the record, was fantastic.
 
-<img class="center img-center" imgsrc="/images/2014/03/polo-300x300.jpg">
+<img class="center img-center" src="/images/2014/03/polo-300x300.jpg">
 
 She insisted I try the tramontaña flavor of the famous local ice cream company, and so of course I was dispatched to buy two cones. She followed along just to see what would happen, and proceeded to have a laughing fit as I royally fucked it up. The guy at the counter had no clue what I was saying, and I just kept trying because I was felt determined to pull this off.
 
-<img class="center img-center" imgsrc="/images/2014/03/tramontana-150x150.png">
+<img class="center img-center" src="/images/2014/03/tramontana-150x150.png">
 
 <p class="text-center">The ice cream flavor I royally messed up.</p>
 
@@ -213,7 +213,7 @@ This, on its own, is a powerful way to build your vocabulary and grammatical ski
 #### #9 - Don't Study Grammar Until You Have a Grasp of the Language
 Starting with grammar is akin to the idea that if you memorize enough rules of a game, you'll know how to play it. Just because I know the rules of football, or cricket, or swimming, does not mean I am any good at those skills. Why would the skill of language be any different? (Remember: it is just a skill, and therefore learnable and trainable like any other.)
 
-<img class="center img-center" imgsrc="/images/2014/03/combo-300x160.png ">
+<img class="center img-center" src="/images/2014/03/combo-300x160.png ">
 
 <p class="text-center">Where would you rather learn the game?</p>
 
@@ -264,7 +264,7 @@ Generally, follow Gabriel's advice [here](http://fluent-forever.com/create-bette
 ### What Random Tricks Helped?
 Reading comic books. They're written for a native, casual audience, and they are almost 100% dialogue. Comic books do a great job capturing the way the language is actually used by real people in their everyday lives. Plus, they have awesome art and cool stories.
 
-<img class="center img-center" imgsrc="/images/2014/03/comic-300x300.jpg">
+<img class="center img-center" src="/images/2014/03/comic-300x300.jpg">
 
 <p class="text-center">Comic books: True native material + all dialogue.</p>
 

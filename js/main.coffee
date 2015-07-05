@@ -50,9 +50,5 @@ startFoundationJS = ->
   $(document).foundation()
 
 # DOC READY
-window.jqueryCallback = ->
+$ ->
   console.log "doc ready"
-  checkDebugMode()
-  loadImages()
-  setupFoundation()
-  setupSumoMe()
