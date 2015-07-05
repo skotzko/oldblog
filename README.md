@@ -4,7 +4,9 @@
 3. Install [Jekyll](http://jekyllrb.com/) ([Windows instructions](http://jekyll-windows.juthilo.com/)): `gem install jekyll`
 4. Install [Foundation](http://foundation.zurb.com/docs/sass.html#cli): `gem install foundation`
 5. Run: `bower install`
+6. Run: `sudo npm install grunt-sass`
 6. Run: `foundation update`
+7. Run: `grunt`
 7. Change the `CNAME` file to match the domain you want to use
 8. Push to `master` branch in `yourname.github.io` repo. ([Github's doc on how to use Jekyll on Github Pages](https://help.github.com/articles/using-jekyll-with-pages).)
 9. Install GitHub pages: `bundle install`
