@@ -47,12 +47,10 @@ setupFoundation = ->
   (document.getElementsByTagName("head")[0] or document.getElementsByTagName("body")[0]).appendChild foundation
 
 startFoundationJS = ->
-  console.log "starting foundation"
   $(document).foundation()
 
 # DOC READY
 window.jqueryCallback = ->
-  console.log "jquery callback"
   checkDebugMode()
   loadImages()
   setupFoundation()
