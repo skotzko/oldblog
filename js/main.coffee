@@ -51,6 +51,7 @@ startFoundationJS = ->
 
 # DOC READY
 window.jqueryCallback = ->
+  console.log "doc ready"
   checkDebugMode()
   loadImages()
   setupFoundation()
