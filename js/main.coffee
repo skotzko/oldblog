@@ -51,4 +51,4 @@ startFoundationJS = ->
 
 # DOC READY
 $ ->
-  console.log "doc ready"
+  # noop

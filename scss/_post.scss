@@ -34,11 +34,9 @@
 }
 
 // MEDIA QUERIES
-@media #{$medium-up} {
+@media only screen and (max-width: 768px) and (min-width: 481px) {
   .post {
-    h1 {
-      font-size: 32px;
-    }
+     padding: 0 40px 50px;
   }
 }
 
