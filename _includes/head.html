@@ -10,12 +10,15 @@
     <meta name="keywords" content="{{ page.keywords }}, {{ site.keywords }}" />
 
     {% if page.block_search_engines %}
-    <meta name="robots" content="noindex, follow" />
-    <meta name="googlebot" content="noindex, follow" />
+        <meta name="robots" content="noindex, follow" />
+        <meta name="googlebot" content="noindex, follow" />
     {% endif %}
 
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css" />
+    {% comment %}
+        <!-- trying to make these async by dropping them in body -->
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="/css/style.css" />
+    {% endcomment %}
 
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon">

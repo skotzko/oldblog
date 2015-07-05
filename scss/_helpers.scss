@@ -9,6 +9,7 @@
 .text-upper {text-transform: uppercase!important;}
 .text-lower {text-transform: lowercase!important;}
 .text-strike {text-decoration: line-through!important;}
+.text-white {color: white!important;}
 .bg-shadow {
   &.dark {background-color: rgba(0, 0, 0, 0.3);}
   &.light {background-color: rgba(255, 255, 255, 0.2);}

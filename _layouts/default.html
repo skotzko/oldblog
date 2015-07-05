@@ -4,6 +4,13 @@
 {% include head.html %}
 
 <body class="{{ page.body_class }}">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css" />
+
+  <div id="loading" class="hidden text-center">
+    <i class="fa text-white fa-spinner fa-pulse fa-3x fa-fw"></i>
+  </div>
+
     <div class="off-canvas-wrap" data-offcanvas>
         <div class="inner-wrap">
             {% include header.html %}
