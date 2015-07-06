@@ -17,7 +17,7 @@ window.hideLoading = ->
   $('#loading').addClass("hidden")
 
 hideForm = (containerSelector) ->
-  $(containerSelector).html("<p class='center text-center text-white'>Thanks! I'll get right back to you.</p>" ).css("font-size", 36)
+  $(containerSelector).html("<p class='center text-center'>Thanks! I'll get right back to you.</p>" ).css("font-size", 36)
 
 checkDebugMode = ->
   # disable console.debug unless we are in debug mode (local dev)
