@@ -9,7 +9,6 @@ github : skotzko
 stack_overflow: 524750
 author : Andrew Skotzko
 analytics_id : UA-30368898-1
-year : 2015
 markdown : kramdown # use pygments instead?
 exclude :
   - node_modules
@@ -28,6 +27,12 @@ defaults:
       body_class: post
 
 # simple_search: https://www.google.com/search
+
+links:
+  twitter: https://twitter.com/askotzko
+  github: https://github.com/skotzko/
+  stack_overflow: https://stackoverflow.com/users/524750/andrews
+  instagram: https://instagram.com/skotzko
 
 # github pages config
 gems:

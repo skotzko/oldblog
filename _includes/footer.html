@@ -7,19 +7,24 @@
     <hr/>
     <div class="large-12 columns">
         <p class="quiet copyright center text-center">
-            <a href="https://twitter.com/{{ site.twitter }}">
+            <a href="{{ site.links.twitter }}">
                 <i class="fa fa-3x fa-twitter"></i>
             </a>
-            <a href="https://github.com/{{ site.github }}/">
+            <a href="{{ site.links.instagram }}">
+                <i class="fa fa-3x fa-instagram"></i>
+            </a>
+            <a href="{{ site.links.github }}">
                 <i class="fa fa-3x fa-github"></i>
             </a>
-            <a href="https://stackoverflow.com/users/{{ site.stack_overflow }}/">
+            <a href="{{ site.links.stack_overflow }}">
                 <i class="fa fa-3x fa-stack-overflow"></i>
             </a>
         </p>
+
         <p class="copyright">
           Copyright &copy; {{ site.time | date: "%Y" }} - {{ site.author }}
         </p>
+
         <p class='license'>
           <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
           <img src="/images/creative_commons_license.png" alt="Creative Commons License" class="center">
