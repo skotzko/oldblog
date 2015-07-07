@@ -1,8 +1,10 @@
 {% if site.disqus_short_name and page.comments %}
+{% capture canonical_url %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = '{{ site.disqus_short_name }}';
+    var disqus_url = '{{ canonical_url }}';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
