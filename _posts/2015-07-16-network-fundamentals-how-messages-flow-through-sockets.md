@@ -9,7 +9,7 @@ categories:
 - Fundamentals
 ---
 
-<span class="text-italic">This is a cross-post of an article I wrote for [the Petabridge blog](https://petabridge.com/blog/) recently. [As I mentioned](/reboot), going forward this blog is going to take a more technical angle.</span>
+<span class="text-italic">This is a cross-post of an article I wrote for [the Petabridge blog](https://petabridge.com/blog/) recently. [As I shared](/reboot), going forward this blog is going to take a more technical angle.</span>
 
 One of the questions that has been coming up a lot lately as many people are building with Akka.Remote is this:
 
