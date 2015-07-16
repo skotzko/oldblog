@@ -1,13 +1,14 @@
 ---
-title: Large Messages and Sockets
-slug: large-messages-and-tcp-udp-sockets
-comments: true
+title: "Understanding the Internet: How Messages Flow Through Sockets"
+after_post_text: "How does this understanding change the way you think about sending data around? Leave a comment below and let me know."
 published: true
 categories:
 - networking
 - TCP
 - UDP
+- Fundamentals
 ---
+
 <span class="text-italic">This is a cross-post of an article I wrote for [the Petabridge blog](https://petabridge.com/blog/) recently. [As I mentioned](/reboot), going forward this blog is going to take a more technical angle.</span>
 
 One of the questions that has been coming up a lot lately as many people are building with Akka.Remote is this:
@@ -27,8 +28,10 @@ So what's a dev to do?
 
 Here's the first answer people try: "network-shmetwork! JUST SEND IT!"
 
+<a name="morelink"></a>
+
 ## Why This Is A Bad Idea
-This is basically what that does to the network:
+This is basically what that does to the network:<!-- more -->
 
 <img src="/images/2015/network-messages/python-pig.jpg" alt="Python eating an entire pig" class="img-center">
 
@@ -199,5 +202,3 @@ Let's review what we've learned so far, from a TCP point of view:
 Forcing the OS and the network to cut up massive objects for you leads to errors, brittle systems, lots of blocking, and a much less performant app.
 
 We'll be publishing a follow-up to this post soon, that shows in-depth how to chunk and process large files in Akka.NET. In the meantime, start exploring it for yourself in an Akka.Cluster context by looking at our [scalable WebCrawler demo](https://github.com/petabridge/akkadotnet-code-samples/tree/master/Cluster.WebCrawler) and then taking our [advanced Akka.Cluster training](https://petabridge.com/training/akka-clustering/).
-
-\###

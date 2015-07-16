@@ -7,6 +7,10 @@
 
             {{ content }}
 
+            {% if page.after_post_text %}
+                <p>{{ page.after_post_text }}</p>
+            {% endif %}
+
             {% unless page.no_email_subscribe %}
                 {% include email_subscribe.html %}
             {% endunless %}
