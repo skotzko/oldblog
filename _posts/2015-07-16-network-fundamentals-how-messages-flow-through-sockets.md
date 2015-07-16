@@ -200,5 +200,3 @@ Let's review what we've learned so far, from a TCP point of view:
 > #### When working with TCP, **it's YOUR responsibility as a developer to manage the size of objects you transmit over the network.**
 
 Forcing the OS and the network to cut up massive objects for you leads to errors, brittle systems, lots of blocking, and a much less performant app.
-
-We'll be publishing a follow-up to this post soon, that shows in-depth how to chunk and process large files in Akka.NET. In the meantime, start exploring it for yourself in an Akka.Cluster context by looking at our [scalable WebCrawler demo](https://github.com/petabridge/akkadotnet-code-samples/tree/master/Cluster.WebCrawler) and then taking our [advanced Akka.Cluster training](https://petabridge.com/training/akka-clustering/).
