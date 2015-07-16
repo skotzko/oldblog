@@ -197,6 +197,6 @@ Let's review what we've learned so far, from a TCP point of view:
 
 ***Coming full circle, what does this all add up to in the context of sending a large message over the network?***
 
-> #### When working with TCP, **it's YOUR responsibility as a developer to manage the size of objects you transmit over the network.**
+> #### When working with TCP, it's YOUR responsibility as a developer to manage the size of objects you transmit over the network.
 
 Forcing the OS and the network to cut up massive objects for you leads to errors, brittle systems, lots of blocking, and a much less performant app.
