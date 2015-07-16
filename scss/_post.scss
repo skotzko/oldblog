@@ -5,6 +5,11 @@
     margin-top: 25px;
   }
 
+  img {
+    margin: 0 auto;
+    display: block;
+  }
+
   h1 {
     text-transform: initial;
     text-align: center;
@@ -51,6 +56,6 @@
       padding-left: 15px;
     }
     p {font-size: rem-calc(20);}
-    ol li {font-size: rem-calc(20);}
+    ol li, ul li {font-size: rem-calc(20);}
   }
 }
