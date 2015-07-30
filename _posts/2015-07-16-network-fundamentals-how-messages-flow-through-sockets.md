@@ -174,18 +174,7 @@ Guess what? ***Not only are you introducing a blocking and likely-to-cause-error
 
 It's much easier for TCP to transmit and reconstitute many small objects than to do so with a few massive objects.
 
-So that covers why this doesn't work from a how-the-Internet-works point of view, so what about Akka.NET itself?
-
-### What Akka.NET's Networking Layer (Akka.Remote + Helios) Can Handle
-As for what Akka.NET itself can handle, this is determined by [Helios](https://helios-io.github.io/), the socket server that powers Akka.Remote.
-
-> [Helios](https://helios-io.github.io/) is a primary area of R&D within the Akka.NET project. The [spec for Helios 2.0 is drafted](https://helios-io.github.io/specs/) and will include TLS as well as major performance and stability upgrades.
-
-Helios is tested up to 4MB payloads, which is considered to be a large socket message. However, as you increase message sizes, Helios has to elastically expand its in-memory buffer to accommodate those messages. It grows that buffer gradually, but currently doesn't have a buffer implementation that reduces the buffer size during periods of lower use. Which means that in its current form, once Helios has seen a single 100MB message, it's going to keep 100MB worth of buffer space in case another such message comes along.
-
-While the part of you that is crying out "well, just make Helios take my 100MB message and then reduce the buffer back down!" has a point (and that buffer algo will probably be adjusted), sending messages this big is STILL a bad idea. Why? Because it raises both the likelihood of a network error, and the cost of such an error.
-
-In the case of network failures--[which are inevitable](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)--it's much, much, MUCH better to have small messages. Retrying small messages is cheap and easy. Retrying 100MB at once is not. As you increase your messages sizes, you multiply the costs of every single, inevitable network failure.
+Also, in the case of network failures--[which are inevitable](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)--it's much, much, MUCH better to have small messages. Retrying small messages is cheap and easy. Retrying 100MB at once is not. As you increase your messages sizes, you multiply the costs of every single, inevitable network failure.
 
 ### What Does This All Add up to?
 Let's review what we've learned so far, from a TCP point of view:
