@@ -17,7 +17,7 @@ One of the questions that has been coming up a lot lately as many people are bui
 
 I've been asked about this four or five times this week alone, so it's time to put out a blog post and stop re-writing the answer. <i class="fa fa-smile-o"></i> This is a great question to cover, as it starts to reveal more about what is going on under the hood with Akka.Remote and the networking layer.
 
-Up until I worked on Akka.NET, I honestly hadn't thought much about the networking layer and so this was a fun question for me to dig into and research.
+Up until I worked on [Akka.NET](http://getakka.net), I honestly hadn't thought much about the networking layer and so this was a fun question for me to dig into and research.
 
 ## When Does This Come up?
 This comes up all the time when people have large chunks of data that they need to transmit and process. I've been asked about this lately in the context of doing big ETL jobs, running calculations on lab data, web scraping, for video processing, and more. People asking about sending files that range anywhere from 20MB to 5GB.
