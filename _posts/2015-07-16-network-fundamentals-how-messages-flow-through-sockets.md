@@ -86,7 +86,7 @@ As outlined beautifully by [Stephen Cleary](http://blog.stephencleary.com/2009/0
 
 Let's repeat that, because it's the basis of everything that follows:
 
-> #### Applications work with messages. Sockets work with streams.
+> #### Applications work with messages. TCP sockets work with streams.
 
 These "streams" are bidirectional byte streams. That is, a socket can send an ongoing stream of [bytes](https://en.wikipedia.org/wiki/Byte) in both directions. Each socket has an incoming stream, and an outgoing stream. The fun side of a socket is the receiving side, which faces the dilemma I posed earlier: if we have a continual river of bytes flowing past us, how do we get EXACTLY the same string that went in on the sender side back out on receiving side?
 
@@ -159,8 +159,8 @@ Disadvantages:
 Here's what fixed-length encoding looks like:
 ![Fixed-length frame encoding](/images/2015/network-messages/fixed-length-encoding.png)
 
-### What Sockets Can & Can't Handle
-Sockets don't support arbitrarily large packet sizes. In answer to the question, "how large of a packet can I send over TCP?," there are [varying](https://stackoverflow.com/questions/2613734/maximum-packet-size-for-a-tcp-connection) [answers](https://stackoverflow.com/questions/2613734/maximum-packet-size-for-a-tcp-connection) ranging from 1400 bytes to 65kB. But that's actually irrelevant here: *regardless of what the max packet size really is, it is definitely much smaller than the amount of data you want to move.*
+### What TCP Sockets Can & Can't Handle
+TCP sockets don't support arbitrarily large packet sizes. In answer to the question, "how large of a packet can I send over TCP?," there are [varying](https://stackoverflow.com/questions/2613734/maximum-packet-size-for-a-tcp-connection) [answers](https://stackoverflow.com/questions/2613734/maximum-packet-size-for-a-tcp-connection) ranging from 1400 bytes to 65kB. But that's actually irrelevant here: *regardless of what the max packet size really is, it is definitely much smaller than the amount of data you want to move.*
 
 Further, some network transports have built-in maximum frame sizes. For example, if you try to write a 100MB datagram to a UDP socket, the OS will just throw an error immediately and never even try to send the message.
 
