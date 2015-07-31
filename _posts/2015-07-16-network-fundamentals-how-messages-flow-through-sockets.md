@@ -1,5 +1,5 @@
 ---
-title: "Understanding the Internet: How Messages Flow Through Sockets"
+title: "Understanding the Internet: How Messages Flow Through TCP Sockets"
 after_post_text: "How does this understanding change the way you think about sending data around? Leave a comment below and let me know."
 published: true
 categories:
@@ -47,7 +47,7 @@ What else do people try to do? Here are some of the common approaches I've seen:
 
 None of these approaches work. Why? The short answer is that computers (and TCP) have an easier time processing many small messages than a few large ones.
 
-But to really understand, we have to go on a bit of a trip and revisit **how sockets work**.
+But to really understand, we have to go on a bit of a trip and revisit **how TCP sockets work**.
 
 We begin our journey with this question...
 
@@ -81,8 +81,8 @@ Essentially, we assume each side of the system "speaks the same language." If yo
 
 Serialization is more complicated and difficult than encoding, and it's beyond the scope of this post. We'll be spending our time with the step closest to the network: Encoding.
 
-## How Sockets Think
-As outlined beautifully by [Stephen Cleary](http://blog.stephencleary.com/2009/04/message-framing.html), this is the fundamental disconnect that causes issues for developers when considering the network: **we think in messages, but sockets think in streams.**
+## How TCP Sockets Think
+As outlined beautifully by [Stephen Cleary](http://blog.stephencleary.com/2009/04/message-framing.html), this is the fundamental disconnect that causes issues for developers when considering the network: **we think in messages, but TCP sockets think in streams.**
 
 Let's repeat that, because it's the basis of everything that follows:
 
