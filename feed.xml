@@ -7,13 +7,13 @@ layout: null
     <title>{{ site.name | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}</link>
-    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
-    <webfeeds:analytics id="{{ site.analytics_id }}" engine="GoogleAnalytics"/>
+    <atom:link href="{{ site.url }}{{ site.links.rss }}" rel="self" type="application/rss+xml" />
+    <webfeeds:analytics id="{{ site.google_analytics }}" engine="GoogleAnalytics"/>
     <webfeeds:cover image="https://pbs.twimg.com/profile_images/378800000674361046/2c9f86caa5294db467ef97a4fed128bf_400x400.jpeg" />
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | replace:'img src="','img src="http://www.aaronstannard.com' | xml_escape }}</description>
+        <description>{{ post.content | replace:'src="/','src="https://andrewskotzko.com/' | replace:'href="/','href="https://andrewskotzko.com/' | xml_escape }}</description>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <link>{{ site.url }}{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>

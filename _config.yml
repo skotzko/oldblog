@@ -8,7 +8,7 @@ twitter : askotzko
 github : skotzko
 stack_overflow: 524750
 author : Andrew Skotzko
-analytics_id : UA-30368898-1
+google_analytics : UA-30368898-1
 markdown : kramdown # use pygments instead?
 exclude :
   - node_modules
