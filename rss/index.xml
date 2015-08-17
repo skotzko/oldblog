@@ -1,29 +1,23 @@
 ---
 layout: null
 ---
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-
-  <title><![CDATA[{{ site.title | cdata_escape }}]]></title>
-  <link href="{{ site.url }}/atom.xml" rel="self"/>
-  <link href="{{ site.url }}/"/>
-  <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>{{ site.url }}/</id>
-  <author>
-    <name><![CDATA[{{ site.author | strip_html }}]]></name>
-    {% if site.email %}<email><![CDATA[{{ site.email }}]]></email>{% endif %}
-  </author>
-
-  {% for post in site.posts limit: 10 %}
-    {% unless post.no_rss %}
-      <entry>
-        <title type="html"><![CDATA[{% if site.titlecase %}{{ post.title | titlecase | cdata_escape }}{% else %}{{ post.title | cdata_escape }}{% endif %}]]></title>
-        <link href="{{ site.url }}{{ post.url }}"/>
-        <updated>{{ post.date | date_to_xmlschema }}</updated>
-        <id>{{ site.url }}{{ post.id }}</id>
-        <content type="html"><![CDATA[{{ post.content | remove_linenumbers | expand_urls: site.url | cdata_escape }}]]></content>
-        <category scheme="{{ site.url }}/categories/" term="{{ category | replace: ' ','-' | downcase }}" />
-      </entry>
-    {% endunless %}
-  {% endfor %}
-</feed>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
+  <channel>
+    <title>{{ site.name | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}</link>
+    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+    <webfeeds:analytics id="{{ site.analytics_id }}" engine="GoogleAnalytics"/>
+    <webfeeds:cover image="https://pbs.twimg.com/profile_images/378800000674361046/2c9f86caa5294db467ef97a4fed128bf_400x400.jpeg" />
+    {% for post in site.posts limit:10 %}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <description>{{ post.content | replace:'img src="','img src="http://www.aaronstannard.com' | xml_escape }}</description>
+        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <link>{{ site.url }}{{ post.url }}</link>
+        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>
