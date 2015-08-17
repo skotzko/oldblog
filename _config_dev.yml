@@ -33,6 +33,7 @@ links:
   github: https://github.com/skotzko/
   stack_overflow: https://stackoverflow.com/users/524750/andrews
   instagram: https://instagram.com/skotzko
+  rss: /rss/
 
 # github pages config
 gems:
