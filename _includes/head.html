@@ -5,7 +5,7 @@
     {% capture title %}{% if page.title %}{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %} | {% endif %}{{ site.name }}{% endcapture %}
     <title>{{ title }}</title>
 
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{site.url}}{{ site.links.rss }}" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="http://andrewskotzko.com/feed.xml" />
 
     <meta name="description" content="{{ page.title }} - {{ site.name }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
