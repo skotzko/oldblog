@@ -1,21 +1,31 @@
 ---
 layout: post
 title: Stuff I Use
+subtitle: Hardware, software and services
 published: False
+updated: September 2015
 ---
+
+Updated: {{ page.updated }}
+
+## Hardware
 
 ## Software
 
-## Writing
+## Services
+### Writing
 
-## Productivity
+### Productivity
 
-## Writing
+### Writing
 
-## Organization
+### Organization
 
-## Tricks
+### Tricks
 
 {% comment %}
-example: http://paulstamatiou.com/stuff-i-use/
+examples:
+- http://paulstamatiou.com/stuff-i-use/
+- http://ma.tt/about/
+
 {% endcomment %}
