@@ -1,4 +1,7 @@
 <ul class="nav text-center">
-  <li class="inline-block {% if page.body_class == 'home' %}hidden {% endif %}"><a href="/">Home</a></li>
-  <li class="inline-block"><a href="/about">About</a></li>
+  {% for link in site.data.nav %}
+    <li class="inline-block {% if page.body_class == link.body_class %}hidden {% endif %}">
+      <a href="/{{ link.path }}">{{ link.name }}</a>
+    </li>
+  {% endfor %}
 </ul>

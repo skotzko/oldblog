@@ -25,6 +25,15 @@ checkDebugMode = ->
     window.console = window.console || {}
     window.console.debug = -> {}
 
+window.scrollToAnchor = (anchorName) ->
+  console.debug "scrolling to #{anchorName}"
+  ot = $("a[name='#{anchorName}']").offset().top
+  nav = $('nav.top-bar')
+  navHeight = if nav? then nav.innerHeight() else 0
+  target = ot - navHeight
+  window.scrollTo(0, target)
+  console.debug "nav height: #{navHeight} | offset: #{ot} | target: #{target}"
+
 setupSumoMe = (site_id = "{{ site.sumo_me_site_id }}") ->
   sumo = document.createElement("script")
   sumo.type = "text/javascript"

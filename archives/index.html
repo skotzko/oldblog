@@ -1,13 +1,14 @@
 ---
 layout: page
 title: Blog Archives
-section_id: blog
+body_class: archives
 ---
 <div class='row'>
   <div class='large-8 columns center'>
     <h1 class="text-center">{{ page.title }}</h1>
 
-    <ul class="tabs" name="top" data-tab>
+    <a name="top"></a>
+    <ul class="tabs" data-tab>
       <li class="tab-title active"><a href="#byDate">By Date</a></li>
       <li class="tab-title"><a href="#byCategory">By Category</a></li>
     </ul>
@@ -37,7 +38,7 @@ section_id: blog
             <a href="{{ post.url }}">{{ post.title }}</a>
           </li>
         {% endfor %}
-        <p style="margin-top: 10px;"><a onclick="window.scrollToAnchor('#top');">Back to top.</a></p>
+        <p style="margin-top: 10px;"><a onclick="window.scrollToAnchor('top');">Back to top.</a></p>
 
       </div>
 

@@ -21,6 +21,9 @@
 2. Run Jekyll locally: `jekyll serve`
 3. Develop, commit, push to `master` and see it live!
 
+### Changing Installed Foundation CSS
+Go to `/bower_components/foundation/scss/foundation.scss` and (un)comment which Foundation CSS components you want to include.
+
 ***
 
 ### LICENSE

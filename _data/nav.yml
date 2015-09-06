@@ -1,0 +1,9 @@
+- name: Home
+  path:
+  body_class: home
+- name: About
+  path: about
+  body_class: about
+- name: Archives
+  path: archives
+  body_class: archives
