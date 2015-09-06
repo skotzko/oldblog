@@ -56,8 +56,9 @@ setupFoundation = ->
   (document.getElementsByTagName("head")[0] or document.getElementsByTagName("body")[0]).appendChild foundation
 
 startFoundationJS = ->
+  # callback to init foundation once loaded async
   $(document).foundation()
 
 # DOC READY
 $ ->
-  # noop
+  setupFoundation()
