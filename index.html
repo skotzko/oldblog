@@ -24,27 +24,4 @@ body_class: home
   </div>
 {% endfor %}
 
-{% if paginator %}
-  <div class="pager clearfix">
-
-    {% if paginator.next_page %}
-      {% if paginator.next_page == 1 %}
-        <a href="" class="inline-block older left">Older Entries</a>
-      {% else %}
-        <a href="{{ paginator.next_page_path }}" class="inline-block older left">Older Entries</a>
-      {% endif %}
-    {% else %}
-      <span class="inline-block older left">Older Entries</span>
-    {% endif %}
-
-    {% if paginator.previous_page %}
-      {% if paginator.previous_page == 1 %}
-        <a href="/" class="inline-block newer right">Newer Entries</a>
-      {% else %}
-        <a href="{{ paginator.previous_page_path }}" class="inline-block newer right">Newer Entries</a>
-      {% endif %}
-    {% else %}
-      <span class="inline-block newer right">Newer Entries</span>
-    {% endif %}
-  </div>
-{% endif %}
+{% include pagination.html %}
