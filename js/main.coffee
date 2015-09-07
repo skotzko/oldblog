@@ -56,8 +56,16 @@ setupFoundation = ->
   (document.getElementsByTagName("head")[0] or document.getElementsByTagName("body")[0]).appendChild foundation
 
 startFoundationJS = ->
+  options =
+    tab:
+      deep_linking: true
+      # scroll_to_content: false
+
+  console.debug "Foundation options: "
+  console.debug options
+  console.debug "Foundation Core Version: #{Foundation.version}"
   # callback to init foundation once loaded async
-  $(document).foundation()
+  $(document).foundation(options);
 
 # DOC READY
 $ ->
