@@ -18,6 +18,7 @@ body_class: archives
         {% for post in site.posts %}
           {% unless post.next %}
             <h2>{{ post.date | date: '%Y' }}</h2>
+            <h3 style="margin-top: 20px;">{{ post.date | date: '%B' }}</h3>
           {% else %}
             {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
             {% capture month %}{{ post.date | date: '%B' }}{% endcapture %}
