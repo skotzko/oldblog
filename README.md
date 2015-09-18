@@ -5,6 +5,7 @@
 4. Install [Foundation](http://foundation.zurb.com/docs/sass.html#cli): `gem install foundation`
 5. Run: `bower install`
 6. Run: `npm install grunt-sass node-sass`
+7. Run `npm install` (to install project packages)
 6. Run: `foundation update`
 7. Run: `grunt`
 7. Change the `CNAME` file to match the domain you want to use
