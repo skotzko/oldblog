@@ -59,7 +59,7 @@ startFoundationJS = ->
   options =
     tab:
       deep_linking: true
-      # scroll_to_content: false
+      scroll_to_content: false
 
   console.debug "Foundation options: "
   console.debug options
