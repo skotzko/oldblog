@@ -21,4 +21,7 @@ TOOLS
 - x-platform
 - git bash
 - dropbox FTW
-- pomello
+- customized bash profile
+- wox
+- MaxTo
+- script to update repos at once
