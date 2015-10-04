@@ -1,13 +1,16 @@
 ---
 layout:
-title: Cross-Platform Productivity
-published: False
+title: Setting Up a Happy X-Platform .NET Dev Environment
+published: True
 categories:
 - productivity
 - tools
 ---
 
 INTRO
+- windows and osx
+- prefer osx, but i work in windows and .NET
+- need to be able to run both
 
 WHY
 
@@ -15,8 +18,13 @@ WHAT IT LOOKS LIKE WHEN YOU WIN AT THIS GAME
 - location independence
 - device flexibility
 
-TOOLS
+.NET Tooling
+- DNX
+- mono
+- nancy
+- docker
 
+TOOLS
 - use browser plugins / extensions
 - x-platform
 - git bash
@@ -25,3 +33,5 @@ TOOLS
 - wox
 - MaxTo
 - script to update repos at once
+
+
