@@ -2,7 +2,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    {% capture title %}{% if page.title %}{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %} | {% endif %}{{ site.name }}{% endcapture %}
+    {% capture title %}{% if page.title %}{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %} | {% endif %}{{ site.name }} - {{ site.description }}{% endcapture %}
     <title>{{ title }}</title>
 
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{site.url}}{{ site.links.rss }}" />
