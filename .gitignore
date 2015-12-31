@@ -3,5 +3,6 @@
 _site
 Gemfile.lock
 bower_components
+!bower_components/foundation/scss/foundation.scss
 node_modules
 *.sublime-*

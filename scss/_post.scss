@@ -5,11 +5,6 @@
     margin-top: 25px;
   }
 
-  img {
-    margin: 0 auto;
-    display: block;
-  }
-
   blockquote {
     font-style: italic;
     margin-left: 25px;
@@ -54,6 +49,14 @@
   .post {
     h1 {
       font-size: 38px;
+    }
+
+    img {
+      margin: 10px auto;
+      display: block;
+
+      &.right {margin-left: 20px;}
+      &.left {margin-right: 20px;}
     }
 
     .content {
