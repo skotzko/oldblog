@@ -23,7 +23,7 @@ defaults:
       layout: "default"
       author: "Andrew Skotzko"
       author_url: "https://twitter.com/askotzko"
-      comments: true
+      comments: false
       body_class: post
 
 # simple_search: https://www.google.com/search
@@ -42,7 +42,7 @@ gems:
 - jekyll-sitemap
 
 # Disqus Comments
-disqus_short_name: skotzko
+disqus_short_name:
 disqus_show_comment_count: false
 
 # Twitter
