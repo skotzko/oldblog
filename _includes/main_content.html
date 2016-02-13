@@ -11,6 +11,14 @@
                 <p>{{ page.after_post_text }}</p>
             {% endif %}
 
+            {% if page.body_class == 'post' %}
+            <div>&nbsp;</div>
+            <div class="text-italic">
+              Written {% if page.author %} by <a href="{{ page.author_url }}">{{ page.author }}</a>{% endif %} on {{ page.date | date: "%B %e, %Y" }}
+            </div>
+            <div>&nbsp;</div>
+            {% endif %}
+
             {% unless page.no_email_subscribe %}
                 {% include email_subscribe.html %}
             {% endunless %}
