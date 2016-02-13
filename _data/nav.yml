@@ -1,9 +1,15 @@
-- name: Home
-  path:
-  body_class: home
-- name: About
-  path: about
-  body_class: about
-- name: Archives
-  path: archives
-  body_class: archives
+- name: Blog
+  path: "#blog"
+  body_class: ""
+# - name: Projects
+#   path: "#projects"
+#   body_class: projects
+- name: Newsletter
+  path: "#newsletter"
+  body_class: ""
+- name: Contact
+  path: "#contact"
+  body_class: ""
+- name: Twitter
+  external: https://twitter.com/askotzko
+  body_class: ""

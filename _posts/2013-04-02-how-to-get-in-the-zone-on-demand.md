@@ -2,6 +2,7 @@
 date: 2013-04-02 19:02:39+00:00
 slug: how-to-get-in-the-zone-on-demand
 title: How to Get in the Zone, on Demand
+featured: true
 categories:
 - Mental Performance
 - Psychology

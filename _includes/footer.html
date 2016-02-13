@@ -1,47 +1,47 @@
-<footer class="site-footer row text-center" role="contentinfo">
-    {% unless page.hide_back_to_top %}
-    <p>
-      <a href="#">Back to top.</a>
-    </p>
-    {% endunless %}
-    <hr/>
-    <div class="large-12 columns">
+<footer id="footer" class="site-footer row text-center" role="contentinfo">
+  <div class="row">
+    <div class="small-12 medium-centered medium-9 columns">
+      <a href="#top" class="back-to-top">Back to top.</a>
+
+      <div class="social-container">
         <p class="quiet copyright center text-center">
-            <a href="{{ site.links.twitter }}">
-                <i class="fa fa-3x fa-twitter show-for-medium-up"></i>
-                <i class="fa fa-lg fa-twitter show-for-small-only"></i>
-            </a>
-            <a href="{{ site.links.instagram }}">
-                <i class="fa fa-3x fa-instagram show-for-medium-up"></i>
-                <i class="fa fa-lg fa-instagram show-for-small-only"></i>
-            </a>
-            <a href="{{ site.links.github }}">
-                <i class="fa fa-3x fa-github show-for-medium-up"></i>
-                <i class="fa fa-lg fa-github show-for-small-only"></i>
-            </a>
-            <a href="{{ site.links.stack_overflow }}">
-                <i class="fa fa-3x fa-stack-overflow show-for-medium-up"></i>
-                <i class="fa fa-lg fa-stack-overflow show-for-small-only"></i>
-            </a>
-            <a href="{{ site.links.rss }}">
-                <i class="fa fa-3x fa-rss show-for-medium-up"></i>
-                <i class="fa fa-lg fa-rss show-for-small-only"></i>
-            </a>
+          <a href="{{ site.links.twitter }}">
+            <i class="social fa fa-3x fa-twitter"></i>
+          </a>
+          <a href="{{ site.links.linkedin }}">
+            <i class="social fa fa-3x fa-linkedin"></i>
+          </a>
+          <a href="{{ site.links.angel_list }}">
+            <i class="social fa fa-3x fa-angellist"></i>
+          </a>
+          <a href="{{ site.links.github }}">
+            <i class="social fa fa-3x fa-github"></i>
+          </a>
+          <a href="{{ site.links.stack_overflow }}">
+            <i class="social fa fa-3x fa-stack-overflow"></i>
+          </a>
+          <a href="{{ site.links.rss }}">
+            <i class="social fa fa-3x fa-rss"></i>
+          </a>
         </p>
+      </div>
 
+      <div>
         {% capture feedly_url %}http://www.feedly.com/home#subscription/feed/{{ site.url }}{{ site.links.rss }}{% endcapture %}
-        <a href="{{ feedly_url }}"  target='blank'><img id='feedlyFollow' src='https://s3.feedly.com/img/follows/feedly-follow-rectangle-volume-big_2x.png' alt='follow us in feedly' width='131' height='56'></a>
+        <a href="{{ feedly_url }}" target='blank'>
+          <img id='feedlyFollow' src='https://s3.feedly.com/img/follows/feedly-follow-rectangle-volume-big_2x.png' alt='follow us in feedly' width='131' height='56' class="center feedly">
+          </a>
 
-        <p class="copyright">
+        <div class="copyright">
           Copyright &copy; {{ site.time | date: "%Y" }} - {{ site.author }}
-        </p>
+        </div>
 
-        <p class='license'>
+        <div class='license'>
           <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
           <img src="/images/creative_commons_license.png" alt="Creative Commons License" class="center">
           </a>
-        </p>
-    </div>
+        </div>
+
+      </div>
+  </div>
 </footer>
-<!-- close the off-canvas menu -->
-<a class="exit-off-canvas"></a>
