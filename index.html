@@ -2,26 +2,25 @@
 comments: false
 body_class: home
 ---
-{% for post in paginator.posts %}
-  <div class="post">
-    <div class='info'>
-      <h1><a href='{{post.url}}'>{{ post.title }}</a></h1>
-    </div>
-    <div class='content'>
-      {% if post.dont_truncate %}
-        {{ post.content }}
-      {% else %}
-        {{ post.content | split:"<!-- more -->" | first | truncatewords:300 }}
-      {% endif %}
-    </div>
-    <div class="content">
-      {% unless post.dont_truncate %}
-        {% if post.content | size > 300 %}
-          <a class='button morelink' href='{{ post.url }}#morelink'>Read more &rarr;</a>
-        {% endif %}
-      {% endunless %}
-    </div>
-  </div>
-{% endfor %}
 
-{% include pagination.html %}
+<div class="row">
+  {% include sections/about.html %}
+</div>
+
+<div class="row">
+  <div id="projects" class="large-12 columns">
+    {% include sections/projects.html %}
+  </div>
+</div>
+
+<div class="row">
+  <div id="newsletter" class="large-12 columns">
+    {% include sections/newsletter.html %}
+  </div>
+</div>
+
+<div class="row">
+  <div id="contact" class="large-12 columns">
+    {% include sections/contact.html %}
+  </div>
+</div>

@@ -1,9 +1,13 @@
 - name: Home
   path:
   body_class: home
-- name: About
-  path: about
-  body_class: about
-- name: Archives
-  path: archives
-  body_class: archives
+- name: Projects
+  path: "#projects"
+- name: Newsletter
+  path: "#newsletter"
+- name: Inspiration
+  path: inspiration
+  body_class: inspiration
+- name: Contact
+  path: "#contact"
+  body_class: home

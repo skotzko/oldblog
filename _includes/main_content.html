@@ -19,9 +19,11 @@
             <div>&nbsp;</div>
             {% endif %}
 
-            {% unless page.no_email_subscribe %}
-                {% include email_subscribe.html %}
-            {% endunless %}
+            {% comment %}
+                {% unless page.no_email_subscribe %}
+                    {% include email_subscribe_form.html %}
+                {% endunless %}
+            {% endcomment %}
 
             {% if site.disqus_short_name and page.comments %}
               {% include scripts/disqus.html %}
