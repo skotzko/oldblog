@@ -1,22 +1,29 @@
 <!doctype html>
 <html class="no-js">
-
 {% include head.html %}
 
 <body class="{{ page.body_class }}">
-
   <div id="loading" class="hidden text-center">
-    <i class="fa text-white fa-spinner fa-pulse fa-3x fa-fw"></i>
+      <i class="fa text-white fa-spinner fa-pulse fa-3x fa-fw"></i>
   </div>
+  <div class="off-canvas-wrap" data-offcanvas>
+    <div class="inner-wrap">
 
-    <div class="off-canvas-wrap" data-offcanvas>
-        <div class="inner-wrap">
-            {% include header.html %}
-            {% include main_content.html %}
-            {% include footer.html %}
+      <div class="row">
+        <div class="large-2 columns">
+          {% include header.html %}
         </div>
+
+        <div class="large-10 columns">
+          {% include main_content.html %}
+          {% include footer.html %}
+        </div>
+
+      </div>
+
     </div>
 
+  </div>
     {% include scripts.html %}
 </body>
 
