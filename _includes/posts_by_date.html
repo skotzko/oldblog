@@ -1,0 +1,25 @@
+{% for post in site.posts %}
+  {% unless post.next %}
+    <h2>{{ post.date | date: '%Y' }}</h2>
+    <h3 style="margin-top: 20px;">{{ post.date | date: '%B' }}</h3>
+  {% else %}
+    {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+    {% capture month %}{{ post.date | date: '%B' }}{% endcapture %}
+    {% capture nmonth %}{{ post.next.date | date: '%B' }}{% endcapture %}
+    {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+
+    {% if year != nyear %}
+      <p style="margin-top: 10px;"><a href="#top">Back to top.</a></p>
+      <h2 style="margin-top: 20px;">{{ post.date | date: '%Y' }}</h2>
+    {% endif %}
+
+    {% if month != nmonth %}
+      <h3 style="margin-top: 20px;">{{ post.date | date: '%B' }}</h3>
+    {% endif %}
+  {% endunless %}
+
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+{% endfor %}
+<p><a href="#top">Back to top.</a></p>

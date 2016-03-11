@@ -1,29 +1,12 @@
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 200;
-  color: #333;
-  // text-transform: uppercase;
-
 	@media #{$medium-up} {
 	}
 	@media #{$large-up} {
 	}
 }
 
-html {
-  border-top: 8px solid $primary-color;
-}
 
-.round-corners {
-  border-radius: 7px;
-}
-
-a.morelink {
-  display: block;
-  width: 60%;
-  margin: 0 auto;
-  font-size: 16px;
-  border-radius: 7px;
-}
 
 //helper for font weight
 //Open+Sans:400,700,800|Raleway:400,200,700
@@ -38,6 +21,112 @@ a.morelink {
 }
 .font-heavy {
 	font-weight: 800;
+}
+
+.quiet {
+	font-size: 80%;
+}
+
+// ARS customizations begin
+
+///////////////
+// OVERALL
+///////////////
+body {
+	@media #{$medium-up} {
+		padding: 20px 0 0 0;
+	}
+	@media #{$large-up} {
+	}
+}
+
+.off-canvas-content {
+	padding-top: 20px;
+}
+
+///////////////////
+// Font sizing
+///////////////////
+$h1_size: 39px;
+$h2_size: $h1_size * .75;
+$h3_size: $h2_size * .75;
+$h4_size: $h3_size * .75;
+$h5_size: $h4_size * .75;
+$h6_size: $h5_size * .75;
+
+h1 {font-size: $h1_size;}
+h2 {font-size: $h2_size;}
+h3 {font-size: $h3_size;}
+h4 {font-size: $h4_size;}
+h5 {font-size: $h5_size;}
+h6 {font-size: $h6_size;}
+
+@media #{$medium-up} {
+  $h1_size: 44px;
+  $h2_size: $h1_size * .75;
+  $h3_size: $h2_size * .75;
+  $h4_size: $h3_size * .75;
+  $h5_size: $h4_size * .75;
+  $h6_size: $h5_size * .75;
+  h1 {font-size: $h1_size;}
+  h2 {font-size: $h2_size;}
+  h3 {font-size: $h3_size;}
+  h4 {font-size: $h4_size;}
+  h5 {font-size: $h5_size;}
+  h6 {font-size: $h6_size;}
+}
+
+@media #{$large-up} {
+  $h1_size: 51px;
+  $h2_size: $h1_size * .75;
+  $h3_size: $h2_size * .75;
+  $h4_size: $h3_size * .75;
+  $h5_size: $h4_size * .75;
+  $h6_size: $h5_size * .75;
+  h1 {font-size: $h1_size;}
+  h2 {font-size: $h2_size;}
+  h3 {font-size: $h3_size;}
+  h4 {font-size: $h4_size;}
+  h5 {font-size: $h5_size;}
+  h6 {font-size: $h6_size;}
+}
+
+///////////////
+// NAV
+///////////////
+.title-bar-title {
+	padding-left: 13px;
+	@media #{$medium-up} {
+		padding: 20px 0 0 0;
+	}
+	@media #{$large-up} {
+	}
+}
+
+
+.side-nav {
+	li a.active {
+		background-color: $green;
+		color: $white;
+	}
+}
+
+.side-nav-brand {
+	margin-top: -4px;
+}
+
+///////////////
+// BODY
+///////////////
+h1 a {color: $body-font-color;}
+
+a.morelink {
+  display: block;
+  width: 30%;
+  margin: 30px auto 0;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 7px;
 }
 
 *, *:before, *:after {
@@ -58,10 +147,6 @@ a.morelink {
   padding-top: 20%;
 }
 
-// blockquote {
-//   border-left: 2px solid $primary-color;
-// }
-
 a {
   -webkit-transition: color .3s ease;
      -moz-transition: color .3s ease;
@@ -70,106 +155,86 @@ a {
           transition: color .3s ease;
 }
 
-header {
-  h1.title {
-    font-size: 16px;
-    text-align: center;
-    margin-top: 15px;
-    text-transform: uppercase;
-    color: $oil;
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: $medium-gray; /* old IE */
+    background-color: $medium-gray; /* Modern Browsers */
+}
 
-    a {
-      color: $oil;
-      text-transform: uppercase;
-    }
-  }
+.pagination .current a {
+	color: $pagination-item-color-current;
+	&:hover {background-color: inherit;}
+}
 
-  .nav {
-    border-top: 2px solid #aaa;
-    padding-top: 10px;
-    margin-bottom: 5px;
-
-    li, li a {
-      font-size: 14px;
-      margin-right: 10px;
-      font-family: sans-serif;
-      font-weight: 100;
-    }
+img.headshot {
+  border-radius: 250px;
+  max-width: 135px;
+  nav & {
+    margin-bottom: 15px;
+    margin-left: 13px;
+    width: 133px;
   }
 }
+
+.greeting {
+  margin-top: 15px;
+}
+
+
+////////////////////
+// FOOTER
+////////////////////
+.footer-break {margin: 25px auto}
 
 footer {
-  i.fa {margin: 0 15px;}
-}
+  // border-top: 1px solid $medium-gray;
+  // padding-top: 10px;
+  .social-container {margin-bottom: 20px;}
+  i.social {margin-right: 20px;}
+  .feedly {margin: 0 auto 20px;}
+  .license {margin: 15px auto;}
 
-.copyright {
-  color: $aluminum;
-  font-size: 18px;
-  margin: 20px auto 10px;
-}
-
-// EMAIL SUBSCRIPTIONS
-$email-input-font-size: 20px;
-$email-input-height: 60px;
-#mc_embed_signup {
-  background-color: #f5f5f5;
-  text-align: center;
-  padding: 10px 10px 40px;
-  margin: 10px auto;
-
-
-  h2 {
-    text-align: center;
-    font-size: 24px;
-    padding-top: 0;
-  }
-
-  h3 {
-    text-align: center;
-    max-width: 600px;
-    display: inline-block;
+  a.back-to-top {
     margin-bottom: 25px;
-    line-height: 1.2em;
-    margin-top: -5px;
-  }
-
-  .email-input-style {
-    height: $email-input-height;
-    width: 95%;
-    text-align: center;
-    font-size: $email-input-font-size;
-  }
-
-  .mc-field-group {
-    width: 33%;
-    float: left;
-
-    input {
-      @extend .email-input-style;
-    }
-  }
-
-  input[type="submit"] {
-    @extend .email-input-style;
-    width: 33%;
-    padding: 1px;
-    text-transform: uppercase;
-    border-radius: initial;
-    border: none;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1; /* Fix for IE7 */
+    *display: inline; /* Fix for IE7 */
   }
 }
 
 
-// MEDIA QUERIES
-@media #{$medium-up} {
-  header {
-    h1.title {font-size: 22px;}
-    nav li, nav li a {font-size: 16px;}
-  }
+// keep empty columns from collapsing
+.column, .columns{
+  min-height: 1px;
+}
 
-  a.morelink {
-    width: 35%;
-    font-size: 20px;
+h5.impact-title {
+  padding-left: 16px;
+}
+
+[trimpadding]  {
+  padding-left: 0;
+  @media #{$medium-up} {
+    padding-left: .5em;
+    padding-right: .5em;
+  }
+  @media #{$large-up} {
+  }
+}
+
+.title-bar {
+  background-color: #fdfdfd;
+  width: 100%;
+}
+
+
+
+#intro {
+  p:first-of-type {
+    margin-top: 30px;
   }
 }
 

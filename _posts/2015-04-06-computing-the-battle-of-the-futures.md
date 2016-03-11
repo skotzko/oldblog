@@ -1,7 +1,9 @@
 ---
 title: Computing and the Battle of the Futures
 slug: computing-the-battle-of-the-futures
+featured: true
 published: true
+teaser: "We have the opportunity to create an abundant world through computing. Will we?"
 categories:
 - petabridge
 - abundance

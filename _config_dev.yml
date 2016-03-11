@@ -9,6 +9,8 @@ github: skotzko
 stack_overflow: 524750
 author: Andrew Skotzko
 google_analytics: UA-30368898-1
+analytics: UA-30368898-1 # check —which of these GA vars being used?
+year : 2016 # check - being used?
 markdown: kramdown # use pygments instead?
 exclude:
   - node_modules
@@ -21,10 +23,16 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
-      author: "Andrew Skotzko"
-      author_url: "https://twitter.com/askotzko"
       comments: false
-      body_class: post
+  -
+     scope:
+       type: "posts"
+     values:
+       layout: "post"
+       author: "Andrew Skotzko"
+       author_url: "https://twitter.com/askotzko"
+       comments: false
+       body_class: post
 
 # simple_search: https://www.google.com/search
 
@@ -33,6 +41,8 @@ links:
   github: https://github.com/skotzko/
   stack_overflow: https://stackoverflow.com/users/524750/andrews
   instagram: https://instagram.com/skotzko
+  linkedin: https://www.linkedin.com/in/andrewskotzko
+  angel_list: https://angel.co/andrewskotzko
   rss: /feed.xml
 
 # github pages config
@@ -67,3 +77,4 @@ paginate_path: "/page:num/"
 
 
 sumo_me_site_id: 6c7e5a264e21bba1b607b7e3368085f29d1477fd0596d25495abc82313033d00
+email_list_signup_url: "//thecuriousentrepreneur.us1.list-manage.com/subscribe/post?u=30e2a749f04879b1be678f2a5&amp;id=ebe9b14c98"

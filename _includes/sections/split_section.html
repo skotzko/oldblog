@@ -1,0 +1,33 @@
+{% assign context = include.context %}
+
+<section id="{{ context.id }}"
+{% if context.magellan_target %}
+data-magellan-target="{{ context.magellan_target }}"
+{% endif %}>
+  <div class="row">
+    <div class="medium-3 small-12 columns">
+      <h3>{{ context.title }}</h3>
+    </div>
+    <div class="medium-9 small-12 columns">
+    {% for content in context.content %}
+      <p>{{ content }}</p>
+    {% endfor %}
+    </div>
+
+    {% if context.second_section %}
+      {% assign context = context.second_section %}
+      <hr>
+
+      <div class="medium-3 small-12 columns">
+        <h3>{{ context.title }}</h3>
+      </div>
+      <div class="medium-9 small-12 columns">
+      {% for content in context.content %}
+        <p>{{ content }}</p>
+      {% endfor %}
+      </div>
+
+    {% endif %}
+
+  </div>
+</section>

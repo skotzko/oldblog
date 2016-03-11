@@ -1,6 +1,7 @@
 ---
-date: 2013-01-28 20:23:20+00:00
 title: Eat Me If You Wish
+published: true
+featured: true
 categories:
 - Philosophy
 ---

@@ -1,25 +1,32 @@
 .post {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 
   &:not(:first-of-type) {
     margin-top: 25px;
   }
 
+  & + hr {
+    max-width: 60%;
+    margin: 0 auto;
+    &:last-of-type {display: none;}
+  }
+
   blockquote {
     font-style: italic;
     margin-left: 25px;
+    font-weight: bold;
   }
 
   h1 {
     text-transform: initial;
-    text-align: center;
-    font-size: 26px;
+    // text-align: center;
+    // font-size: 26px;
   }
 
   .photo-credit {
     font-size: 10px;
     margin-top: 25px;
-    color: $aluminum;
+    color: $light-gray;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -27,7 +34,7 @@
     a {
       color: $oil;
       &:hover {
-        color: $primary-color;
+        color: $anchor-color-hover;
         -webkit-transition: all .25s ease;
            -moz-transition: all .25s ease;
             -ms-transition: all .25s ease;
@@ -47,9 +54,6 @@
 
 @media #{$medium-up} {
   .post {
-    h1 {
-      font-size: 38px;
-    }
 
     img {
       margin: 10px auto;
@@ -63,6 +67,7 @@
       padding-right: 15px;
       padding-left: 15px;
     }
+
     p {font-size: rem-calc(20);}
     ol li, ul li {font-size: rem-calc(20);}
   }

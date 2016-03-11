@@ -2,6 +2,7 @@
 date: 2013-02-02 20:25:21+00:00
 slug: beginners-mind-on-demand
 title: Beginner's Mind, on Demand
+featured: true
 categories:
 - Creativity
 - Habits

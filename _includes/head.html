@@ -1,34 +1,46 @@
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    {% capture title %}{% if page.title %}{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %} | {% endif %}{{ site.name }} - {{ site.description }}{% endcapture %}
-    <title>{{ title }}</title>
+  {% capture title %}{% if page.title %}{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %} | {% endif %}{{ site.name }} - {{ site.description }}{% endcapture %}
+  <title>{{ title }}</title>
 
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{site.url}}{{ site.links.rss }}" />
+  <meta name="description" content="{{ page.title }} - {{ site.name }}" />
+  <meta name="keywords" content="{{ page.keywords }}, {{ site.keywords }}" />
 
-    <meta name="description" content="{{ page.title }} - {{ site.name }}" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="keywords" content="{{ page.keywords }}, {{ site.keywords }}" />
+  <!-- Google fonts https://www.google.com/fonts
+  ================================================== -->
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700,800|Raleway:400,200,700" rel="stylesheet" type="text/css">
+  <!-- Fount Awesome -->
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 
-    {% if page.block_search_engines %}
-        <meta name="robots" content="noindex, follow" />
-        <meta name="googlebot" content="noindex, follow" />
-    {% endif %}
+  <link rel="stylesheet" href="/css/app.css">
 
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  {% if page.block_search_engines %}
+      <meta name="robots" content="noindex, follow" />
+      <meta name="googlebot" content="noindex, follow" />
+  {% endif %}
 
-    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="/images/favicon.ico" />
 
-    {% if page.canonical_url %}
-        {% assign canonical_url=page.canonical_url %}
-    {% else %}
-        {% capture canonical_url %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
-    {% endif %}
-    <link rel="canonical" href="{{ canonical_url }}">
+  <!-- favicon
+  ================================================== -->
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="/images/favicon.ico" />
 
-    {% include structured_data.html %}
+  <!-- canonical URL
+  ================================================== -->
+  {% if page.canonical_url %}
+      {% assign canonical_url=page.canonical_url %}
+  {% else %}
+      {% capture canonical_url %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
+  {% endif %}
+  <link rel="canonical" href="{{ canonical_url }}">
+
+  <!-- Open Graph: https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/
+  Twitter: https://dev.twitter.com/docs/cards/types/summary-card
+  ============================== -->
+  {% include structured_data.html %}
+
 </head>

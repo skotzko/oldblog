@@ -1,7 +1,4 @@
 // HELPERS
-// .text-center {text-align: center!important;}
-// .text-left {text-align: left!important;}
-// .text-right {text-align: right!important;}
 .text-bold {font-weight: bold!important;}
 .text-underline {text-decoration: underline!important;}
 .text-italic {font-style: italic!important;}
@@ -10,20 +7,37 @@
 .text-lower {text-transform: lowercase!important;}
 .text-strike {text-decoration: line-through!important;}
 .text-white {color: white!important;}
+.text-gray {color: $dark-gray;}
+
+// to add a bit of spacing around elements
+.spacing {
+  &.top {margin-top: 5px;}
+  &.right {margin-right: 5px;}
+  &.left {margin-left: 5px;}
+  &.bottom {margin-bottom: 5px;}
+  &.all {margin: 5px;}
+}
+
+.subtext {
+  color: $dark-gray;
+  // font-style: italic;
+  font-size: $cite-font-size;
+}
+
 .bg-shadow {
   &.dark {background-color: rgba(0, 0, 0, 0.3);}
   &.light {background-color: rgba(255, 255, 255, 0.2);}
   h2 {background-color: transparent!important;}
 }
-.round-corners {border-radius: 10px;}
+.round-corners {border-radius: 7px;}
 
 .no-padding {
   padding: 0px!important;
   *:not(.button) {padding: 0px!important}
 }
 
-// .left {float: left!important;}
-// .right {float: right!important;}
+.left {float: left!important;}
+.right {float: right!important;}
 
 .center {
   float: none;
@@ -53,15 +67,15 @@
   margin: 25px;
 }
 
-.hide-for-small {display: inherit!important;}
+// .hide-for-small {display: inherit!important;}
 
-a.button.hide-for-small {
-  display: inline-block!important;
-  vertical-align: top;
-  zoom: 1; /* Fix for IE7 */
-  *display: inline; /* Fix for IE7 */
-}
-.show-for-small {display: none!important;}
+// a.button.hide-for-small {
+//   display: inline-block!important;
+//   vertical-align: top;
+//   zoom: 1; /* Fix for IE7 */
+//   *display: inline; /* Fix for IE7 */
+// }
+// .show-for-small {display: none!important;}
 
 .block {
   display: block!important;

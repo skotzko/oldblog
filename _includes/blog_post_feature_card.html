@@ -1,0 +1,14 @@
+<div class="column spacing top">
+  <p>
+    <a href="{{ post.url }}" class="text-bold">{{ post.title }}</a><br>
+    {% unless include.hide_date %}
+      <span class="subtext">{{ post.date | date: "%b %e, %Y" }}</span>
+    {% endunless %}
+  </p>
+
+  {% if post.teaser %}
+    {% unless include.hide_teaser %}
+      <p class="text-italic">{{ post.teaser }}</p>
+    {% endunless %}
+  {% endif %}
+</div>

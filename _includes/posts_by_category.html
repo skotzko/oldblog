@@ -1,0 +1,17 @@
+{% capture categories %}{% for cat in site.categories %}{{ cat | first }}|{% endfor %}{% endcapture %}
+{% assign category_titles = categories | split:'|' | sort %}
+{% for category in category_titles %}
+<a href="#{{category}}">{{ category | capitalize }}</a><br>
+{% endfor %}
+<hr>
+
+{% for category in category_titles %}
+<a id="{{ category }}"></a>
+<div class="spacing top bottom">
+  <h3>{{ category }}</h3>
+  <p>
+    {% include sorted_post_links.html category=category show_post_dates=true %}
+  </p>
+</div>
+<p><a href="#top">Back to top.</a></p>
+{% endfor %}

@@ -1,23 +1,62 @@
 <!doctype html>
 <html class="no-js">
 
-{% include head.html %}
+  {% include head.html %}
 
-<body class="{{ page.body_class }}">
+  <body class="{{ page.body_class }}">
+    <div id="top"></div>
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
 
-  <div id="loading" class="hidden text-center">
-    <i class="fa text-white fa-spinner fa-pulse fa-3x fa-fw"></i>
-  </div>
-
-    <div class="off-canvas-wrap" data-offcanvas>
-        <div class="inner-wrap">
-            {% include header.html %}
-            {% include main_content.html %}
-            {% include footer.html %}
+        <!-- small screen nav -->
+        <div class="top-bar text-center hide-for-medium">
+          <div class="top-bar-left">
+            <a href="{{ site.url }}"><h3>{{ site.brand }}</h3></a>
+            <h4 class="">Impact entrepreneur & engineer</h4>
+            <ul class="menu simple" >
+              {% include nav.html %}
+            </ul>
+          </div>
         </div>
-    </div>
 
-    {% include scripts.html %}
-</body>
 
+        <!-- original content goes in this container -->
+        <div class="off-canvas-content" data-off-canvas-content>
+          <div class="column row">
+          <!-- left rail nav -->
+            <div class="medium-3 columns show-for-medium" data-sticky-container>
+              <nav class="columns sticky" data-sticky data-margin-top="2.5">
+                <a href="/"><img data-src="/images/headshot.jpeg" alt="Andrew Skotzko" class="lazy round-corners headshot show-for-medium"></a>
+                <ul class="vertical menu side-nav">
+                  <li class="side-nav-brand">
+                    <a href="{{ site.url }}"><h4>{{ site.brand }}</h4></a>
+                  </li>
+                  <li><h5 class="impact-title">Impact entrepreneur & engineer</h5></li>
+                  {% include nav.html %}
+                </ul>
+              </nav>
+            </div>
+
+            <div id="main-content" class="small-12 medium-9 columns">
+              <div class="row">
+                <div class="small-12 medium-10 columns">
+                {{ content }}
+
+                <hr>
+                {% include footer.html %}
+                </div>
+                <div class="small-0 medium-2 columns">&nbsp;</div>
+              </div>
+            </div>
+
+          </div>
+
+        </div><!-- end .off-canvas-content -->
+
+      </div><!-- end .off-canvas-wrapper-inner -->
+    </div><!-- end .off-canvas-wrapper -->
+
+    {% include scripts/scripts.html %}
+
+  </body>
 </html>

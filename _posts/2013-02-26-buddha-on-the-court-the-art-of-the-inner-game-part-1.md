@@ -2,6 +2,7 @@
 date: 2013-02-26 20:38:44+00:00
 slug: buddha-on-the-court-the-art-of-the-inner-game-part-1
 title: "Buddha on the Court: the Art of the Inner Game (Part 1)"
+featured: true
 categories:
 - Mental Performance
 ---

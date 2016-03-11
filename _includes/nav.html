@@ -1,7 +1,9 @@
-<ul class="nav text-center">
-  {% for link in site.data.nav %}
-    <li class="inline-block {% if page.body_class == link.body_class %}hidden {% endif %}">
-      <a href="/{{ link.path }}">{{ link.name }}</a>
-    </li>
-  {% endfor %}
-</ul>
+{% for link in site.data.nav %}
+  <li class="{% if page.body_class == link.body_class %}hidden {% endif %}">
+  {% if link.external %}
+    <a href="{{ link.external }}">{{ link.name }}</a>
+  {% else %}
+    <a href="/{{ link.path }}">{{ link.name }}</a>
+  {% endif %}
+  </li>
+{% endfor %}

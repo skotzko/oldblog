@@ -20,7 +20,7 @@
             {% endif %}
 
             {% unless page.no_email_subscribe %}
-                {% include email_subscribe.html %}
+                {% include email_subscribe_form.html %}
             {% endunless %}
 
             {% if site.disqus_short_name and page.comments %}

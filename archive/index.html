@@ -1,0 +1,85 @@
+---
+layout: page
+title: Blog Archive
+body_class: archive
+---
+
+<div class='row'>
+  <div class='large-8 columns center'>
+    <h1 class="text-center">{{ page.title }}</h1>
+    <ul class="text-center" style="list-style-type: none;">
+      <li class="inline-block"><a href="/feed.xml">RSS feed of all posts</a></li> |&nbsp;
+      <li class="inline-block"><a href="#byDate">Posts by Date</a></li> |&nbsp;
+      <li class="inline-block"><a href="#byCategory">Posts by Category</a></li>
+    </ul>
+
+    <div id="byDate">
+      <h2 class="text-underline">Posts by Date</h2>
+      {% include posts_by_date.html %}
+    </div>
+
+    <br><br>
+
+    <div id="byCategory">
+      <h2 class="text-underline">Posts by Category</h2>
+      {% include posts_by_category.html %}
+    </div>
+
+    <!-- <ul class="tabs" id="archive-tabs" data-tabs>
+      <li class="tabs-title is-active"><a href="#byDate">By Date</a></li>
+      <li class="tabs-title"><a href="#byCategory">By Category</a></li>
+    </ul>
+
+    <div class="tabs-content" data-tabs-content="archive-tabs">
+      <div class="tabs-panel is-active" id="byDate">
+        {% for post in site.posts %}
+          {% unless post.next %}
+            <h2>{{ post.date | date: '%Y' }}</h2>
+            <h3 style="margin-top: 20px;">{{ post.date | date: '%B' }}</h3>
+          {% else %}
+            {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+            {% capture month %}{{ post.date | date: '%B' }}{% endcapture %}
+            {% capture nmonth %}{{ post.next.date | date: '%B' }}{% endcapture %}
+            {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+
+            {% if year != nyear %}
+              <p style="margin-top: 10px;"><a onclick="window.scrollToAnchor('#top');">Back to top.</a></p>
+              <h2 style="margin-top: 20px;">{{ post.date | date: '%Y' }}</h2>
+            {% endif %}
+
+            {% if month != nmonth %}
+              <h3 style="margin-top: 20px;">{{ post.date | date: '%B' }}</h3>
+            {% endif %}
+          {% endunless %}
+
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+        <p style="margin-top: 10px;"><a onclick="window.scrollToAnchor('top');">Back to top.</a></p>
+      </div>
+
+      <div class="tabs-panel" id="byCategory">
+        {% capture categories %}{% for cat in site.categories %}{{ cat | first }}|{% endfor %}{% endcapture %}
+        {% assign category_titles = categories | split:'|' | sort %}
+        {% for category in category_titles %}
+        <a onclick="window.scrollToAnchor('{{category}}');">{{ category | capitalize }}</a><br>
+        {% endfor %}
+        <hr>
+
+        {% for category in category_titles %}
+        <a name="{{ category }}"></a>
+        <div>
+          <h3>{{ category }}</h3>
+          <p>
+            {% include sorted_post_links.html category=category show_post_dates=true %}
+          </p>
+        </div>
+        {% endfor %}
+        <p style="margin-top: 20px;"><a onclick="window.scrollToAnchor('#top');">Back to top.</a></p>
+      </div>
+    </div> -->
+
+    <div class="clearfix"></div>
+  </div>
+</div>
