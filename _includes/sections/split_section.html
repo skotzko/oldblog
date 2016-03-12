@@ -10,7 +10,12 @@ data-magellan-target="{{ context.magellan_target }}"
     </div>
     <div class="medium-9 small-12 columns">
     {% for content in context.content %}
-      <p>{{ content }}</p>
+      {% if content.tag %}
+        {% assign tag = content.tag %}
+      {% else %}
+        {% assign tag = "p" %}
+      {% endif %}
+      <{{tag}}>{{ content.text }}</{{tag}}>
     {% endfor %}
     </div>
 
@@ -23,7 +28,12 @@ data-magellan-target="{{ context.magellan_target }}"
       </div>
       <div class="medium-9 small-12 columns">
       {% for content in context.content %}
-        <p>{{ content }}</p>
+        {% if content.tag %}
+          {% assign tag = content.tag %}
+        {% else %}
+          {% assign tag = "p" %}
+        {% endif %}
+        <{{tag}}>{{ content.text }}</{{tag}}>
       {% endfor %}
       </div>
 

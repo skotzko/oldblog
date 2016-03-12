@@ -6,4 +6,12 @@ no_email_subscribe: true
 hide_back_to_top: true
 ---
 
-<div>{{ content }}</div>
+<div class="row">
+  <div class="small-12 columns">
+    {% unless page.hide_title %}
+      <h2>{{ page.title }}</h2>
+    {% endunless %}
+
+    {{ content }}
+  </div>
+</div>

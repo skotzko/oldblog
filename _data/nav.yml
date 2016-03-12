@@ -1,3 +1,6 @@
+- name: Home
+  path: ""
+  body_class: "home"
 - name: Blog
   path: "#blog"
   body_class: ""
@@ -10,6 +13,9 @@
 - name: Contact
   path: "#contact"
   body_class: ""
+- name: About
+  path: "about"
+  body_class: "about"
 - name: Twitter
   external: https://twitter.com/askotzko
   body_class: ""

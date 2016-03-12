@@ -1,0 +1,37 @@
+---
+layout: page
+title: About me
+body_class: about
+hide_title: true
+---
+
+{% include sections/split_section.html context=site.data.about.whoami %}
+
+<hr>
+
+{% include sections/split_section.html context=site.data.about.10sec %}
+
+<hr>
+
+
+<div class="row">
+  <div class="medium-3 small-12 columns">
+    <h3>Twitterz</h3>
+  </div>
+  <div class="medium-9 small-12 columns">
+    <p>As no bio is complete without the ask: please follow me on Twitter.<br> {% include follow_button.html %}
+    </p>
+  </div>
+</div>
+
+<hr>
+
+{% include sections/split_section.html context=site.data.about.trivia %}
+
+<hr>
+
+{% include sections/split_section.html context=site.data.about.stalk %}
+
+<hr>
+
+{% include sections/contact.html no_twitter_ask=true %}
