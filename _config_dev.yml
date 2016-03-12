@@ -53,7 +53,7 @@ gems:
 - jekyll-paginate
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: skotzko
 disqus_show_comment_count: false
 
 # Twitter

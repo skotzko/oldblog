@@ -5,5 +5,31 @@ sharing: true
 no_email_subscribe: true
 hide_back_to_top: true
 ---
-<h1>{{ page.title }}</h1>
-<div>{{ content }}</div>
+<div class="row">
+  <div class="small-12 columns">
+    <h1>{{ page.title }}</h1>
+
+    {{ content }}
+
+    {% if page.after_post_text %}
+        <p>{{ page.after_post_text }}</p>
+    {% endif %}
+
+    {% if page.body_class == 'post' %}
+    <div>&nbsp;</div>
+    <div class="text-italic">
+      Written {% if page.author %} by <a href="{{ page.author_url }}">{{ page.author }}</a>{% endif %} on {{ page.date | date: "%B %e, %Y" }}
+    </div>
+    <div>&nbsp;</div>
+    {% endif %}
+
+    {% unless page.no_email_subscribe %}
+        {% include email_subscribe.html %}
+    {% endunless %}
+
+    {% if site.disqus_short_name and page.comments %}
+      {% include scripts/disqus.html %}
+    {% endif %}
+
+  </div>
+</div>
