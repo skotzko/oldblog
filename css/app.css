@@ -4512,6 +4512,9 @@ h5.impact-title {
   margin-bottom: 100px; }
   .post:not(:first-of-type) {
     margin-top: 25px; }
+  .post .entry-title {
+    font-size: 47px;
+    text-align: center; }
   .post + hr {
     max-width: 60%;
     margin: 0 auto; }
