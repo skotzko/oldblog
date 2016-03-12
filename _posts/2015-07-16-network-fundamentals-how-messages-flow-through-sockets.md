@@ -10,8 +10,6 @@ categories:
 - Fundamentals
 ---
 
-<span class="text-italic">This is a cross-post of an article I wrote for [the Petabridge blog](https://petabridge.com/blog/) recently. [As I shared](/reboot), going forward this blog is going to take a more technical angle.</span>
-
 One of the questions that has been coming up a lot lately as many people are building with Akka.Remote is this:
 
 > How big of a message can I send over the network?
