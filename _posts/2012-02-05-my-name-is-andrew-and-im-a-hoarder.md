@@ -17,7 +17,7 @@ Stuff just kept growing, because he's amorphous, never in one place, so I didn't
 
 **Stuff got big**: he weighs about 2,616 pounds right now. He's got 2,932 body parts. He's cost me somewhere in the neighborhood of $37,000.
 
-<img class="center img-center" src="/images/stuff-graph.jpg" alt="">
+<img class="center img-center lazy" data-src="/images/stuff-graph.jpg" alt="">
 
 Before I started, I'd guessed 1,000 items. Lowballed that one.
 
@@ -47,7 +47,7 @@ In our society, it's always about more more more. I want less.
 
 I like certain types of more: More happiness. More success. More money. More love. etc etc. But more stuff? No thanks. Stuff sucks. Stuff is a parasite, a leech on me. I want to de-leech.
 
-<img class="center img-center" src="/images/stuffleech.jpg" alt="">
+<img class="center img-center lazy" data-src="/images/stuffleech.jpg" alt="">
 
 Stuff is with me all the time, leeching my energy and focus from the activities and moments that really matter. What a jerk. I'm un-friending him and un-hoarding. I'm opening up space for new, good things in my life by clearing out the old and stagnant.
 

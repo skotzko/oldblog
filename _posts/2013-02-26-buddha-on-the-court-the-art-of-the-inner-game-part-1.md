@@ -6,7 +6,7 @@ featured: true
 categories:
 - Mental Performance
 ---
-<img class="center img-center" src="/images/2014/02/jackson.jpg" alt="">
+<img class="center img-center lazy" data-src="/images/2014/02/jackson.jpg" alt="">
 
 On Friday, November 10th, 2006, Lawrence Jackson was running out of time. The All-American defensive end for the USC Trojans had yet to register a sack in his junior season. Coming into the season, Jackson had his sights on a national title, a [Bednarik award](http://en.wikipedia.org/wiki/Bednarik_Award), and possibly a first-round pick in the coming NFL draft.
 

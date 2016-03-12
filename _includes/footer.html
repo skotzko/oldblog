@@ -31,7 +31,7 @@
       <div>
         {% capture feedly_url %}http://www.feedly.com/home#subscription/feed/{{ site.url }}{{ site.links.rss }}{% endcapture %}
         <a href="{{ feedly_url }}" target='blank'>
-          <img id='feedlyFollow' src='https://s3.feedly.com/img/follows/feedly-follow-rectangle-volume-big_2x.png' alt='follow us in feedly' width='131' height='56' class="center feedly">
+          <img id='feedlyFollow' data-src='https://s3.feedly.com/img/follows/feedly-follow-rectangle-volume-big_2x.png' width='131' height='56' class="center feedly lazy">
           </a>
 
         <div class="copyright">
@@ -40,7 +40,7 @@
 
         <div class='license'>
           <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-          <img src="/images/creative_commons_license.png" alt="Creative Commons License" class="center">
+          <img data-src="/images/creative_commons_license.png" class="center lazy">
           </a>
         </div>
 

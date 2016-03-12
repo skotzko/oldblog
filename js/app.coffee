@@ -42,11 +42,6 @@ setupSumoMe = (site_id = "{{ site.sumo_me_site_id }}") ->
   sumo.setAttribute('data-sumo-site-id', site_id)
   (document.getElementsByTagName("head")[0] or document.getElementsByTagName("body")[0]).appendChild sumo
 
-loadImages = ->
-  $('img[imgsrc]').each ->
-    source = $(this).attr('imgsrc')
-    $(this).attr('src', source)
-
 setupSmoothScroll = ->
   $('a[href*="#"]:not([href="#"])').click ->
     if location.pathname.replace(/^\//, '') == @pathname.replace(/^\//, '') and location.hostname == @hostname

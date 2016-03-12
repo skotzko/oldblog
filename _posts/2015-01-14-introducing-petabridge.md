@@ -7,7 +7,7 @@ published: true
 categories:
 - petabridge
 ---
-<img class="center img-center" src="/images/interactive_data.jpg" alt="">
+<img class="lazy center img-center" data-src="/images/interactive_data.jpg" alt="">
 
 The future of computing is a massively-connected world where everyone and their mother has 3+ devices. That means data. Lots and lots of data.
 
@@ -25,7 +25,7 @@ And so&hellip;
 
 ## Introducing Petabridge
 <a href="http://twitter.com/petabridge">
-<img class="right" src="/images/petabridge_logo.png" alt=""></a>
+<img class="lazy right" data-src="/images/petabridge_logo.png"></a>
 
 I am pleased to announce that I am co-founding [Petabridge](http://twitter.com/petabridge/) – a company dedicated to making distributed computing easy and accessible for .NET developers. My partner in crime is my friend and fellow fanatic, Aaron. (And yes, it's sometimes confusing that we have the same initials.)
 
@@ -42,7 +42,7 @@ We believe that [Akka.NET](https://akkadotnet.github.io/) and [Helios](https://g
 I see a bright future ahead for .NET and its OSS ecosystem, but it needs companies like [Petabridge](http://twitter.com/petabridge/) to support the bigger projects and develop data platforms for the ecosystem. Writing open source code is one key element, but educating developers to use it is another – especially with something as mind-twisting as [the Actor model](https://en.wikipedia.org/wiki/Actor_model) used by [Akka.NET](https://akkadotnet.github.io/).
 
 ## Where Do We Start?
-<img class="left" src="/images/akka_net_logo_only.png" alt=""> So while we continue to contribute to the open-source development in this space, the first order of business is education. There are tens of thousands of developers around the globe who need to learn this material to unlock the value that's tied up in their heads.
+<img class="left lazy" data-src="/images/akka_net_logo_only.png"> So while we continue to contribute to the open-source development in this space, the first order of business is education. There are tens of thousands of developers around the globe who need to learn this material to unlock the value that's tied up in their heads.
 
 The first thing [Petabridge](http://twitter.com/petabridge/) will be offering is soup-to-nuts Akka.NET training – learn everything from how the Actor model works to how to deploy substantial Akka.NET applications in production. We'll take you from 20 to 120 and get you ready to build and run scalable, distributed applications in .NET. We're already building tools and products that will be released down the line, starting with several tools to make the development/testing process easier for distributed software.
 

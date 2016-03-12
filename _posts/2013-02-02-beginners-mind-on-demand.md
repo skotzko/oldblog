@@ -8,7 +8,7 @@ categories:
 - Habits
 - Mental Performance
 ---
-<img class="center img-center" src="/images/2013/02/floor.jpg" alt="">
+<img class="center img-center lazy" data-src="/images/2013/02/floor.jpg" alt="">
 
 Two months ago, I was scared. Scared I wouldn't be able to keep up the course I was on. Scared my progress would grind to a stop. Scared I wouldn't be able to deliver on the commitments that I'd made. Scared that I couldn't cut it on the new level I was playing at.
 

@@ -32,7 +32,7 @@ Here's the first answer people try: "network-shmetwork! JUST SEND IT!"
 ## Why This Is A Bad Idea
 This is basically what that does to the network:<!-- more -->
 
-<img src="/images/2015/network-messages/python-pig.jpg" alt="Python eating an entire pig" class="img-center">
+<img data-src="/images/2015/network-messages/python-pig.jpg" alt="Python eating an entire pig" class="img-center lazy">
 
 That is a python trying to eat an entire pig. Ewwwww. Gross.
 
@@ -69,7 +69,8 @@ At a high-level, here's the process of sending data between applications over th
 6. Process is reversed in the receiving application to convert from byte array to usable object.
 
 Here's what that looks like:
-![Network message overview](/images/2015/network-messages/wire_format_overview.png)
+<img data-src="/images/2015/network-messages/wire_format_overview.png" class="lazy">
+
 
 What does this process assume? Offhand, I can see two core assumptions:
 
@@ -125,7 +126,7 @@ Disadvantages:
 - Some systems will always hold memory for the largest buffer they've seen, resulting in wasted memory.
 
 Here's what length-frame encoding and decoding looks like:
-![length-frame frame encoding](/images/2015/network-messages/decoding.gif)
+<img data-src="/images/2015/network-messages/decoding.gif" class="lazy">
 
 #### Delimiter-Based Encoding
 How do we know the length of the frame in this encoding? We put a delimiter between each frame. This delimiter needs to be something that won't show up in the actual message frame, like a [null terminator](https://en.wikipedia.org/wiki/Null_character) in C++.
@@ -141,7 +142,7 @@ Disadvantages:
 - God help you if somehow you have delimiters show up in your message where you don't intend them.
 
 Here's what delimiter-based encoding looks like:
-![Delimiter-based frame encoding](/images/2015/network-messages/delimited-framing.png)
+<img data-src="/images/2015/network-messages/delimited-framing.png" class="lazy">
 
 #### Fixed-Length Encoding
 How do we know the length of the frame in this encoding? This one is simple, all frames are the same length!
@@ -156,7 +157,7 @@ Disadvantages:
 - Inflexible. Doesn't adapt to different message sizes and can forces you into choosing either wasted memory with small fixed-length frames, or forces you to take on the added complexity of stitching together multiple frames that could be represented as one frame under a different encoding.
 
 Here's what fixed-length encoding looks like:
-![Fixed-length frame encoding](/images/2015/network-messages/fixed-length-encoding.png)
+<img data-src="/images/2015/network-messages/fixed-length-encoding.png" class="lazy">
 
 ### What TCP Sockets Can & Can't Handle
 TCP sockets don't support arbitrarily large packet sizes. In answer to the question, "how large of a packet can I send over TCP?," there are [varying](https://stackoverflow.com/questions/2613734/maximum-packet-size-for-a-tcp-connection) [answers](https://stackoverflow.com/questions/2613734/maximum-packet-size-for-a-tcp-connection) ranging from 1400 bytes to 65kB. But that's actually irrelevant here: *regardless of what the max packet size really is, it is definitely much smaller than the amount of data you want to move.*
