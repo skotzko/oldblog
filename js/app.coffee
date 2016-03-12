@@ -17,7 +17,7 @@ window.hideLoading = ->
   $('#loading').addClass("hidden")
 
 hideForm = (containerSelector) ->
-  $(containerSelector).html("<p class='center text-center'>Thanks! I'll get right back to you.</p>" ).css("font-size", 36)
+  $(containerSelector).html("<p class='text-italic text-green'>Thanks for reaching out!<i class='fa fa-lg fa-thumbs-up text-green' style='padding-left: 10px;'></i></p>").css("font-size", 20).css("padding-bottom", "20px")
 
 checkDebugMode = ->
   # disable console.debug unless we are in debug mode (local dev)
