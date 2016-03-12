@@ -1,5 +1,7 @@
-{% include sections/split_section.html context=site.data.homepage.newsletter %}
+{% assign include_no_split = include.no_split %}
 
-<div class="medium-9 medium-offset-3 small-12 columns" trimpadding>
+{% include sections/split_section.html context=site.data.homepage.newsletter no_split=include_no_split %}
+
+<div class="{% unless include_no_split %}medium-9 medium-offset-3 {% endunless %}small-12 columns" trimpadding>
   {% include email_subscribe_form.html %}
 </div>

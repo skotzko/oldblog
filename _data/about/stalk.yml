@@ -2,7 +2,6 @@ id: stalk
 magellan_target: stalk
 title: Stalk me on the Interwebz
 content:
-  - text: "Targets acquired!"
   - text: "<li><a href='https://twitter.com/askotzko'>Twitter</a></li>
   <li><a href='https://instagram.com/skotzko'>Instagram</a></li>
   <li><a href='https://www.linkedin.com/in/andrewskotzko'>LinkedIn</a></li>

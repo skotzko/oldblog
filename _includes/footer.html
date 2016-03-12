@@ -1,7 +1,9 @@
 <footer id="footer" class="site-footer row text-center" role="contentinfo">
   <div class="row">
     <div class="small-12 medium-centered medium-9 columns">
-      <a href="#top" class="back-to-top">Back to top.</a>
+      {% unless page.hide_back_to_top %}
+        <a href="#top" class="back-to-top">Back to top.</a>
+      {% endunless %}
 
       <div class="social-container">
         <p class="quiet copyright center text-center">

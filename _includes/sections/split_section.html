@@ -5,10 +5,12 @@
 data-magellan-target="{{ context.magellan_target }}"
 {% endif %}>
   <div class="row">
-    <div class="medium-3 small-12 columns">
+
+    <div class="{% unless include.no_split %}medium-3 {% endunless %}small-12 columns">
       <h3>{{ context.title }}</h3>
     </div>
-    <div class="medium-9 small-12 columns">
+
+    <div class="{% unless include.no_split %}medium-9 {% endunless %}small-12 columns">
     {% for content in context.content %}
       {% if content.tag %}
         {% assign tag = content.tag %}
@@ -23,10 +25,11 @@ data-magellan-target="{{ context.magellan_target }}"
       {% assign context = context.second_section %}
       <hr>
 
-      <div class="medium-3 small-12 columns">
+      <div class="{% unless include.no_split %}medium-3 {% endunless %}small-12 columns">
         <h3>{{ context.title }}</h3>
       </div>
-      <div class="medium-9 small-12 columns">
+
+      <div class="{% unless include.no_split %}medium-9 {% endunless %}small-12 columns">
       {% for content in context.content %}
         {% if content.tag %}
           {% assign tag = content.tag %}

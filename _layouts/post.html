@@ -1,9 +1,6 @@
 ---
 layout: default
-comments: false
 sharing: true
-no_email_subscribe: true
-hide_back_to_top: true
 ---
 <div class="row">
   <div class="small-12 columns">
@@ -24,7 +21,8 @@ hide_back_to_top: true
     {% endif %}
 
     {% unless page.no_email_subscribe %}
-        {% include email_subscribe_form.html %}
+        <hr>
+        {% include sections/newsletter.html no_split=true %}
     {% endunless %}
 
     {% if site.disqus_short_name and page.comments %}

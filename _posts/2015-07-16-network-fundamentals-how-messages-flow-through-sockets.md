@@ -1,9 +1,8 @@
 ---
 title: "Understanding the Internet: How Messages Flow Through TCP Sockets"
-after_post_text: "How does this understanding change the way you think about sending data around? Leave a comment below and let me know."
+after_post_text: "How does this understanding change the way you think about sending data around?"
 teaser: "How does our data actually get moved around the Internet?"
 published: true
-comments: true
 categories:
 - networking
 - TCP
