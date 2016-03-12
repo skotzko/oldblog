@@ -1,8 +1,4 @@
-.sass-cache
-*.DS_Store
-_site
-Gemfile.lock
-bower_components
-!bower_components/foundation/scss/foundation.scss
+.DS_Store
 node_modules
-*.sublime-*
+npm-debug.log
+_site
