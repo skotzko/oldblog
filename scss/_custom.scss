@@ -44,6 +44,15 @@ body {
 	padding-top: 20px;
 }
 
+::selection {
+  background: $green; /* WebKit/Blink Browsers */
+  color: $white;
+}
+::-moz-selection {
+  background: $green; /* Gecko Browsers */
+  color: $white;
+}
+
 ///////////////////
 // Font sizing
 ///////////////////

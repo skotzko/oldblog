@@ -4337,6 +4337,21 @@ h1, h2, h3, h4, h5, h6 {
 .off-canvas-content {
   padding-top: 20px; }
 
+::-moz-selection {
+  background: #65a672;
+  /* WebKit/Blink Browsers */
+  color: #fff; }
+
+::selection {
+  background: #65a672;
+  /* WebKit/Blink Browsers */
+  color: #fff; }
+
+::-moz-selection {
+  background: #65a672;
+  /* Gecko Browsers */
+  color: #fff; }
+
 h1 {
   font-size: 39px; }
 
