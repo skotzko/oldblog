@@ -1,14 +1,11 @@
 - name: Home
   path: ""
   body_class: "home"
-- name: Blog
-  path: "#blog"
-  body_class: ""
-# - name: Projects
-#   path: "#projects"
-#   body_class: projects
 - name: Newsletter
   path: "#newsletter"
+  body_class: ""
+- name: Blog
+  path: "#blog"
   body_class: ""
 - name: Contact
   path: "#contact"
