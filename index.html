@@ -1,41 +1,49 @@
 ---
 comments: false
+title: Home
 body_class: home
-layout: page
+layout: default
 ---
 {% include sections/intro.html %}
+<hr>
+{% include sections/split_section.html context=site.data.about.10sec %}
 <hr>
 {% include sections/newsletter.html %}
 <hr>
 {% include sections/blog.html %}
 <hr>
+{% include sections/split_section.html context=site.data.about.whoami %}
+<hr>
 {% include sections/contact.html %}
 
 
 
-{% comment %}
-{% for post in paginator.posts %}
-<div class="post">
-  <div class='info'>
-    <h1><a href='{{post.url}}'>{{ post.title }}</a></h1>
-  </div>
-  <div class='content'>
-    {% if post.dont_truncate %}
-      {{ post.content }}
-    {% else %}
-      {{ post.content | split:"<!-- more -->" | first | truncatewords:300 }}
-    {% endif %}
-  </div>
-  <div class="content">
-    {% unless post.dont_truncate %}
-      {% if post.content | size > 300 %}
-        <a class='button morelink' href='{{ post.url }}#morelink'>Read more &rarr;</a>
-      {% endif %}
-    {% endunless %}
-  </div>
-</div>
-{% endfor %}
 
-{% include pagination.html %}
+
+
+{% comment %}
+  {% for post in paginator.posts %}
+  <div class="post">
+    <div class='info'>
+      <h1><a href='{{post.url}}'>{{ post.title }}</a></h1>
+    </div>
+    <div class='content'>
+      {% if post.dont_truncate %}
+        {{ post.content }}
+      {% else %}
+        {{ post.content | split:"<!-- more -->" | first | truncatewords:300 }}
+      {% endif %}
+    </div>
+    <div class="content">
+      {% unless post.dont_truncate %}
+        {% if post.content | size > 300 %}
+          <a class='button morelink' href='{{ post.url }}#morelink'>Read more &rarr;</a>
+        {% endif %}
+      {% endunless %}
+    </div>
+  </div>
+  {% endfor %}
+
+  {% include pagination.html %}
 
 {% endcomment %}

@@ -1,7 +1,6 @@
 ---
 title: Eat Me If You Wish
 published: true
-featured: true
 categories:
 - Philosophy
 ---

@@ -2,7 +2,6 @@
 date: 2013-05-21 18:43:58+00:00
 slug: have-you-gotten-too-comfortable
 title: Have You Gotten Too Comfortable?
-featured: true
 categories:
 - Creativity
 - Psychology

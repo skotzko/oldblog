@@ -2,5 +2,10 @@ id: contact
 magellan_target: contact
 title: Get in touch
 content:
-  - text: "I'd love to hear from you."
-  - text: "Say hi on <a href='https://twitter.com/askotzko'>Twitter</a> or <a href='https://www.linkedin.com/in/andrewskotzko'>LinkedIn</a>. You can also find me on <a href='https://angel.co/andrewskotzko'>AngelList</a>, <a href='https://github.com/skotzko/'>Github</a>, or <a href='https://stackoverflow.com/users/524750/andrews'>StackOverflow</a>."
+  - text: "I'd love to hear from you. Say hi on:"
+  - text: "<ul><li><a href='https://twitter.com/askotzko'>Twitter</a></li>
+  <li><a href='https://instagram.com/skotzko'>Instagram</a></li>
+  <li><a href='https://www.linkedin.com/in/andrewskotzko'>LinkedIn</a></li>
+  <li><a href='https://angel.co/andrewskotzko'>AngelList</a></li>
+  <li><a href='https://github.com/skotzko/'>Github</a></li>
+  <li><a href='https://stackoverflow.com/users/524750/andrews'>Stack Overflow</a></li></ul> "

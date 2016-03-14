@@ -7,12 +7,9 @@
 - name: Blog
   path: "#blog"
   body_class: ""
+- name: About
+  path: "#about"
+  body_class: "about"
 - name: Contact
   path: "#contact"
-  body_class: ""
-- name: About
-  path: "about"
-  body_class: "about"
-- name: Twitter
-  external: https://twitter.com/askotzko
   body_class: ""
