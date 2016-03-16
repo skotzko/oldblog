@@ -2,7 +2,6 @@ id: about
 magellan_target: about
 title: What do I believe?
 content:
-  - text: "<span class='text-italic'>I believe in discovering what's possible, so that we create a world where everyone has the chance to make their highest contribution.</span>"
-  - text: "I live at the intersection of technology, business, and social impact. I work out what's going on, what's next, and where the gap is. Then, I build products that matter to help solve the biggest problems."
-  - text: "I'm always reaching beyond what I know, exploring what can be, and finding the silver lining."
-
+  - text: "I believe that people are tired of being asked to do the minimum. That they're yearning to measure the full distance of their potential in service of what they care about."
+  - text: "I believe that we have everything we need to create a world of abundance. I imagine a world where each person gets up in the morning and can go out and make their unique contribution to the world, rather than surviving it."
+  - text: "So in everything I do, I aim to discover what’s possible so that people can express the full measure of their potential."
