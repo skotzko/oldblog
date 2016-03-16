@@ -2,7 +2,7 @@ id: contact
 magellan_target: contact
 title: Get in touch
 content:
-  - text: "I'd love to hear from you. Say hi on:"
+  - text: "I'd love to hear from you. Find me on:"
   - text: "<ul><li><a href='https://twitter.com/askotzko'>Twitter</a></li>
   <li><a href='https://instagram.com/skotzko'>Instagram</a></li>
   <li><a href='https://www.linkedin.com/in/andrewskotzko'>LinkedIn</a></li>
