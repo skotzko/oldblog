@@ -11,7 +11,7 @@ Quality matters. But so does presentation. Substance without style is never even
 
 Here's what got me thinking...
 
-## Is It Fair to Judge a Book by Its Cover?
+## Is it fair to judge a book by its cover?
 An acquaintance of mine from years ago recently published a book. I saw a very excited post on Facebook about it, overwhelmed with emotion about the book "hitting the bestseller list." I was curious and excited because I like this person and wanted to see what he had made, so I clicked through to check it out. Immediately, my bullshit meter started pinging based on the design of the website and book. But I wanted to give it a chance. After all, he was self-publishing this book, and maybe he'd had to create the collateral himself (he's not a designer). So I bought the book, hoping there was more substance than there was style.
 
 <a name="morelink"></a>
@@ -19,7 +19,7 @@ I'm sad to report that book is an utter waste of space and attention. More than 
 
 I've come to realize that while I love style, I don't value style unless it's backed by substance. And so I find myself conflicted. I'm torn between judging the merits of another's work and<!-- more -->celebrating the fact that this person actually made and shipped something.
 
-## Am I Just Being Jealous?
+## Am I just being jealous?
 I've considered writing a book before, so at first I did feel a twinge of jealousy at his having checked a box that I have not. I think everyone feels this at one point or another: why not me? Why haven't I done that? Hey, I had that idea first!
 
 Sometimes, it just feels like a zero-sum game. But creativity, by definition, is not zero-sum: there is always more to create!

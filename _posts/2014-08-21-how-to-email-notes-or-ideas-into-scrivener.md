@@ -33,7 +33,7 @@ Now, depending on how many projects you have in Scrivener, you may want to:
 
 To do this, you'll need an IFTTT account (it's free). Get one [here](https://ifttt.com/join).
 
-## Emailing All Ideas into One Scrivener Project
+## Emailing all ideas into one scrivener project
 [Here is my IFTTT recipe for emailing all ideas into one Scrivener project](https://ifttt.com/recipes/197602-email-into-scrivener-all-into-one-project). For this example, I'll use my blog project.
 
 A quick note before we dive in:
@@ -50,14 +50,14 @@ Here's how it looks in screenshots:
 
 <img class="center img-center lazy" data-src="/images/2014/08/second-idea.png" alt="">
 
-## Emailing Ideas into Multiple Scrivener Projects
+## Emailing ideas into multiple scrivener projects
 If you have multiple Scrivener projects, you'll likely want the ability to email into each of them independently. [Here is my IFTTT recipe to email ideas into a specific Scrivener project](https://ifttt.com/recipes/197604-email-notes-into-specific-scrivener-project).
 
 You'll need to set up a copy of this recipe per project you want to be able to email into.
 
 Here's an example with my two current projects, "Blog" and "Daily Writing." The only differences are the hashtag (goes in the subject line of the email you send) and the path to the folder in Dropbox where I want IFTTT to create the documents.
 
-### Example: Send in Idea to the Blog Project
+### Example: send in idea to the blog project
 I email IFTTT just as before, but now I put the #blog hashtag in the subject
 line.
 
@@ -67,7 +67,7 @@ line.
 
 <img class="center img-center lazy" data-src="/images/2014/08/blog-only-idea.png" alt="">
 
-### Example: Send in Idea to the Daily Writing Project
+### Example: send in idea to the daily writing project
 I email IFTTT just as before, but now I put the #daily hashtag in the subject
 line.
 

@@ -39,7 +39,7 @@ But you know the most important thing I saw in these travels?
 
 I still see that world. Let me tell you about it.
 
-## A Crisis
+## A crisis
 When you talk to many people about the trajectory of the world, their outlook falls somewhere between a vague malaise and feeling resigned to a desolate, post-apocalyptic future. This sad future seems inevitable to them, beyond their control.
 
 They can't really explain it, and if you prod them on why they believe this is, you'll get some sort of quasi-rational explanation. See if you've ever heard any of these:
@@ -57,7 +57,7 @@ Though each of these sounds rational and plausible—hey, we've all said somethi
 
 Why?
 
-## The Battle of the Futures
+## The battle of the futures
 Most people are living into a default future that they don't even realize exists. Dave Logan and Steve Zaffron discussed this at length in [this book](http://www.amazon.com/Three-Laws-Performance-Rewriting-Organization/dp/111804312X/ref=sr_1_2?ie=UTF8&qid=1428346123&sr=8-2&keywords=dave+logan), but the gist is this:
 
 All people and organizations have a "default future," that is, the future they already have. Yours is the one you know is going to be happen, that is written, that's in your gut. It's made up of your hopes, dreams, and aspirations. It is the answer to the question, "what is likely to happen, if nothing unexpected comes along?"
@@ -66,7 +66,7 @@ This future drives your actions in a way that requires no thought on your part. 
 
 The answer to the question, "how do I change this future?" is as simple as it is powerful. [You rewrite it](https://www.youtube.com/watch?v=4Z3r9dw_Jso).
 
-## An Opportunity
+## An opportunity
 Of all the things I've seen in my travels, the most important is a world bursting with potential, begging to be unleashed.
 
 Imagine a world where people everywhere can collaborate and pool their ideas and effort to invent things that none of them could create alone.
@@ -79,21 +79,21 @@ Imagine the staggering capabilities of [the rising billion](http://peterdiamandi
 
 **This is the world I envision: a world where everyone has the chance to realize their potential**.
 
-## What Will It Take?
+## What will it take?
 In a word: abundance.
 
 Abundance is how we make a world where each and every human being has the opportunity to contribute their unique gift to the planet and our race, rather than just trying to survive.
 
 I believe a world of abundance is within our reach in my lifetime.
 
-### What Is Abundance?
+### What is abundance?
 When I say "a world of abundance," this is what I mean:
 
 > Abundance is *not* about providing everyone on this planet with a life of luxury—rather it's about providing all with a life of possibility&hellip; Ultimately, abundance is about creating a world of possibility: a world where everyone's days are spent dreaming and doing, not scrapping and scraping.
 >
 > \- [Peter Diamandis](https://twitter.com/peterdiamandis)
 
-### How Do We Create a World of Abundance?
+### How do we create a world of abundance?
 For me, it starts with technology. Technology is a resource liberator, an enabler of and force multiplier for possibility and potential.
 
 To create an abundant world, we're going to have to solve problems that we have no idea how to solve right now.
@@ -102,7 +102,7 @@ To create an abundant world, we're going to need breakthroughs in every critical
 
 What do these diverse fields all have in common? **Computers**.
 
-### My Mission
+### My mission
 As [Marc Andreessen](https://twitter.com/pmarca) famously said, ["software is eating the world."](http://www.wsj.com/articles/SB10001424053111903480904576512250915629460)
 
 Software is now a critical component in every major industry and field. Computing is a driving force that helps every other field advance itself, whether by running massive simulations to discover the best way to design a new machine, creating a smart energy grid, creating affordable and personalized healthcare and education, and so on.
@@ -117,7 +117,7 @@ Creativity, aided by infinite computing, is how we're going to solve the problem
 >
 > \- [Carl Bass](https://twitter.com/carlbass), in [Wired Magazine](http://www.wired.co.uk/magazine/archive/2012/03/ideas-bank/weve-reached-infinity)
 
-#### The Software of Our Future
+#### The software of our future
 Here's the kicker: *the software of our future will not be written like the software of our past.*
 
 The software of our future will be distributed, existing across a massive network of computers. It will be infinitely scalable on demand. It will react to data as needed and take the right actions, at the right time, in the right place.
@@ -128,7 +128,7 @@ And that's why **I'm committed to making the power of distributed computing acce
 
 I may not know much about solving problems in nanotechnology, clean water, energy production or other essential fields, but I can collaborate with domain experts who do and create computing resources for them to figure it out. (Coincidentally, this is why I started [Petabridge](http://petabridge.com) with [Aaron](http://twitter.com/aaronontheweb): to help software developers discover entirely new ways to take on audacious challenges.)
 
-### What Can You Do Today?
+### What can you do today?
 First: If you're reading this on a modern laptop or smartphone in a first-world country, realize how lucky you already are. Compared to the rest of the world, regardless of how much money you make, you are in the 1%.
 
 Second: *Realize that you can rewrite your future, and in turn, our future.*
@@ -147,4 +147,4 @@ What about an abundant world excites you? Leave a comment below and let's contin
 
 \###
 
-P.S. [Here's a great little talk](https://www.youtube.com/watch?v=4Z3r9dw_Jso) by [Dave Logan](https://twitter.com/davelogan1) on just how you go about rewriting your default future. Enjoy, and let me know what you think about it in the comments!
+p.s. [here's a great little talk](https://www.youtube.com/watch?v=4z3r9dw_jso) by [Dave Logan](https://twitter.com/davelogan1) on just how you go about rewriting your default future. Enjoy, and let me know what you think about it in the comments!

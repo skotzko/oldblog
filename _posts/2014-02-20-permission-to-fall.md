@@ -13,7 +13,7 @@ categories:
 
 For the last three months, I traveled throughout South America. Despite what my [Instagram photos](http://instagram.com/skotzko) may suggest, for the first month I was on the road, I was not enjoying it. Everything was new and stressful. There were no familiar places or friends to fall back on. The lack of regular schedules shot all my routines to hell. I felt lonely without my friends, and had no idea what I was doing. I drank too much, and exercised too little.
 
-## Searching, Far From Home
+## Searching, far from home
 I had gone away to get out of the tech scene for a while, for a change of pace and scenery. I had recently left [Chill](http://chill.com), where I'd driven myself at a maniacal pace for almost three years. I needed time and space to think, refresh, and get some perspective.
 
 But I was 6,121 miles away, and it wasn't working.
@@ -40,7 +40,7 @@ Those words, the overriding theme of my trip, changed my perspective on risk.
 
 Giving myself permission to embrace joy also meant that I needed to give myself permission to fall. To leave the constrained band of emotion which contains most of daily life, and to be susceptible to a full range of emotions. To accept the real possibility of failure and getting hurt, knowing I will find a way to get back up if that happens. Never before this had I thought, "it's okay if I fail here."
 
-## The Falls Make the Jumps
+## The falls make the jumps
 Without the fall, there is no leap. Without the leap, there is no bridging the gaps between where we are and where we want to go. Without crossing these gaps, there is no progress, no growth. [And without growth, there is death.](http://www.andrewskotzko.com/about/)
 
 Thus, without the fall, there can be no life.

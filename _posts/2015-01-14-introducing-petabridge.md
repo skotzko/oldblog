@@ -41,7 +41,7 @@ We believe that [Akka.NET](https://akkadotnet.github.io/) and [Helios](https://g
 
 I see a bright future ahead for .NET and its OSS ecosystem, but it needs companies like [Petabridge](http://twitter.com/petabridge/) to support the bigger projects and develop data platforms for the ecosystem. Writing open source code is one key element, but educating developers to use it is another – especially with something as mind-twisting as [the Actor model](https://en.wikipedia.org/wiki/Actor_model) used by [Akka.NET](https://akkadotnet.github.io/).
 
-## Where Do We Start?
+## Where do we start?
 <img class="left lazy" data-src="/images/akka_net_logo_only.png"> So while we continue to contribute to the open-source development in this space, the first order of business is education. There are tens of thousands of developers around the globe who need to learn this material to unlock the value that's tied up in their heads.
 
 The first thing [Petabridge](http://twitter.com/petabridge/) will be offering is soup-to-nuts Akka.NET training – learn everything from how the Actor model works to how to deploy substantial Akka.NET applications in production. We'll take you from 20 to 120 and get you ready to build and run scalable, distributed applications in .NET. We're already building tools and products that will be released down the line, starting with several tools to make the development/testing process easier for distributed software.

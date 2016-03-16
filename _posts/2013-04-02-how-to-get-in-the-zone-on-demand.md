@@ -33,7 +33,7 @@ The notion that **the zone can be entered, on-demand,** is extremely attractive.
 
 In my own work, I'm now actively experimenting with the following process to get into the zone on demand. Here is the approach I'm taking, drawn from [The Art of Learning](http://www.amazon.com/The-Art-Learning-Journey-Performance/dp/0743277465).
 
-### Making It Real: How To Get Into The Zone On-Demand
+### Making it real: how to get into the zone on-demand
 The process of learning to get into the zone on demand goes something like this:
 
   1. **Build** a routine around a capstone activity that reliably gets you into the zone ("the zone" being in a fully present and relaxed state)
@@ -41,7 +41,7 @@ The process of learning to get into the zone on demand goes something like this:
   3. **Translate** the routine to your actual performance context
   4. **Reduce** the routine incrementally over a long period of time, until it is highly portable and condensed
 
-### Build Around a Capstone
+### Build around a capstone
 First, think of whatever you do in your life where you feel totally relaxed, present, and serene. Everyone has at least one of these: taking a morning walk with your daughter, going for a bike ride on a sunny day, taking a bath. What the activity is does not matter. It's likely something you dismiss as "just taking a break." This activity will be the capstone of your new routine, the state of mind that you want to build a reliable bridge to.
 
 Next, create a simple routine leading up to this activity. It should look something like this:

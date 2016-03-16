@@ -33,7 +33,7 @@ This post, and The Inner Game, is about how we bring these three elements to the
 
 First, the foundational concept of Gallwey's work: a quick introduction to the “two selves.” Onward and inward.
 
-## Self 1 & Self 2
+## Self 1 & self 2
 Have you ever done something and then immediately afterward wondered, ‘how did I do that?' Somehow, you magically picked up a skill. Maybe it was osmosis, but suddenly you can break dance with the best of them. (Or maybe not.)
 
 Gallwey describes us each as having two selves, Self 1 and Self 2. Self 1 is the rational, conscious mind. It's our thinker, analyzer, problem solver. It's our go-to resource for deconstructing problems. Self 2 is the subconscious, or the part of ourselves where the “mind-body” union occurs.
@@ -55,7 +55,7 @@ My favorite thing about focus? It can be learned and turned into a huge competit
 
 I've found two ways to practically improve focus: 1) Learning to intercept negative thought patterns 2) Turning down the noise
 
-### Intercept Negative Thought Patterns
+### Intercept negative thought patterns
 A charged, negative thought is a hijacker ready to take over your mind. How many times has something like the following happened to you?
 
 > I'm in a meeting, and the person I'm meeting with makes an offhand remark, ever so casually, about how my approach to a problem was all wrong. No credit for what I have delivered, no recognition of my effort. Just making me feel stupid. Great, now she thinks I'm an idiot. Why did she say that? Is there something wrong with my work? There is. I keep fucking this up. Dammit. Stupid! No wonder she's always talking down to me. Did her parents not love her or something? God, what a jerk. I can't stand this.
@@ -68,26 +68,26 @@ When I started, sitting still for 15 minutes was painful, a ripping of the fabri
 
 I started by doing [NSR meditation](http://www.nsrusa.org/), and have dabbled with other versions also. But it doesn't really matter which you do. If you do any of them and [make it a habit, you will benefit.](http://www.andrewskotzko.com/2013/02/02/beginners-mind-on-demand/)
 
-### Turn Down the Noise
+### Turn down the noise
 We all need a little help turning down the noise of the modern world. There is a never-ending amount of stimuli that loves nothing more than to take over our attention.
 
 [Naval](https://twitter.com/naval) calls this going through “the loop”—checking email, Twitter, Facebook, etc—and most people go through this loop 10+ times per day, for at least 10 minutes per. That's 100+ minutes of focus destroyed per day.
 
 I use a few tricks to turn down the noise.
 
-#### 1) Batch the Loop
+#### 1. Batch the loop
 I feel the pull of the loop. I get it. I want to check Facebook (even though it's the same content in my news feed every time), and my Twitter replies, and check my email. I want to feel like I know what's going on.
 
 The balance I've taken to is batching all of this into three sessions per day: one in the morning, one at lunch, and one at the end of the day. This opens up a lot of time in between and enables other, more drastic practices.
 
-#### 2) Unsubscribe & Filter
+#### 2. Unsubscribe & filter
 Most of what I read is crap, and many of the things I pay attention to aren't actually worth my attention. So:
 
   * Email: I use [Sanebox](www.sanebox.com) to filter unimportant emails out of my inbox and into a folder I check once per day.
   * Twitter: scan the list of people you're following and unfollow any names you don't recognize anymore. I was following almost 50 accounts for some reason that I can't remember and don't care about anymore. Gone.
   * Industry news: I unsubscribed from all blogs and news sources that would send me 30+ emails per day with headlines, most of which were pure noise. I still check a few vertically focused news aggregators (e.g. TechMeme) during my occasional loops. An alternative to consider if you can't stand the thought of not getting CNN in your inbox? Set up a filter to automatically forward those emails to another account, and just check that account only  during the batched times you go through the loop.
 
-#### 3) Cut Off Access to Distractions When Working
+#### 3. Cut off access to distractions when working
 When I'm working on my laptop but still need Internet access, I use [SelfControl](http://selfcontrolapp.com/) to block myself from accessing the sites that are my gateway drugs to the loop. If I need complete focus—such as writing, idea generation, or anything that can be done without the web—I use [Freedom](http://macfreedom.com/) to disable the web completely. It's temporary, and incredibly freeing— but only because I can legitimately tell myself that I'll get to the loop later in the day.
 
 I also suggest putting your phone away or on airplane mode when you're trying to do real work. Putting the phone on vibrate and leaving it on the table is just as distracting as leaving it on ring, so just get rid of it.

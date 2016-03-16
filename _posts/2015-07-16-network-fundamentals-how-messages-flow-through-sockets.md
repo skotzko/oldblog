@@ -18,7 +18,7 @@ I've been asked about this four or five times this week alone, so it's time to p
 
 Up until I worked on [Akka.NET](http://getakka.net), I honestly hadn't thought much about the networking layer and so this was a fun question for me to dig into and research.
 
-## When Does This Come up?
+## When does this come up?
 This comes up all the time when people have large chunks of data that they need to transmit and process. I've been asked about this lately in the context of doing big ETL jobs, running calculations on lab data, web scraping, for video processing, and more. People asking about sending files that range anywhere from 20MB to 5GB.
 
 All of these contexts involve large amounts of data that need to be processed, but no clear way to link that up with the distributed processing capabilities that Akka.NET provides.
@@ -29,7 +29,7 @@ Here's the first answer people try: "network-shmetwork! JUST SEND IT!"
 
 <a name="morelink"></a>
 
-## Why This Is A Bad Idea
+## Why this is a bad idea
 This is basically what that does to the network:<!-- more -->
 
 <img data-src="/images/2015/network-messages/python-pig.jpg" alt="Python eating an entire pig" class="img-center lazy">
@@ -56,7 +56,7 @@ We begin our journey with this question...
 
 Answering this question--and starting from the perspective of the receiver--is critical. Let's see why.
 
-### Messages & Streams
+### Messages & streams
 As developers, we think in terms of messages: "create user", "debit account", "deliver result", and so on. This is how we model our applications, which is great&hellip; except that networks don't think in terms of messages! Networks think in terms of data flows.
 
 At a high-level, here's the process of sending data between applications over the network:
@@ -81,7 +81,7 @@ Essentially, we assume each side of the system "speaks the same language." If yo
 
 Serialization is more complicated and difficult than encoding, and it's beyond the scope of this post. We'll be spending our time with the step closest to the network: Encoding.
 
-## How TCP Sockets Think
+## How TCP sockets think
 As outlined beautifully by [Stephen Cleary](http://blog.stephencleary.com/2009/04/message-framing.html), this is the fundamental disconnect that causes issues for developers when considering the network: **we think in messages, but TCP sockets think in streams.**
 
 Let's repeat that, because it's the basis of everything that follows:
@@ -92,24 +92,24 @@ These "streams" are bidirectional byte streams. That is, a socket can send an on
 
 This is achieved through a process called "message framing."
 
-### What is Message Framing?
+### What is message framing?
 Message framing is the encoding process by which we package up our serialized objects before we hand them off to TCP for network transmission.
 
-#### How Does Message Framing Work?
+#### How does message framing work?
 For the receiver to get a usable message frame out of a stream of bytes, it must know one key piece of information: *how long the frame is*.
 
 For example, if we know that the next frame is 5 bytes long, we just need to capture the next 5 bytes, and bam! We've got our frame back, ready to be converted from bytes to a string and then deserialized.
 
 Generally, there are three ways to encode frames: length-frame encoding, delimiter-based encoding, and fixed-length encoding.
 
-> #### Wait, but What About Packets?
+> #### Wait, but what about packets?
 > **TL;DR; you can mess with packet sizes but you probably shouldn't.**
 >
 > Max packet sizes are often out of your control, and are affected by the various components of the network (switches, routers, etc.). If your message frames are bigger than the max packet sizes allowed, [TCP will subdivide your frames into packets](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#TCP_segment_structure) and put the frame back together again on the other end of the socket from the packet sequence.
 >
 > You have the ability to affect packet sizes within certain ranges, but you can't make them arbitrarily large and it's often dangerous to mess with them.
 
-#### Length-Frame Encoding
+#### Length-frame encoding
 How do we know the length of the frame in this encoding? We make the first byte of our frame state the length.
 
 Length-frame encoding works by declaring the length of the frame, and then following that immediately with the bytes of the frame itself. This method places markers in the stream saying "next frame is N bytes", so the receiver can see that and then know how many of the next bytes make up this frame. The format and length of the length-prefix must be explicit and identical on both sides of the connection (e.g. 4-[byte](https://en.wikipedia.org/wiki/Byte) [signed](https://en.wikipedia.org/wiki/Signed_number_representations) [little-endian](https://en.wikipedia.org/wiki/Endianness))
@@ -128,7 +128,7 @@ Disadvantages:
 Here's what length-frame encoding and decoding looks like:
 <img data-src="/images/2015/network-messages/decoding.gif" class="lazy">
 
-#### Delimiter-Based Encoding
+#### Delimiter-based encoding
 How do we know the length of the frame in this encoding? We put a delimiter between each frame. This delimiter needs to be something that won't show up in the actual message frame, like a [null terminator](https://en.wikipedia.org/wiki/Null_character) in C++.
 
 Advantages:
@@ -144,7 +144,7 @@ Disadvantages:
 Here's what delimiter-based encoding looks like:
 <img data-src="/images/2015/network-messages/delimited-framing.png" class="lazy">
 
-#### Fixed-Length Encoding
+#### Fixed-length encoding
 How do we know the length of the frame in this encoding? This one is simple, all frames are the same length!
 
 Advantages:
@@ -159,8 +159,8 @@ Disadvantages:
 Here's what fixed-length encoding looks like:
 <img data-src="/images/2015/network-messages/fixed-length-encoding.png" class="lazy">
 
-### What TCP Sockets Can & Can't Handle
-TCP sockets don't support arbitrarily large packet sizes. In answer to the question, "how large of a packet can I send over TCP?," there are [varying](https://stackoverflow.com/questions/2613734/maximum-packet-size-for-a-tcp-connection) [answers](https://stackoverflow.com/questions/2613734/maximum-packet-size-for-a-tcp-connection) ranging from 1400 bytes to 65kB. But that's actually irrelevant here: *regardless of what the max packet size really is, it is definitely much smaller than the amount of data you want to move.*
+### What TCP sockets can & can't handle
+TCP sockets don't support arbitrarily large packet sizes. In answer to the question, "how large of a packet can I send over TCP?," there are [varying](https://stackoverflow.com/questions/2613734/maximum-packet-size-for-a-TCP-connection) [answers](https://stackoverflow.com/questions/2613734/maximum-packet-size-for-a-TCP-connection) ranging from 1400 bytes to 65kB. But that's actually irrelevant here: *regardless of what the max packet size really is, it is definitely much smaller than the amount of data you want to move.*
 
 Further, some network transports have built-in maximum frame sizes. For example, if you try to write a 100MB datagram to a UDP socket, the OS will just throw an error immediately and never even try to send the message.
 
@@ -176,7 +176,7 @@ It's much easier for TCP to transmit and reconstitute many small objects than to
 
 Also, in the case of network failures--[which are inevitable](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)--it's much, much, MUCH better to have small messages. Retrying small messages is cheap and easy. Retrying 100MB at once is not. As you increase your messages sizes, you multiply the costs of every single, inevitable network failure.
 
-### What Does This All Add up to?
+### What does this all add up to?
 Let's review what we've learned so far, from a TCP point of view:
 
 1. Your objects get serialized and then encoded into message frames.
@@ -186,6 +186,6 @@ Let's review what we've learned so far, from a TCP point of view:
 
 ***Coming full circle, what does this all add up to in the context of sending a large message over the network?***
 
-> #### When working with TCP, it's YOUR responsibility as a developer to manage the size of objects you transmit over the network.
+> #### When working with TCP, it's your responsibility as a developer to manage the size of objects you transmit over the network.
 
 Forcing the OS and the network to cut up massive objects for you leads to errors, brittle systems, lots of blocking, and a much less performant app.

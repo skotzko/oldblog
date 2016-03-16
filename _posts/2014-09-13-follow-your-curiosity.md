@@ -18,12 +18,12 @@ I've been feeling damn frustrated since I got back from South America. Since I r
 From May through July, I spent a lot of my time building crappy prototypes. And trying to come up with new ideas. And I didn't like any of them.
 <!-- more -->
 
-## Organic Interest
+## Organic interest
 Either the ideas were just plain bad, or weren't sustainably interesting to me. There were quite a few that would work and make somebody a lot of money, but not me—I was just the wrong person to deliver on that idea. I mean, if I couldn't get myself interested in working on something for more than two weeks, how could I possibly build it into something real and interesting for other people? Nonstarter.
 
 There has to be a basis of organic interest.
 
-## The (Wrong) Question?
+## The (wrong) question?
 By July, I felt very frustrated by the lack of progress and the desire to have a direction to run in. So I started asking other entrepreneurs, "what do you do in this situation? what do you do when you're trying to come up with something interesting and hating everything you're coming up with?"
 
 This was a mental walk through the desert. This became The Question.
@@ -54,7 +54,7 @@ These were use cases such as:
 
 These are somewhat prosaic on the surface, but actually fascinating in terms of how these results are accomplished. I'm hooked—this big data stuff is thrilling.
 
-## New Ground
+## New ground
 The ridiculous quantities of data we are generating every day are beyond anything we've ever encountered in human history. The volume, velocity, and variety of the data we're generating is so extreme that the tools to handle it are literally being invented as we go.
 
 And I believe in this data. I believe in the latent power in data to make the world a better place and to give people delight and value and help in ways that we can't even imagine yet.
