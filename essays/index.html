@@ -1,27 +1,47 @@
 ---
-layout: page
-title: Blog Archive
-body_class: archive
+title: Essays
+body_class: essays
 ---
 
+<div class='row'>
+  <div class='small-12 columns'>
+    <h1 class="text-center">{{ page.title }}</h1>
+    <ul>
+      {% for post in site.posts %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+
+    <div class="clearfix"></div>
+    <div>
+      <p>&nbsp;</p>
+      <p><a class="text-underline" href="/feed.xml">RSS</a> feed</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+{% comment %}
 <div class='row'>
   <div class='large-8 columns center'>
     <h1 class="text-center">{{ page.title }}</h1>
     <ul class="text-center" style="list-style-type: none;">
-      <li class="inline-block"><a href="/feed.xml">RSS feed of all posts</a></li> |&nbsp;
-      <li class="inline-block"><a href="#byDate">Posts by Date</a></li> |&nbsp;
-      <li class="inline-block"><a href="#byCategory">Posts by Category</a></li>
+      <li class="inline-block"><a href="/feed.xml">RSS feed</a></li> |&nbsp;
+      <li class="inline-block"><a href="#byDate">Essays by Date</a></li> |&nbsp;
+      <li class="inline-block"><a href="#byCategory">Essays by Category</a></li>
     </ul>
 
     <div id="byDate">
-      <h2 class="text-underline">Posts by Date</h2>
+      <h2 class="text-underline">Essays by Date</h2>
       {% include posts_by_date.html %}
     </div>
 
     <br><br>
 
     <div id="byCategory">
-      <h2 class="text-underline">Posts by Category</h2>
+      <h2 class="text-underline">Essays by Category</h2>
       {% include posts_by_category.html %}
     </div>
 
@@ -83,3 +103,4 @@ body_class: archive
     <div class="clearfix"></div>
   </div>
 </div>
+{% endcomment %}

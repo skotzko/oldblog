@@ -4,8 +4,8 @@
 - name: Newsletter
   path: "#newsletter"
   body_class: ""
-- name: Blog
-  path: "#blog"
+- name: Essays
+  path: "#essays"
   body_class: ""
 - name: About
   path: "#about"

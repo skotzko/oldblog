@@ -15,7 +15,8 @@ sharing: true
     {% if page.body_class == 'post' %}
     <div>&nbsp;</div>
     <div class="text-italic">
-      Written {% if page.author %} by <a href="{{ page.author_url }}">{{ page.author }}</a>{% endif %} on {{ page.date | date: "%B %e, %Y" }}
+      {{ page.date | date: "%B %Y" }}
+      <!-- Written {% if page.author %} by <a href="{{ page.author_url }}">{{ page.author }}</a>{% endif %}, {{ page.date | date: "%B %Y" }}. -->
     </div>
     <div>&nbsp;</div>
     {% endif %}

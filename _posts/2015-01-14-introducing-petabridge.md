@@ -1,5 +1,5 @@
 ---
-title: "Introducing Petabridge and the Future Of Open-source Data In .NET"
+title: "Petabridge and the Future Of Open-source Data In .NET"
 date: 2015-01-14 11:11:22 -0800
 slug: introducing-petabridge
 comments: true
