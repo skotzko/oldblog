@@ -56,6 +56,7 @@ setupSmoothScroll = ->
 
 # DOC READY
 $ ->
+  checkDebugMode()
   setupSmoothScroll()
   console.debug "Foundation version: #{Foundation.version}"
   $(document).foundation()
