@@ -53,16 +53,9 @@ setupSmoothScroll = ->
     return
   return
 
-setupStickyNav = ->
-  sticky_container = $("[data-sticky]")
-  sticky_nav = new Foundation.Sticky(sticky_container)
-
-
 # DOC READY
 $ ->
   checkDebugMode()
   setupSmoothScroll()
   console.debug "Foundation version: #{Foundation.version}"
   $(document).foundation()
-  setupStickyNav()
-  console.log "init finished"
