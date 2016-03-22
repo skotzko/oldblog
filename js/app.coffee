@@ -65,3 +65,4 @@ $ ->
   console.debug "Foundation version: #{Foundation.version}"
   $(document).foundation()
   setupStickyNav()
+  console.log "init finished"
