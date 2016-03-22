@@ -34,14 +34,6 @@ window.scrollToAnchor = (anchorName) ->
   window.scrollTo(0, target)
   console.debug "nav height: #{navHeight} | offset: #{ot} | target: #{target}"
 
-setupSumoMe = (site_id = "{{ site.sumo_me_site_id }}") ->
-  sumo = document.createElement("script")
-  sumo.type = "text/javascript"
-  sumo.async = true
-  sumo.src = "//load.sumome.com/"
-  sumo.setAttribute('data-sumo-site-id', site_id)
-  (document.getElementsByTagName("head")[0] or document.getElementsByTagName("body")[0]).appendChild sumo
-
 setupSmoothScroll = ->
   $('a[href*="#"]:not([href="#"])').click ->
     if location.pathname.replace(/^\//, '') == @pathname.replace(/^\//, '') and location.hostname == @hostname
