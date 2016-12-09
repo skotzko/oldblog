@@ -2,9 +2,9 @@ id: 10sec
 magellan_target: 10sec
 title: Me in 10 seconds
 content:
-  - text: "<li>I'm an impact-driven entrepreneur & full-stack software engineer.</li>
-    <li>I work with tech companies, businesses, and innovators. I'm most interested in for-profit, impact-driven businesses and how technology can solve real-world problems at scale.</li>
-    <li>I live in Los Angeles, CA.</li>
-    <li>I'm a food nerd. I'll geek out on protein denaturation and cooking techniques anytime, anywhere.</li>
+  - text: "<li>I'm an impact-driven entrepreneur & product strategist. Passionate about building sustainable products and systems, and using strategic interventions to cause thriving environments.</li>
+    <li>I'm most interested in for-profit, impact-driven businesses and how technology can solve big f*cking problems.</li>
+    <li>...especially in food (food tech, sustainable ag, sustainable consumption) and energy (off-grid energy access, variable power generation & management, building carbon footprints).</li>
+    <li>Card-carrying food nerd. I'll geek out on protein denaturation and cooking techniques anytime, anywhere.</li>
     <li>My favorite parable is <a href='/eat-me-if-you-wish/'>'Eat Me If You Wish.'</a></li>"
     tag: "ul"

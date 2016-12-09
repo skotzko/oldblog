@@ -12,7 +12,7 @@
         <div class="top-bar text-center hide-for-medium">
           <div class="top-bar-left">
             <a href="/#intro"><h3>{{ site.brand }}</h3></a>
-            <h4 class="">Impact technologist & entrepreneur</h4>
+            <h4 class="">{{ site.title }}</h4>
             <ul class="menu simple" >
               {% include nav.html %}
             </ul>
@@ -31,7 +31,7 @@
                   <li class="side-nav-brand">
                     <a href="/#intro"><h4>{{ site.brand }}</h4></a>
                   </li>
-                  <li><h5 class="impact-title">Impact technologist &<br>entrepreneur</h5></li>
+                  <li><h5 class="impact-title">{{ site.title_large_screen }}</h5></li>
                   {% include nav.html %}
                 </ul>
               </nav>
