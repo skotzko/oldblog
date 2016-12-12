@@ -4223,7 +4223,8 @@ hr {
     background-color: inherit; }
 
 img.headshot {
-  border-radius: 250px;
+  /*border-radius: 250px;*/
+  border-radius: 37px;
   max-width: 135px; }
   nav img.headshot {
     margin-bottom: 15px;
@@ -4386,7 +4387,8 @@ h5.impact-title {
   background-color: transparent !important; }
 
 .round-corners {
-  border-radius: 7px; }
+  border-radius: 7px;
+}
 
 .no-padding {
   padding: 0px !important; }
