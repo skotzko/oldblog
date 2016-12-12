@@ -4223,8 +4223,7 @@ hr {
     background-color: inherit; }
 
 img.headshot {
-  /*border-radius: 250px;*/
-  border-radius: 37px;
+  border-radius: 250px;
   max-width: 135px; }
   nav img.headshot {
     margin-bottom: 15px;
