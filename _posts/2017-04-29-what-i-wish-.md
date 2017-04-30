@@ -1,8 +1,7 @@
 ---
-title: "what i wish 4"
-featured: false
+title: "what i wish 5"
+featured: true
 date: 2017-04-29
-categories:
 
 ---
 
