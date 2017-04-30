@@ -1,0 +1,31 @@
+---
+layout: post
+title: "what i wish i knew a year ago"
+featured: 
+date: 2017-04-29
+categories:
+- Creativity
+- Lessons
+---
+
+(At the start of this sabbatical / Pivot)
+
+- key books
+	- Designing Your Life
+	- Pivot
+	- how to be an imperfectionist
+- not about place (for me it's people and ideas)
+- strategic pivots and experimentation within a system (Have a strategy for experimentation)
+- Enjoy it
+- Don't take it too seriously
+- Key resources
+- system \> goals
+- mini habits
+- imperfectionism
+- choosing well
+- opportunity cost
+- clarity is power
+- media fasts
+- draw the journey as a rollercoaster (hype cycle / dark night of the soul etc)
+- "tripod of stability"
+
