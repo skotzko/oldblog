@@ -6,6 +6,8 @@ categories:
 - Creativity
 - Psychology
 ---
+# Mercenaries
+
 Yesterday, I couldn't stop thinking about someone who hurt me badly a few months ago. I hadn't thought of this person in at least a month, and then BAM, I'm in it.
 
 I know where this train of thought leads. It is not a happy place. My defenses tell me to ignore the memory. I listen. I try. I fail.

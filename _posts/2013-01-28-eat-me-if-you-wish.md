@@ -4,6 +4,8 @@ published: true
 categories:
 - Philosophy
 ---
+# Eat Me If You Wish
+
 “One day, the Buddhist saint Milarepa left his cave to gather firewood, and when he returned he found that his cave had been taken over by demons. There were demons everywhere! His first thought upon seeing them was, ‘I have got to get rid of them!' He lunges toward them, chasing after them, trying forcefully to get them out of his cave. But the demons are completely unfazed. In fact, the more he chases them, the more comfortable and settled-in they seem to be. Realizing that his efforts to run them out have failed miserably, Milarepa opts for a new approach and decides to teach them the dharma.
 
 “If chasing them out won't work, then maybe hearing the teachings will change their minds and get them to go. So he takes his seat and begins... After a while he looks around and realizes all the demons are still there&hellip;At this point Milarepa lets out a deep breath of surrender, knowing now that these demons will not be manipulated into leaving and that maybe he has something to learn from them. He looks deeply into the eyes of each demon and bows, saying, ‘It looks like we're going to be here together. I open myself to whatever you have to teach me.'

@@ -4,11 +4,12 @@ comments: true
 date: 2014-08-21 20:54:14+00:00
 slug: how-to-email-notes-or-ideas-into-scrivener
 title: How to Email Notes & Ideas Into Scrivener
-wordpress_id: 242
 categories:
 - Tools
 - Writing
 ---
+# How to Email Notes & Ideas Into Scrivener
+
 Over the last several months, I'd fallen off the wagon writing-wise due to very heavy client workloads. I'm finally getting back into it after wrapping up a project. Given the restart, I got to wondering about my writing workflow and which tools I use.
 
 In whatever I do (coding, writing, etc) I'm always concerned with tools and establishing a good workflow and rhythm. For me, that means mobility and cross-platform access to what I'm working on. I want my data stored in the cloud so it isn't tied to any one physical device or location, and so it's properly backed up off-premises. This protects my work from accidents (or stupidity) well, and gives me flexibility about when, where and how I do my work. I appreciate that.

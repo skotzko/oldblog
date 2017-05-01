@@ -9,7 +9,7 @@ categories:
 - UDP
 - Fundamentals
 ---
-
+# Understanding the Internet: How Messages Flow Through TCP Sockets
 One of the questions that has been coming up a lot lately as many people are building with Akka.Remote is this:
 
 > How big of a message can I send over the network?

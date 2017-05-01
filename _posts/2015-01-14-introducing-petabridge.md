@@ -7,6 +7,8 @@ published: true
 categories:
 - petabridge
 ---
+# Petabridge and the Future Of Open-source Data In .NET
+
 <img class="lazy center img-center" data-src="/images/interactive_data.jpg" alt="">
 
 The future of computing is a massively-connected world where everyone and their mother has 3+ devices. That means data. Lots and lots of data.

@@ -6,6 +6,8 @@ categories:
 - Mental Performance
 - Psychology
 ---
+# How to Get in the Zone, on Demand
+
 <img class="center img-center lazy" data-src="/images/2013/04/push_hands1.jpg" alt="">
 
 Josh Waitzkin was about to get his ass kicked, and he knew it.

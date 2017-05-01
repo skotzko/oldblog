@@ -6,6 +6,8 @@ categories:
 - Creativity
 - Psychology
 ---
+# Have You Gotten Too Comfortable?
+
 I've come to believe all creative work is a constant struggle between hope and fear. Hope that what I'm making will add value to the world. Hope that it will be accepted by the market. Hope that it will be interesting or resonate in a meaningful way. Fear that it won't. Fear that everyone will laugh at me. Fear that people will call me names and think I'm an idiot for having made something so laughably dumb.
 
 There's a lot of fear. Especially when I let the noise in or get sucked into the trap of comparing myself to others.

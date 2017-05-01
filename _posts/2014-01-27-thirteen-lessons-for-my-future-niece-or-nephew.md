@@ -7,6 +7,8 @@ title: 13 Lessons For My Niece
 categories:
 - Lessons
 ---
+# 13 Lessons For My Niece
+
 After a long day in transit, I wanted to share a note of lessons I wrote in hopes that my future niece learns them earlier than I did:
 
   1. The world is both big and small and travel is one of the best things you can do for yourself. Embrace it. Get out into it.

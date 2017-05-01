@@ -1,10 +1,13 @@
 ---
 date: 2013-05-30 18:39:53+00:00
 slug: style-without-substance-is-a-blatant-lie
+published: false
 title: Style Without Substance Is a Blatant Lie
 categories:
 - Random musings
 ---
+# Style Without Substance Is a Blatant Lie
+
 I hate seeing good people buy bad things. It's not my business what someone buys with their money or attention, but I do care about the work that a creator/marketer presents to a paying public. To use a food analogy, I feel especially angry when the presentation is all sizzle and no steak; when a piece of low-quality beef that was hurriedly and unlovingly prepared is being billed as a bone-in ribeye that's been painstakingly marinated, seared, and slow-cooked into a medium-rare oblivion of bliss.
 
 Quality matters. But so does presentation. Substance without style is never even looked at. But style without substance is a blatant lie.

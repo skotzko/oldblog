@@ -5,6 +5,8 @@ title: Charlie and the Zealot
 categories:
 - Mental Performance
 ---
+# Charlie and the Zealot
+
 Have you met The Zealot lately?
 
 He's the bombastic preacher who blasts all other forms of worship.

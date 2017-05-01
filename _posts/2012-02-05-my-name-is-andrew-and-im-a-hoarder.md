@@ -6,6 +6,8 @@ published: false
 categories:
 - Experiments
 ---
+# My Name Is Andrew, and I'm a Hoarder
+
 I can't deny it anymore. Not after yesterday.
 
 Yesterday I took an inventory of all the “stuff” I have in my life. Nothing was spared. This was a biblical accounting, King Herod style. I even counted the toothbrushes. There were six. Maybe I wanted spares for the next fifteen months? I don't know.

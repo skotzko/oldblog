@@ -6,6 +6,8 @@ categories:
 - Creativity
 - Productivity
 ---
+# Why People Suck At Generating Ideas
+
 Because they're always asking the wrong question: "How?"
 
 “How can we get there first?”

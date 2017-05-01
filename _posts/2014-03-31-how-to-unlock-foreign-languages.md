@@ -3,11 +3,13 @@ author: Andrew Skotzko
 comments: true
 date: 2014-03-31 16:32:40+00:00
 slug: how-to-unlock-foreign-languages
-title: 'How to Unlock Foreign Languages: 11 Principles'
+title: "How to Unlock Foreign Languages: 11 Principles"
 categories:
 - Languages
 - Learning
 ---
+# How to Unlock Foreign Languages: 11 Principles
+
 <img class="center img-center lazy" data-src="/images/2014/03/Buenos_Aires_Japanese_Garden-300x300.jpg">
 
 _**Heads up**: This a long, detailed post (~6,400 words) so you might want to read it somewhere comfy. You can get the gist by skimming the headings and sequence lists, and then diving into the specific sections as you see fit. Be sure to check out the FAQ and resource links/downloads at the end. Skim read time: 5 minutes. Full read time: 32 minutes._

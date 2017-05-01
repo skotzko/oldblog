@@ -3,11 +3,12 @@ date: 2013-06-25 18:27:06+00:00
 slug: do-i-need-a-makeover
 title: Do I Need a Makeover?
 published: false
-wordpress_id: 27
 categories:
 - Experiments
 - Self-Tracking
 ---
+# Do I Need a Makeover?
+
 Over the last three or four months, I've noticed my energy levels decreasing and it has freaked me out a little bit. It's not that I have felt bad; I've just felt less and less _good_. I also noticed that my drive at work and sex drive were lower than they had been in the past, and having just turned 27 last week, that shouldn't be the case.
 
 **WTF?**

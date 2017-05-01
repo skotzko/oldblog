@@ -2,9 +2,11 @@
 last_updated: 2016-09-20
 featured: true
 published: false
+title: "Essential Reading"
 categories:
 - Reading
 ---
+# Essential Reading
 
 I'm often asked what I'm reading or watching, what books I recommend, etc. I enjoy those questions—I love sharing material that's made a real difference in my life with others.
 

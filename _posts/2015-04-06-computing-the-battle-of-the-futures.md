@@ -9,6 +9,8 @@ categories:
 - abundance
 - distributed systems
 ---
+# Computing and the Battle of the Futures
+
 <img class="lazy center img-center" data-src="/images/gun.jpg">
 
 One of my earliest memories is of a decrepit, dusty blue Toyota pickup truck lazily rolling past our house. It was June 1991, and my family lived in N'Djamena, Chad. I was five.

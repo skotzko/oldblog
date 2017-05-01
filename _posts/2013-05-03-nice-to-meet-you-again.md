@@ -6,6 +6,8 @@ categories:
 - Psychology
 - Relationships
 ---
+# Nice to Meet You, Again
+
 It's an incredible moment when you meet the real person inside someone you've casually known for years.
 
 Tonight I was at a dinner at USC with a large group of people I've known since my time there. Most of us have met before, had some meetings, maybe even been out socially in that sort-of-colleagues-but-also-sort-of-friends way that was so common in my life before I got that I have to bring who I really am to everything I do.

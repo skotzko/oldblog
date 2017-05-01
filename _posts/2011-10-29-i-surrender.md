@@ -5,6 +5,8 @@ title: I Surrender
 categories:
 - Psychology
 ---
+# I Surrender
+
 All of a sudden I was stretching farther and deeper than I ever had. For the first time, in that moment, it was easy. Something had changed and I'd crossed a threshold I wasn't previously aware of.
 
 On June 30th, I woke up early and did yoga. It was cold and dark in my apartment. I was half asleep, feeling creaky. Soon enough, I came upon the one “basic” yoga pose that still challenges me every time: triangle pose.
