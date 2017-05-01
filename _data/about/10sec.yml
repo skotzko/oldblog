@@ -3,9 +3,13 @@ magellan_target: 10sec
 title: Me in 10 seconds
 content:
   - text: "
-    <li>I’m passionate about building products, sustainability, social impact, solving climate change, and expanding human potential.</li>
-    <li>I'm most interested in for-profit, impact-driven businesses and how technology can solve big f*cking problems. Especially the future of food and clean energy.</li>
-    <li>Card-carrying food nerd. I'll geek out on protein denaturation and cooking techniques anytime.</li>
-    <li>My favorite parable is <a href='/eat-me-if-you-wish/'>'Eat Me If You Wish.'</a></li>
+    <li><span class='text-bold'>Work</span>: I help mission-driven companies grow their KPIs (financial, product, and impact) through better products and growth strategies.</li>
+    <li><span class='text-bold'>Passion</span>: I’m passionate about building products, sustainability, social impact, and turning potential into performance.</li>
+    <li><span class='text-bold'>Focus</span>: I'm most interested in for-profit, impact-driven businesses and how technology can solve big f*cking problems. Especially the future of the food system.</li>
+    <li><span class='text-bold'>Personal</span></li>
+    <ul>
+      <li>I live in Los Angeles, CA. And I'm on airplanes a lot.</li>
+      <li>My favorite parable is <a href='/eat-me-if-you-wish/'>'Eat Me If You Wish.'</a></li>
+    </ul>
     "
     tag: "ul"
