@@ -9,10 +9,8 @@
   <meta name="description" content="{{ page.title }} - {{ site.name }}" />
   <meta name="keywords" content="{{ page.keywords }}, {{ site.keywords }}" />
 
-  <!-- Google fonts https://www.google.com/fonts
-  ================================================== -->
 
-  <!-- <link rel="stylesheet" href="/css/app.css"> -->
+  {% include css/css_async.html %}
 
   {% if page.block_search_engines %}
       <meta name="robots" content="noindex, follow" />
