@@ -4282,7 +4282,7 @@ h5.impact-title {
   margin-bottom: 100px; }
   .post:not(:first-of-type) {
     margin-top: 25px; }
-  .post .entry-title {
+  .post h1:first-of-type {
     font-size: 47px;
     text-align: center; }
   .post + hr {
