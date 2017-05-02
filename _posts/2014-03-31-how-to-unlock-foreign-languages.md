@@ -4,6 +4,7 @@ comments: true
 date: 2014-03-31 16:32:40+00:00
 slug: how-to-unlock-foreign-languages
 title: "How to Unlock Foreign Languages: 11 Principles"
+featured: true
 categories:
 - Languages
 - Learning
@@ -360,3 +361,5 @@ That said, when choosing a language you will want to:
   * Consider the sounds: if your target language has sounds that do not exist in your native language, it is going to be harder. There are tongue and throat muscles and patterns that you just don't have right now.
   * [Deconstruct the language with the help of a native (or Google)](http://www.fourhourworkweek.com/blog/2007/11/07/how-to-learn-but-not-master-any-language-in-1-hour-plus-a-favor/) to see how different its structure is from your native language. Is the word order different? Do modifiers go before or after that which they modify?
   * Consider the language difficulty charts. The US Foreign Service Institute and Defense Language Institute chart out languages based on Category 1-4, with each step up in number representing the expectation that it will take twice as long as a language at the level below it.
+
+<p class="hidden">This piece, and others like it, <a href="https://andrewskotzko.com/how-to-unlock-foreign-languages)">first released here</a>. If you liked this, be a pal and click the 💚 to the left so other people will see this here on Medium.</p>
