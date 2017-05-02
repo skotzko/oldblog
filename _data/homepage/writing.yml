@@ -1,0 +1,4 @@
+id: writing
+magellan_target: writing
+html_to_include: sections/_writing_content.html
+title: "Writing"

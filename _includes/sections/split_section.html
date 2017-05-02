@@ -11,14 +11,20 @@ data-magellan-target="{{ context.magellan_target }}"
     </div>
 
     <div class="{% unless include.no_split %}medium-9 {% endunless %}small-12 columns">
-    {% for content in context.content %}
-      {% if content.tag %}
-        {% assign tag = content.tag %}
-      {% else %}
-        {% assign tag = "p" %}
-      {% endif %}
-      <{{tag}}>{{ content.text }}</{{tag}}>
-    {% endfor %}
+    {% if context.html_to_include %}
+
+      {% include {{context.html_to_include}} %}
+
+    {% else %}
+
+      {% for content in context.content %}
+        {% if content.tag %}
+          {% assign tag = content.tag %}
+        {% else %}
+          {% assign tag = "p" %}
+        {% endif %}
+        <{{tag}}>{{ content.text }}</{{tag}}>
+      {% endfor %}
     </div>
 
     {% if context.second_section %}
@@ -39,6 +45,10 @@ data-magellan-target="{{ context.magellan_target }}"
         <{{tag}}>{{ content.text }}</{{tag}}>
       {% endfor %}
       </div>
+
+    {% endif %}
+
+
 
     {% endif %}
 
