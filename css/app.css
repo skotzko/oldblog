@@ -4286,7 +4286,8 @@ body.post {
     margin-top: 25px; }
   body.post h1:first-of-type {
     font-size: 47px;
-    text-align: center; }
+    text-align: center;
+    text-transform: capitalize; }
   body.post + hr {
     max-width: 60%;
     margin: 0 auto; }
