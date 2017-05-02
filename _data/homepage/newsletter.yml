@@ -1,6 +1,6 @@
 id: newsletter
 magellan_target: newsletter
-title: Products That Matter Newsletter
+title: "Newsletter: Products That Matter"
 content:
   - text: "I send out an email newsletter every Sunday. It covers everything interesting I've seen in exponential technology, social/impact entrepreneurship, and building products that matter. Along with my view on what it all means, there's a digest of my blog posts. It's my notebook for the week."
   - text: "Addresses are stored properly (using Mailchimp) and will only be used for this list."

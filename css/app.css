@@ -4277,52 +4277,55 @@ h5.impact-title {
 #intro p:first-of-type {
   margin-top: 30px; }
 
-.post {
+body.home #main-content .medium-9.small-12.columns {
+  padding-top: 5px; }
+
+body.post {
   margin-bottom: 100px; }
-  .post:not(:first-of-type) {
+  body.post:not(:first-of-type) {
     margin-top: 25px; }
-  .post h1:first-of-type {
+  body.post h1:first-of-type {
     font-size: 47px;
     text-align: center; }
-  .post + hr {
+  body.post + hr {
     max-width: 60%;
     margin: 0 auto; }
-    .post + hr:last-of-type {
+    body.post + hr:last-of-type {
       display: none; }
-  .post blockquote {
+  body.post blockquote {
     font-style: italic;
     margin-left: 25px;
     font-weight: bold; }
-  .post h1 {
+  body.post h1 {
     text-transform: initial; }
-  .post .photo-credit {
+  body.post .photo-credit {
     font-size: 10px;
     margin-top: 25px;
     color: #e6e6e6; }
-  .post h1, .post h2, .post h3, .post h4, .post h5, .post h6 {
+  body.post h1, body.post h2, body.post h3, body.post h4, body.post h5, body.post h6 {
     color: #3C3C3C; }
-    .post h1 a, .post h2 a, .post h3 a, .post h4 a, .post h5 a, .post h6 a {
+    body.post h1 a, body.post h2 a, body.post h3 a, body.post h4 a, body.post h5 a, body.post h6 a {
       color: #3C3C3C; }
-      .post h1 a:hover, .post h2 a:hover, .post h3 a:hover, .post h4 a:hover, .post h5 a:hover, .post h6 a:hover {
+      body.post h1 a:hover, body.post h2 a:hover, body.post h3 a:hover, body.post h4 a:hover, body.post h5 a:hover, body.post h6 a:hover {
         color: #4f895b;
         transition: all .25s ease; }
 
 @media only screen and (max-width: 768px) and (min-width: 481px) {
-  .post {
+  body.post {
     padding: 0 40px 50px; } }
 
 @media screen and (min-width: 50em) {
-  .post img {
+  body.post img {
     margin: 10px auto;
     display: block; }
-    .post img.right {
+    body.post img.right {
       margin-left: 20px; }
-    .post img.left {
+    body.post img.left {
       margin-right: 20px; }
-  .post .content {
+  body.post .content {
     padding-right: 15px;
     padding-left: 15px; }
-  .post #main-content {
+  body.post #main-content {
     font-size: 1.11111rem; } }
 
 .text-bold {

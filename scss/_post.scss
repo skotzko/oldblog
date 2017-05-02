@@ -1,4 +1,4 @@
-.post {
+body.post {
   margin-bottom: 100px;
 
   &:not(:first-of-type) {
@@ -54,13 +54,13 @@
 
 // MEDIA QUERIES
 @media only screen and (max-width: 768px) and (min-width: 481px) {
-  .post {
+  body.post {
      padding: 0 40px 50px;
   }
 }
 
 @media #{$medium-up} {
-  .post {
+  body.post {
 
     img {
       margin: 10px auto;
