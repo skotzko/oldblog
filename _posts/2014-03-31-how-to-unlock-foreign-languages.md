@@ -277,7 +277,7 @@ If comic books aren't your thing, any relatively dialogue-heavy text will do, li
 
 Make a one-page self bio in the target language and go through it with a native speaker to improve it, make it fluid, and learn how to pronounce it right. Once you've got it, practice and memorize it, and voila! you've basically memorized / scripted your answers to the first 5 minutes of meeting anyone new, and done so in a way that will make you sound more native and make them more likely to respond positively to you. Winning.
 
-### How do U structure a good language exchange with a conversation partner?
+### How do you structure a good language exchange with a conversation partner?
 This is an art unto itself, and I think the reigning master is Andrew Tracey (he covers this and lots of other great resources in his book).
 
 That said, you want to keep it interesting and engaging for both you and your partner. You'll want to switch back and forth between languages, say every 15-20 minutes.
