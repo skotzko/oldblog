@@ -3,6 +3,8 @@ brand: Andrew Skotzko
 title: Impact entrepreneur & product strategist
 title_large_screen: Impact entrepreneur & <br> product strategist
 description: Sustainable products + Impact entrepreneurship.
+greeting: Hello, world! I'm Andrew.
+short_positioning: I help mission-driven companies develop & grow their products.
 keyword:
 url: https://andrewskotzko.com
 email: andrew@skotzko.com
@@ -11,8 +13,8 @@ github: skotzko
 stack_overflow: 524750
 author: Andrew Skotzko
 google_analytics: UA-30368898-1
-year : 2016 # check - being used?
-markdown: kramdown # use pygments instead?
+year : 2017 # check - being used?
+markdown: kramdown
 exclude:
   - node_modules
 
