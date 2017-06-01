@@ -4,9 +4,9 @@
 # - name: What I'm doing now
 #   path: "#now"
 #   body_class: ""
-- name: Newsletter
-  path: "#newsletter"
-  body_class: ""
+# - name: Newsletter
+#   path: "#newsletter"
+#   body_class: ""
 - name: Writing
   path: "#writing"
   body_class: ""
