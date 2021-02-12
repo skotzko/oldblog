@@ -82,3 +82,4 @@ paginate_path: "/page:num/"
 
 sumo_me_site_id: 6c7e5a264e21bba1b607b7e3368085f29d1477fd0596d25495abc82313033d00
 email_list_signup_url: "//thecuriousentrepreneur.us1.list-manage.com/subscribe/post?u=30e2a749f04879b1be678f2a5&amp;id=ebe9b14c98"
+theme: jekyll-theme-cayman
